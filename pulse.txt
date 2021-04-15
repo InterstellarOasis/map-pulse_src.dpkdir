@@ -1,0 +1,36 @@
+pulse.bsp - "pulse" by Soubok
+for Tremulous (http://tremulous.net/)
+
+
+-----
+
+soubok@gmail.com
+http://soubok.googlepages.com/
+
+----
+
+
+pulse - BETA 2 (build 70) ( 2006.06.06 )
+-----------------------------
+
+This is the 2nd public beta release of this map, remember to give me a lot of feedback about:
+ - gameplay
+ - layout
+ - graphics (brightness, missing textures, textures alignments that go wrong, ... )
+ - bugs
+
+KNOWN ISSUES:
+============
+- fps: I am working on map optimizations.
+- lights: some places are too dark, I will try to find a good brightness level for the map.
+- start points: I will modify them in the BETA 3, any suggestions are wellcome.
+
+You can post your feedback here :
+	Tremulous forum / General Discussion / public maptest: pulse - BETA 2
+	( http://tremulous.net/phpBB2/viewforum.php?f=1 )
+
+All medias this map use are under creative commons license ( http://creativecommons.org/licenses/by-sa/2.5/ )
+
+
+- soub -
+
