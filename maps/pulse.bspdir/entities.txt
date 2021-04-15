@@ -11,7 +11,7 @@
 "humanStage2Threshold" "30"
 "gravity" "690"
 "alienBuildPoints" "225"
-"humanBuildPoints" "300"
+"humanBuildPoints" "325"
 "message" "Pulse by ^1B^2illy^3R^4az^8O^6r"
 "_style4rgbGen" "wave square 0 1 0 3"
 "_style3rgbGen" "wave square 0 1 0 0.01"
@@ -852,7 +852,7 @@
 {
 "noise" "sound/pulse/canyon.wav"
 "spawnflags" "1"
-"origin" "4224.000000 1792.000000 -2536.000000"
+"origin" "4032.000000 1792.000000 -2536.000000"
 "classname" "target_speaker"
 }
 {
@@ -866,19 +866,13 @@
 "wait" "60"
 "noise" "sound/pulse/rockslide.wav"
 "spawnflags" "1"
-"origin" "568 416 -1584"
+"origin" "568.000000 416.000000 -1712.000000"
 "classname" "target_speaker"
 }
 {
 "noise" "sound/pulse/canyon.wav"
 "spawnflags" "1"
 "origin" "760 -496 -1712"
-"classname" "target_speaker"
-}
-{
-"noise" "sound/pulse/canyon.wav"
-"spawnflags" "1"
-"origin" "760 528 -1712"
 "classname" "target_speaker"
 }
 {
@@ -908,19 +902,13 @@
 {
 "noise" "sound/pulse/canyon.wav"
 "spawnflags" "1"
-"origin" "2808 1552 -1712"
-"classname" "target_speaker"
-}
-{
-"noise" "sound/pulse/canyon.wav"
-"spawnflags" "1"
 "origin" "3392.000000 -1408.000000 -1024.000000"
 "classname" "target_speaker"
 }
 {
 "noise" "sound/pulse/canyon.wav"
 "spawnflags" "1"
-"origin" "2808 528 -1712"
+"origin" "3328.000000 1152.000000 -1152.000000"
 "classname" "target_speaker"
 }
 {
@@ -1065,25 +1053,11 @@
 "classname" "target_speaker"
 }
 {
-"noise" "sound/pulse/canyon.wav"
-"spawnflags" "1"
-"origin" "760.000000 -1520.000000 -2080.000000"
-"classname" "target_speaker"
-}
-{
 "random" "15"
 "wait" "60"
 "noise" "sound/pulse/rockslide.wav"
 "spawnflags" "1"
 "origin" "2296 -1888 -1584"
-"classname" "target_speaker"
-}
-{
-"random" "15"
-"wait" "60"
-"noise" "sound/pulse/rockslide.wav"
-"spawnflags" "1"
-"origin" "1080 -1120 -1584"
 "classname" "target_speaker"
 }
 {
@@ -1564,19 +1538,7 @@
 {
 "noise" "sound/pulse/canyon.wav"
 "spawnflags" "1"
-"origin" "3832.000000 1536.000000 -1600.000000"
-"classname" "target_speaker"
-}
-{
-"noise" "sound/pulse/canyon.wav"
-"spawnflags" "1"
-"origin" "2816.000000 1984.000000 -2536.000000"
-"classname" "target_speaker"
-}
-{
-"noise" "sound/pulse/canyon.wav"
-"spawnflags" "1"
-"origin" "3328.000000 1728.000000 -2536.000000"
+"origin" "2816.000000 1856.000000 -2536.000000"
 "classname" "target_speaker"
 }
 {
@@ -1594,25 +1556,7 @@
 {
 "noise" "sound/pulse/canyon.wav"
 "spawnflags" "1"
-"origin" "2816.000000 1984.000000 -1600.000000"
-"classname" "target_speaker"
-}
-{
-"noise" "sound/pulse/canyon.wav"
-"spawnflags" "1"
-"origin" "4224.000000 1792.000000 -2048.000000"
-"classname" "target_speaker"
-}
-{
-"noise" "sound/pulse/canyon.wav"
-"spawnflags" "1"
-"origin" "3328.000000 1728.000000 -2048.000000"
-"classname" "target_speaker"
-}
-{
-"noise" "sound/pulse/canyon.wav"
-"spawnflags" "1"
-"origin" "2816.000000 1984.000000 -2048.000000"
+"origin" "2816.000000 1856.000000 -1600.000000"
 "classname" "target_speaker"
 }
 {
@@ -1630,18 +1574,6 @@
 {
 "noise" "sound/pulse/canyon.wav"
 "spawnflags" "1"
-"origin" "3392.000000 -832.000000 -1024.000000"
-"classname" "target_speaker"
-}
-{
-"noise" "sound/pulse/canyon.wav"
-"spawnflags" "1"
-"origin" "1784 -1520 -1712"
-"classname" "target_speaker"
-}
-{
-"noise" "sound/pulse/canyon.wav"
-"spawnflags" "1"
 "origin" "760 -1520 -1712"
 "classname" "target_speaker"
 }
@@ -1649,12 +1581,6 @@
 "noise" "sound/pulse/canyon.wav"
 "spawnflags" "1"
 "origin" "704.000000 1600.000000 -1712.000000"
-"classname" "target_speaker"
-}
-{
-"noise" "sound/pulse/canyon.wav"
-"spawnflags" "1"
-"origin" "1216.000000 1184.000000 -1712.000000"
 "classname" "target_speaker"
 }
 {
@@ -1704,4 +1630,16 @@
 "angle" "-90.000000"
 "origin" "1960.000000 1576.000000 -2248.000000"
 "classname" "team_human_spawn"
+}
+{
+"noise" "sound/pulse/canyon.wav"
+"spawnflags" "1"
+"origin" "2808 528 -1712"
+"classname" "target_speaker"
+}
+{
+"classname" "worldspawn"
+}
+{
+"classname" "worldspawn"
 }

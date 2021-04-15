@@ -3,6 +3,43 @@
 // style 3: wave square 0 1 0 0.01
 // style 4: wave square 0 1 0 3
 
+textures/pulse/glass_trans
+
+{
+	qer_editorimage textures/pulse/KOsAD_Window.jpg
+
+	qer_trans 0.6
+
+
+
+	surfaceparm nomarks
+
+	surfaceparm trans
+
+
+
+	{
+
+		map textures/pulse/KOsAD_Window.jpg
+
+		blendfunc filter
+
+	}
+
+	//{
+
+	//	map textures/pulse/glass03.jpg
+
+	//	blendfunc filter
+
+	//	tcmod scale 4 4
+
+	//	tcgen environment
+
+	//}
+
+}
+
 textures/pulse/base_section_clip
 {
 	qer_editorimage textures/pulse/black16x16.jpg
@@ -22,7 +59,6 @@ textures/pulse/base_section_clip
 //	}
 
 }
-
 
 textures/pulse/ladder
 {
@@ -64,7 +100,6 @@ textures/pulse/white
 	}
 }
 
-
 textures/pulse/sky
 {
 	qer_editorimage textures/pulse/env/pulse_up.TGA
@@ -92,7 +127,6 @@ textures/pulse/sky
 	//q3map_lightsubdivide 256 //replaced by q3map_skylight
 	//q3map_surfacelight 75 //replaced by q3map_skylight
 }
-
 
 textures/pulse/light_base_common
 {
@@ -140,7 +174,6 @@ textures/pulse/light_base_common_low
 	}
 }
 
-
 textures/pulse/light_base_common_off
 {
 	qer_editorimage textures/pulse/cubelight_32_white.jpg
@@ -183,7 +216,6 @@ textures/pulse/light_base_common_style2
 	}
 }
 
-
 textures/pulse/light_base_common_style3
 {
 	qer_editorimage textures/pulse/cubelight_32_white.jpg
@@ -209,7 +241,6 @@ textures/pulse/light_base_common_style3
 		blendfunc add
 	}
 }
-
 
 textures/pulse/light_base_red
 {
@@ -282,8 +313,6 @@ textures/pulse/light_base_yellow
 	}
 }
 
-
-
 textures/pulse/foot_steps
 {
 	qer_editorimage textures/pulse/foot_steps.tga
@@ -300,7 +329,6 @@ textures/pulse/foot_steps
 		blendFunc GL_DST_COLOR GL_ONE
 	}
 }
-
 
 textures/pulse/platform_signal
 {
@@ -320,7 +348,6 @@ textures/pulse/platform_signal
 		rgbGen const ( 0.5 0.5 1 )
 	}
 }
-
 
 textures/pulse/red_signal
 {
@@ -448,7 +475,6 @@ textures/pulse/monitor
 	}
 }
 
-
 textures/pulse/glass_trim
 {
 	qer_editorimage textures/pulse/black16x16.tga
@@ -514,7 +540,6 @@ textures/pulse/mirror_classic
 	}
 }
 
-
 textures/pulse/alpha_000   
 {
    q3map_alphaMod volume
@@ -523,7 +548,6 @@ textures/pulse/alpha_000
    surfaceparm nonsolid
    surfaceparm trans
 }
-
 
 textures/pulse/alpha_050 
 {
@@ -542,7 +566,6 @@ textures/pulse/alpha_100
    surfaceparm nonsolid
    surfaceparm trans
 }
-
 
 textures/pulse/floor1
 {
@@ -572,7 +595,6 @@ textures/pulse/floor1
       rgbGen identity
    } 
 }
-
 
 textures/pulse/floor2
 {
@@ -697,7 +719,6 @@ textures/pulse/pit_fog {
 	fogparms ( 0.1 0.05 0.02 ) 5000	
 }
 
-
 textures/pulse/door_metal
 {
 	qer_editorimage textures/pulse/001metal.tga
@@ -720,7 +741,6 @@ textures/pulse/door_metal
 		rgbGen identity
 	}
 }
-
 
 textures/pulse/moon
 {
@@ -885,7 +905,6 @@ textures/pulse/water_radioactive
 	}
 }
 
-
 textures/pulse/e6simpwallsupp_pow
 {
 	qer_editorimage textures/pulse/e6simpwallsupp.tga
@@ -919,7 +938,6 @@ textures/pulse/e6simpwallsupp_pow
 	}
 }
 
-
 textures/pulse/e6simpwallsupp_full_pow
 {
 //	q3map_lightRGB 0.5 0.5 1
@@ -942,7 +960,6 @@ textures/pulse/e6simpwallsupp_full_pow
 		rgbGen const ( 0 0 1 )
 	}
 }
-
 
 textures/pulse/holo_base
 {
@@ -999,7 +1016,6 @@ textures/pulse/slime_stain
 		}
 }
 
-
 textures/pulse/pipe_slime_s
 {
 		qer_editorimage textures/pulse/slime7.tga
@@ -1055,7 +1071,6 @@ textures/pulse/electro_blind
 	}
 }
 
-
 textures/pulse/rmetal2b_pow
 {
 
@@ -1080,8 +1095,6 @@ textures/pulse/rmetal2b_pow
 		rgbGen const ( 1 0 0 )
 	}
 }
-
-
 
 textures/pulse/pulse_signs
 {
@@ -1181,7 +1194,6 @@ textures/pulse/pulse_signs_blue
 	}
 }
 
-
 textures/pulse/pulse_signs_white
 {
 	qer_editorimage textures/pulse/pulse_signs
@@ -1195,8 +1207,6 @@ textures/pulse/pulse_signs_white
 		rgbGen const ( 0.9 0.9 0.9 )
 	}
 }
-
-
 
 textures/pulse/lcd_display
 {
@@ -1236,9 +1246,6 @@ textures/pulse/controlpanel2
 	}
 }
 
-
-
-
 textures/pulse/title
 {
 	qer_editorimage textures/pulse/title.jpg
@@ -1255,7 +1262,6 @@ textures/pulse/title
 		blendFunc add
 	}
 }
-
 
 //by jex -c2
 textures/pulse/e3grate_transt2
@@ -1328,7 +1334,6 @@ textures/pulse/e6v_light_s_7500
 	}
 }
 
-
 textures/pulse/spark_01_s
 {
 	entityMergable
@@ -1352,7 +1357,6 @@ textures/pulse/spark_02_s
 		alphaGen	vertex
 	}
 }
-
 
 textures/pulse/meteorite_trail
 {

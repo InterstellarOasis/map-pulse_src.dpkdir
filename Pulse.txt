@@ -1,21 +1,30 @@
-Pulse 1.2 by BillyRazOr (modified by rendered few hours)
-soubok is the first created Pulse, so I'll continue to work based on build 102.
+Pulse 1.3 by BillyRazOr (modified by rendered few hours)
+soubok is the original Pulse mapper, so I'll continue to develop as work based on build 102.
 
 
 ====DESCRIPTIONS=====
+1.3 build 200:
+- Reverted from merged floor to individual floor
+- Remove disabled Adv. Marauder and is now unable to zap through human base easily
+- Humans BP slightly increased again
+
+1.21 build 175:
+- Merge 2 individual floor borders into 1 floor (reverted on 1.22)
+- Disabled Adv. Marauder in Alien classes
+- Reduced "target_speaker" at outside area
 
 1.2 build 150:
-- Fixed the glass door at Control Room that have been penetrated by bullets/projectiles.
-- Human base's floor gap is closed for prevent alien Marauder to zap easily.
-- Slightly increased humans and aliens BP. Also human repeater BP are increased.
-- Adjust the skybox light value (sunlight) from 210 to 200.
+- Fixed the glass door at Control Room that have been penetrated by bullets/projectiles
+- Human base's floor gap is closed for prevent alien Adv. Marauder to zap easily (resolved on 1.22)
+- Slightly increased humans and aliens BP. Also human repeater BP are increased
+- Adjust the skybox light value (sunlight) from 210 to 200
 
 1.1 build 130:
-- Fixed mushroom textures name that cannot detect it.
+- Fixed mushroom textures name that cannot detect it
 
 Release 1:
 - Inside telenodes were removed for restoring original Pulse likely
-- The vents under bedrooms is wider again.
+- The vents under bedrooms is wider again
 - All ladders were made adjustment correctly
 - All ¡°trigger_hurt¡± sound is entire replaced, but button sounds still remain for partial.
 - Other some minority features were fixed
