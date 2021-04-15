@@ -4,6 +4,10 @@ soubok is the first created Pulse as build 102.
 
 ====DESCRIPTIONS=====
 
+Revision 4:
+- The vents under the bedrooms are slightly wider
+- Outside sound is revert to original sound
+
 Revision 3:
 - Outside sound is replaced for slightly reduced volume, also with longer duration of sound
 
