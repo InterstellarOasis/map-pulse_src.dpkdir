@@ -1,9 +1,16 @@
-Pulse RC1 by BillyRazOr (modified by rendered few hours)
-soubok is the first created Pulse as build 102.
+Pulse 1.2 by BillyRazOr (modified by rendered few hours)
+soubok is the first created Pulse, so I'll continue to work based on build 102.
 
 
 ====DESCRIPTIONS=====
-1.1:
+
+1.2 build 150:
+- Fixed the glass door at Control Room that have been penetrated by bullets/projectiles.
+- Human base's floor gap is closed for prevent alien Marauder to zap easily.
+- Slightly increased humans and aliens BP. Also human repeater BP are increased.
+- Adjust the skybox light value (sunlight) from 210 to 200.
+
+1.1 build 130:
 - Fixed mushroom textures name that cannot detect it.
 
 Release 1:

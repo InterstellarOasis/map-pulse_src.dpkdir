@@ -206,28 +206,6 @@ pulse/983C06AE28C2CB0066E2CA6745CF0E0B
 	}
 }
 
-pulse/5EE39687BEDD960572F055B8541F758B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0023.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/BA40E54EB5FE836E07CD2E7E430FDD57
 { // Q3Map2 defaulted
 	{
@@ -452,28 +430,6 @@ pulse/E112C3AE8EC2F9047EBE195DCCF5EBF6
 	}
 }
 
-pulse/8039A1282EE3265742D4A7F2B8254F93
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0016.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/7304D67AE7924766215EDB0D2747B436
 { // Q3Map2 defaulted
 	{
@@ -511,28 +467,6 @@ pulse/EEA8E21E2AB0890C68E9007F50462A8C
 		rgbGen wave square 0 1 0 0.01 // style 3
 		tcGen lightmap
 		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2B0E4929EB93D507B5902E3EE53B69D8
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0023.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
 	}
 
 	{
@@ -1159,52 +1093,6 @@ pulse/A6A94FD7F30F9D859AF0DAAA0A45C2E3
 	}
 }
 
-pulse/47DF09876428A0EA364399E6D01B0713
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/e8_base1b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/0F7D2A50CEBCBADCFCDE347C08409891
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.13281 0.00000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/1A43075ED6E8E93147EABB5BCB9DC4BF
 { // Q3Map2 defaulted
 	{
@@ -1250,29 +1138,6 @@ pulse/13710FB83D7BD4D4318BE860176D902A
 	}
 }
 
-pulse/9C1D25A279DB77FBF458F81F11806A7F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.02344 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/7FC5110FBB5BAE68640DA08D6811C742
 { // Q3Map2 defaulted
 	{
@@ -1287,29 +1152,6 @@ pulse/7FC5110FBB5BAE68640DA08D6811C742
 		rgbGen wave square 0 1 0 0.01 // style 3
 		tcGen lightmap
 		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8DD8271293C25E40332D3871A01C3A73
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.01563 0.00000
 	}
 
 	{
@@ -1342,52 +1184,6 @@ pulse/23D4E3083AE65B1CAC6CC85C1695ED70
 	}
 }
 
-pulse/CD307EFCCC63D84A3CACEA7E64BDB0E3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.02344 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D393DF5C83BDEECBA6C906D18C1799D1
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.01563 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/35048BAC1A93B8C26BA9AC85FE1A2958
 { // Q3Map2 defaulted
 	{
@@ -1402,29 +1198,6 @@ pulse/35048BAC1A93B8C26BA9AC85FE1A2958
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
 		tcMod transform 1 0 0 1 0.05469 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/373B1AAE8E8A6381773BD073E17C2C2A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.06250 0.00000
 	}
 
 	{
@@ -1583,28 +1356,6 @@ pulse/58389C36B23280C83DB4678A370FD5F2
 
 	{
 		map textures/pulse/floor_trim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A7687F79527D8491FAE82A746C948CED
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0079.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/multipanels.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -1798,29 +1549,6 @@ pulse/A0753C21DBC01C83225C489DE69EE7DA
 	}
 }
 
-pulse/CE853D51F43EA476AA11F94687705555
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.01563
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/44AC1ED1CAA7A5B52A647EC5D7D01837
 { // Q3Map2 defaulted
 	{
@@ -1889,51 +1617,6 @@ pulse/B7A14A821841D9CEB766E6CE05101125
 	}
 }
 
-pulse/705AC7920C78F98C77935099DA3CC8C5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0026.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/52513768E6E1C11DA1BE5A5D77768417
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.01563
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/A05EC5D8FF1DCD21DAE45D7190B63873
 { // Q3Map2 defaulted
 	{
@@ -1952,29 +1635,6 @@ pulse/A05EC5D8FF1DCD21DAE45D7190B63873
 
 	{
 		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A9703E3B810C795C421CD3FE0799A69E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.01563 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -2003,29 +1663,6 @@ pulse/DB7C2D8075DB13914C2565109E6B4186
 	}
 }
 
-pulse/7AC568D898B6B956BA9A18A5F58BB1EE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.11719 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/137D7230DD49F3CD00B4101F82F02923
 { // Q3Map2 defaulted
 	{
@@ -2040,29 +1677,6 @@ pulse/137D7230DD49F3CD00B4101F82F02923
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
 		tcMod transform 1 0 0 1 0.03125 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BADDBCCD3F10E3D5E6E2368BF834FFEA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.05469 0.00000
 	}
 
 	{
@@ -2136,51 +1750,6 @@ pulse/9DCB9AE964351D0F5007B20D519F6367
 
 	{
 		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/96190E7AE03FDC3A05D077B42E0C83CE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.03906 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/16C0AB0CCEF8E9CF358B19D5E64D79E3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0008.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_floor.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -2412,29 +1981,6 @@ pulse/7011CED83B735C674B16FB9F124A9AD8
 	}
 }
 
-pulse/DAFD30ED817D47BF9225BFF4C6B5DC43
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.25781 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/76167FC4DAAAEBF676F72104D1D7476A
 { // Q3Map2 defaulted
 	{
@@ -2471,29 +2017,6 @@ pulse/86DA94447F5937D861BE8BE74911EFF8
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3EE1A147B306300109C368DD73C96649
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.03906 0.00000
 	}
 
 	{
@@ -2594,74 +2117,6 @@ pulse/B9E3CCBF379F686443C0A37192159535
 	}
 }
 
-pulse/BE28533C7E14C2563C69EB6E9EC6E367
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/e8base_blue.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8346141DE789BE0A1310C811914CCBFF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0032.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7742B5D2A5A7013A7D4E32A70484391D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.03125 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/12D08EA4C4A865E8A6551AEBCC2F1C6E
 { // Q3Map2 defaulted
 	{
@@ -2730,52 +2185,6 @@ pulse/5739125299F5DD39B940EA1D71C5BA18
 	}
 }
 
-pulse/01754AF60004E0535E5FF069C4D8F95F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0006.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 -0.50000
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/57857274A333BF51AEA8B8AAAF8BCDA0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/e8_base1b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/2F294E2E0F48D4A25A7E435000889F09
 { // Q3Map2 defaulted
 	{
@@ -2798,28 +2207,6 @@ pulse/2F294E2E0F48D4A25A7E435000889F09
 	}
 }
 
-pulse/6988B6C54878BA32B4EFE361110C5639
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0011.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/A94F95AF4617C5F637CBD8B2E0F081A1
 { // Q3Map2 defaulted
 	{
@@ -2833,29 +2220,6 @@ pulse/A94F95AF4617C5F637CBD8B2E0F081A1
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D3E5FC83EAE577E6B668995DB14F9810
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0018.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
 	}
 
 	{
@@ -2956,75 +2320,6 @@ pulse/88BFE96E86DC059F8CADE1FE859502BC
 	}
 }
 
-pulse/3BDCEF3E98C6BFFA5ED5A63781CA6D96
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.07813
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EA2A8A305F942D3C0B2A49A488D46AFE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.04688 0.00000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3396004EB6792A7ABC7CEC940429EFAD
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.07813 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/C5E571B1B7C3A6B45996A4585A6B72FF
 { // Q3Map2 defaulted
 	{
@@ -3043,96 +2338,6 @@ pulse/C5E571B1B7C3A6B45996A4585A6B72FF
 
 	{
 		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/86BD07350A78522894084A6743DF70D4
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0007.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_floor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FA80D68BB696AEBDDF6A0849279FC2DF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0010.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/68C6008796EB2F12581D4FC3A4398350
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.06250
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/5B8DFE642BF3EC534C5AFD4275D3F2F1
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.03906 0.00000
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -3161,74 +2366,6 @@ pulse/75DE14E0D33CACE1AD8F9512F178DE74
 	}
 }
 
-pulse/3300E3B0E55C9DCC862FFEC578540456
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/e8base_red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8EABF6800189D9A6AD48B44D17A30442
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.13281 0.00000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2368BE7F1F846DD9252B0069B7C5BEA5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0074.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/floor1_l1_2a.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/9E6395D2F2BCB0B022864869A8F71F88
 { // Q3Map2 defaulted
 	{
@@ -3242,29 +2379,6 @@ pulse/9E6395D2F2BCB0B022864869A8F71F88
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave square 0 1 0 0.01 // style 3
 		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1F665EADB19BA098FD356B882943EAD1
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0040.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 -0.50000
 	}
 
 	{
@@ -3292,29 +2406,6 @@ pulse/4BFF720D52BC74AE35663E6C7AFF7C33
 
 	{
 		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F0856FF2B7A072047ACA7C77D66E5B99
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.13281 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -3478,75 +2569,6 @@ pulse/CFEA598B414AF53E52FF7CD52142597A
 	}
 }
 
-pulse/1059819CF125747634DFE581FB3A108E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0023.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2EBBDBD50AE229E3DBD53A20D8E8FAF5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.01563 0.01563
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/38E366DAA06B2596A52288B4419D7C4C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.32031
-	}
-
-	{
-		map textures/pulse/floor_trim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/A1803D0AA460E05628AC3D3462C3A326
 { // Q3Map2 defaulted
 	{
@@ -3565,29 +2587,6 @@ pulse/A1803D0AA460E05628AC3D3462C3A326
 
 	{
 		map textures/pulse/multipanels.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/44510FE71E82931E56CE33ED59ED0123
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.32031
-	}
-
-	{
-		map textures/pulse/base_wall.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -3639,29 +2638,6 @@ pulse/8DD2F1481088A0BD3E70ADF13008877B
 	}
 }
 
-pulse/ED48DB114AC710A85B4D586D5D555A2C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/EDF51FD6B14F46640DEE589AC9C3FAC9
 { // Q3Map2 defaulted
 	{
@@ -3680,75 +2656,6 @@ pulse/EDF51FD6B14F46640DEE589AC9C3FAC9
 
 	{
 		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BEC2861AC30F794F7839630BD318B986
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/panel1.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/336FC62C723F7D56D51993F51BCDBA3A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/pallette_top.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F6AB9CDDB9118F052FDD987A6CDE2550
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -3776,29 +2683,6 @@ pulse/3CC5E399B2C03187D36FD1C1C843E047
 	}
 }
 
-pulse/D7110081D7F3BFB12EE2040BCC2AEC56
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.10938
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/3507E3DECE048760EBF30B3B8BEA5019
 { // Q3Map2 defaulted
 	{
@@ -3812,52 +2696,6 @@ pulse/3507E3DECE048760EBF30B3B8BEA5019
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/74C0BCC5CB06960EE796895DE0D7D05E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0040.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 -0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1838AA0F17F872C81B984DF3E6A99E21
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.64063 0.00000
 	}
 
 	{
@@ -3908,51 +2746,6 @@ pulse/601642C149C60CDBFDEAB370ED1FD620
 
 	{
 		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B0C07DB3FA51C1EE2F6B836D50585BC3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0010.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 -0.50000
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/DE41B7B78FA73EC6F635DF004F21F6EE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0033.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -4092,141 +2885,6 @@ pulse/750511F4D13366561A1E64E1F86AF678
 	}
 }
 
-pulse/8CF97620DFD32F0DE84A6A8C97E61126
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.14063 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/4973F01F0F75EF5D15347257E805B99D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.09375 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/9585CCD99606F149DB176815992724F1
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.94531 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7756C985F703E41F982ABF9189F02F92
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0053.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2DAA856EDE3AB99B891F9E884DEA8112
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0052.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3AEE0B2D65437059545BC7F103D1D45B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0052.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/571705A5412883A48301466C94F3BB23
 { // Q3Map2 defaulted
 	{
@@ -4273,52 +2931,6 @@ pulse/98CBA5DB7FC9206F11CA6A99FD2D4D36
 	}
 }
 
-pulse/CEF0D99475BFA4EE43DAC23DCBF2D3DA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/19C0B7C2AD667629AFCD66079A12330F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/40393249157C2948E5091939FB14B4C6
 { // Q3Map2 defaulted
 	{
@@ -4336,28 +2948,6 @@ pulse/40393249157C2948E5091939FB14B4C6
 
 	{
 		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BDAFDB5F3F1CE9A34E1413EB6883FFD8
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0054.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/pallette_top.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -4408,28 +2998,6 @@ pulse/CBC6F1BFC785E5424A9C5FA686062119
 	}
 }
 
-pulse/C2B47B6D0856352C29348815F58A7FB6
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0044.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/floor1_l1_2a.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/7157AA3D81BB2112E2A95B8E4E71CE54
 { // Q3Map2 defaulted
 	{
@@ -4447,230 +3015,6 @@ pulse/7157AA3D81BB2112E2A95B8E4E71CE54
 
 	{
 		map textures/pulse/floor1_l1_2a.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/0AAA4215B9FC17A4F84B6EC80344E2D5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0050.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/floor1_l1_2a.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7931B161C776AAB2779E09537EDDBDE3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0046.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/floor_trim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1D124ADACE27450525772A31C5C496BE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0048.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/floor_trim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7218EFF3D6D68CA70F85F4ACC5510652
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0045.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/floor_trim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/560FE47797918C96419456C21A19FB27
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0047.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/floor_trim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/39F098D46B4297AEAC542B9EECD46EDD
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0053.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/multipanels.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/035E463A88F0D57DC6B20116805391C3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.05469
-	}
-
-	{
-		map textures/pulse/multipanels.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B47F6C981E0381A972492F8FCB116191
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D823BBED3F2F07351F249DB6AE5DF968
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0016.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/CF4837A4909C27D346E65A8BFCD90F13
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.06250
-	}
-
-	{
-		map textures/pulse/base_wall.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -4712,75 +3056,6 @@ pulse/336DF3228DE50768A1EC528D26FE80F5
 		rgbGen wave square 0 1 0 0.01 // style 3
 		tcGen lightmap
 		tcMod transform 1 0 0 1 0.26563 0.00781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A613D2F0B138C6B92030DC590543230E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0023.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C86DCA87ED34319E66CAB6780A2E8542
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0023.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B75F3B1FFA7821A4F27CE069B8BBDA65
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0023.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
 	}
 
 	{
@@ -4859,106 +3134,6 @@ pulse/8B48CDCA2F285BB150D8F3728924ABB1
 	}
 }
 
-pulse/5BB44BEDF6B52F628826F2B1F1F3B8B0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0046.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/flat_dk.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/5EAF34E9F1C22E0E3005F8B5B8BE6A08
-{
-qer_editorimage textures/pulse/cubelight_32_white.jpg
-surfaceparm nomarks
-q3map_lightRGB 0.5 0.75 1
-q3map_surfacelight 32500
-q3map_lightStyle 2
-{
-map $lightmap
-rgbGen identity
-tcGen lightmap
-}
-
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0046.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-{
-map textures/pulse/cubelight_32_white.tga
-blendFunc filter
-rgbGen identity
-}
-{
-map textures/pulse/cubelight_32_white.blend.tga
-rgbGen wave noise 0.75 0.5 0 20
-blendfunc add
-}
-}
-
-pulse/FFBB2037E6B927BE667DBB2898D97716
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0011.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B721F9547F14B93D6E4C15058BD513BA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/51730EEE2B1DB24742DBDCD3771759D8
 { // Q3Map2 defaulted
 	{
@@ -4976,29 +3151,6 @@ pulse/51730EEE2B1DB24742DBDCD3771759D8
 
 	{
 		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/63A4E48C6AC1EA172170EE7AD7AD388B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0033.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -5026,96 +3178,6 @@ pulse/0F09FEBCE8812F6523DAA0BE5715E2DE
 	}
 }
 
-pulse/E7C638A1FE497D2504864F4A9A0E589B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0024.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3285F3F8561EC6B01B3ABD1D4AE5C2BB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.24219
-	}
-
-	{
-		map textures/pulse/floor1_l1_2a.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E73986BE9605DBADDF3D72A085DBA442
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0036.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8cretesmlltrim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/5CBBE19B6C1338A8957DCEE268C88AED
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.17188 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/9B5C1BF832C8F410CA20AEF384AFC0BA
 { // Q3Map2 defaulted
 	{
@@ -5130,28 +3192,6 @@ pulse/9B5C1BF832C8F410CA20AEF384AFC0BA
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
 		tcMod transform 1 0 0 1 0.03125 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/388FA2BDCD1AAA938A888CD08E2E05D3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0021.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
 	}
 
 	{
@@ -5184,29 +3224,6 @@ pulse/30A13D9D4BFFFF97B4A9DB044E43E8F6
 	}
 }
 
-pulse/373D34FD90ADD917394D74EABFB0497E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.25781 0.01563
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/6477A543B530FAD476EECBD10D49582E
 { // Q3Map2 defaulted
 	{
@@ -5225,97 +3242,6 @@ pulse/6477A543B530FAD476EECBD10D49582E
 
 	{
 		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/276438EE26746A51EA4670B6358783AC
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.25781 0.00781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1C6071087263CE4C93C4720BB0D14D3B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0023.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B3C13B0D2DC93967D89626697FE0DFE7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0024.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EAD14BD23121443E7E4D430096D65FA2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.21875 0.00000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -5344,82 +3270,6 @@ pulse/55E23322B75E92566D806D23FF5AE17C
 	}
 }
 
-pulse/6B7FDF842F85CA853943FAD0A74D5D69
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.18750 0.00000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F0DFA5E41636AA3610513E1D6C949F75
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.24219
-	}
-
-	{
-		map textures/pulse/flat_dk.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1F5677834198D7EBB92B62CBED411F33
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/A75F25DE1A377C784A5AFA5003B088FE
 { // Q3Map2 defaulted
 	{
@@ -5437,120 +3287,6 @@ pulse/A75F25DE1A377C784A5AFA5003B088FE
 
 	{
 		map textures/pulse/black16x16.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/AF45DED168E6DDB60BAA2C2AB9413D81
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0043.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/black16x16.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3E97D269D07C36C0C70B13B8F0628687
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0004.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_floor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7FBEDAC245A0FB6DA714342343011E17
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0011.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 -0.50000
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/CCE9E6BBA20C5531D1132AB0C3D0226C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.03906 0.24219
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F06933C392AE863BD515E66EA0F29789
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0002.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -5579,117 +3315,6 @@ pulse/4D3F0B323B2FB6338F1E084B6509131F
 	}
 }
 
-pulse/146ABEFD4A9663783CD6575828A4C54B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0084.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/panel2.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C4DC7FD08023F36CBAE57D6F4A8AD010
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0085.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/panel2.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/86E4128B9E7F92E6D815D3EAF8F4A9BB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0066.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E5830F1856B958022F9DF5F81D852574
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0065.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/00F09BC71F067586A672668F38D3FEED
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0066.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/7A3BE5FA299620753010E237A6B37B75
 { // Q3Map2 defaulted
 	{
@@ -5704,98 +3329,6 @@ pulse/7A3BE5FA299620753010E237A6B37B75
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
 		tcMod transform 1 0 0 1 0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/72F7BCBDF7BE3111E46872C98A54916F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0066.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B89DB0D1B7BE778B952A54E725362DCF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0065.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D1163EEA8C98151D2A6B010EBE3B0F5E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0065.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 -0.50000
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/49CC06B87DE175C5E52C4F313BC789CA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0066.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 -0.50000
 	}
 
 	{
@@ -5850,29 +3383,6 @@ pulse/7252BCAB26C5582E6D6D75CC1B6297D5
 	}
 }
 
-pulse/E5DFC17744246A0F6E2260565F2CAE26
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0043.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/122692225F0BDF7968DE272F7F4B6C49
 { // Q3Map2 defaulted
 	{
@@ -5886,75 +3396,6 @@ pulse/122692225F0BDF7968DE272F7F4B6C49
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/396CF86B0EAB9C39C2123E7E4A4EFC72
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0043.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/61EEB99DDD749136A859E3F0DC23CB9F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0043.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/91A6B49DF0591E16DC7600062F1DDE4A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0028.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
 	}
 
 	{
@@ -6055,29 +3496,6 @@ pulse/930B74217053C2A4C1140FA7DDA7DF72
 	}
 }
 
-pulse/257BF7AF8E5ABBAA6695D070B3FE3E91
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0042.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/AD87974E6EFE89AA441E87CC169E3FFE
 { // Q3Map2 defaulted
 	{
@@ -6101,74 +3519,6 @@ pulse/AD87974E6EFE89AA441E87CC169E3FFE
 	}
 }
 
-pulse/60EAE05181BC89ECC12E0C9517482903
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.01563
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/667525EC7791E8A49328E2B653496AB9
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0067.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/983AA634ED6E480A0D5239BDED897FCB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0079.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/floor1_l1_2a.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/AB2E1DE13FF5016090F13D49265CB9D3
 { // Q3Map2 defaulted
 	{
@@ -6179,28 +3529,6 @@ pulse/AB2E1DE13FF5016090F13D49265CB9D3
 	// Q3Map2 custom lightstyle stage(s)
 	{
 		map maps/pulse/lm_0072.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/floor1_l1_2a.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/00EC8DEE2F15A5367F6788EAA88E04F2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0077.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
@@ -6257,50 +3585,6 @@ pulse/35615AA2452BF5128A862453DDB217C4
 	}
 }
 
-pulse/361646DDCB8B911B949A66D9E46E41D5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0066.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8cretesmlltrim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C7E29658126CB59F2D1C61B0BE3C77E8
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0067.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8cretesmlltrim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/85DA27D3F2DB265BA795E25BEF4209A4
 { // Q3Map2 defaulted
 	{
@@ -6318,138 +3602,6 @@ pulse/85DA27D3F2DB265BA795E25BEF4209A4
 
 	{
 		map textures/pulse/e8cretesmlltrim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/6EA47B98DCC0D72759C5FAF8717DD28B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0077.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/floor_trim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/565B456B43D4094A8AD76BFFBE943368
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0075.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/floor_trim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/6565228ECB9073D052214FF83515B818
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0085.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/multipanels.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B81222C1E129E88EF46AD625DD98FEF7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0081.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/multipanels.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2ACB3C5EF89C5994531EF2B541A0B050
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0042.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/multipanels.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/58B8797B2C31DCB9B6E5946FF99ADA11
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0067.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8metal03b.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -6491,29 +3643,6 @@ pulse/CB7E487F2285EDB62523DDC1D0DCB46E
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
 		tcMod transform 1 0 0 1 0.00000 -0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8CAC29D808960B200019499082C166ED
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0041.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.00000
 	}
 
 	{
@@ -6796,29 +3925,6 @@ pulse/DEE8C8B3164F339D37102D60843E770A
 	}
 }
 
-pulse/753F18A5167AFE5A84D029F34D53DAD3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0041.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/5135630DA881BDB492BF37619561DD24
 { // Q3Map2 defaulted
 	{
@@ -6856,98 +3962,6 @@ pulse/190121945B7F6479F5F65A13A33BFCDE
 		rgbGen wave square 0 1 0 0.01 // style 3
 		tcGen lightmap
 		tcMod transform 1 0 0 1 0.00000 -0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/206B8E299C72420FE668BF482824CD5C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0031.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BBC01462E8F7131645060EDDF99D6E1B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.25781 0.02344
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/5E41D603819B6DC690C79B255FBA2325
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.07031 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A28C9C9C47E08356EA35289D6F1FECF2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0042.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 -0.50000
 	}
 
 	{
@@ -7049,73 +4063,6 @@ pulse/EFAC3D2289B4BB61C127866F1235924A
 	}
 }
 
-pulse/E21D10E72FD38E29FAB70EA7E7008A48
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0033.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 -0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/6C72D59595259A442E1C74EA643CACF8
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0063.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/48F760B5E5B0B877B82AE14A84B5C3DE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0062.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/023713502186FFC8F0E991B0F8E9BD3E
 { // Q3Map2 defaulted
 	{
@@ -7128,50 +4075,6 @@ pulse/023713502186FFC8F0E991B0F8E9BD3E
 		map maps/pulse/lm_0061.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/CEDA904DFFE9858EC363909C1C1D65D5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0062.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/20B21723BB1C3250B906ABD5657B48C7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0061.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
 		tcGen lightmap
 	}
 
@@ -7204,52 +4107,6 @@ pulse/40171239BD1C9DABF257A33C426AC34C
 	}
 }
 
-pulse/40F8D97AE537DE0E17AE76CFEC96DF74
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.18750 0.00000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2EA487E3874C17B2EF6C9DB577B1C990
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0063.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/576D40BCD00EB4C5A170262D3E76F30F
 { // Q3Map2 defaulted
 	{
@@ -7268,50 +4125,6 @@ pulse/576D40BCD00EB4C5A170262D3E76F30F
 
 	{
 		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/891227BF4453E271088CF0B459A40F7F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0039.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7805316A9EAF9D173BD5065EE02F985B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0039.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -7354,29 +4167,6 @@ pulse/AFFE5A1A771F9C37CBEE794E7C758D9A
 		rgbGen wave square 0 1 0 0.01 // style 3
 		tcGen lightmap
 		tcMod transform 1 0 0 1 0.07031 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F54635A55D195E87F25D636F19C046CF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.23438 0.00000
 	}
 
 	{
@@ -7432,29 +4222,6 @@ pulse/C630CA00B1E391E364AFD0139163EF2A
 	}
 }
 
-pulse/B56F390B388DD6ED64516F67681DEBD0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.18750 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/0CB4AE2729CFB4619BF7936C3FB3B749
 { // Q3Map2 defaulted
 	{
@@ -7472,84 +4239,6 @@ pulse/0CB4AE2729CFB4619BF7936C3FB3B749
 
 	{
 		map textures/pulse/flat_dk.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D4EFDBEDB2F618E6918F0D66F90D2C77
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0077.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/flat_dk.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BA81D39C389099B254437831BC268D68
-{
-qer_editorimage textures/pulse/cubelight_32_white.jpg
-surfaceparm nomarks
-q3map_lightRGB 0.5 0.75 1
-q3map_surfacelight 50000
-q3map_lightStyle 3
-{
-map $lightmap
-rgbGen identity
-tcGen lightmap
-}
-
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0073.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-
-{
-map textures/pulse/cubelight_32_white.tga
-blendFunc filter
-rgbGen identity
-}
-{
-map textures/pulse/cubelight_32_white.blend.tga
-rgbGen wave square 0 1 0 0.01
-blendfunc add
-}
-}
-
-pulse/4B78DB443B79B9441072F9B3C8E757F9
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.87500 0.00781
-	}
-
-	{
-		map textures/pulse/metal-red.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -7578,282 +4267,6 @@ pulse/0B0527E8FB37808219E702D3B0F21D48
 	}
 }
 
-pulse/90287B952F2E3037DD1277E87F451F10
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.32813 0.00781
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B877491F04E2D5365061AA84EAB8CDB5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0050.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.14844 0.74219
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BF4C99CC4588E0E660EF7E4C279C6518
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0053.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F434E3407E28CB7F2027E27F372773CC
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0008.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_floor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/507074B41D1A0F66BCDB125C99CDB025
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.31250 0.03906
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/313611817D908FC942D6CE3D6B2D80F2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.25000 0.00781
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/024B25B892201F66126E2288CE5B26D7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0006.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.61719 -0.26563
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/DFBCFACA532C8E828CAAF86D3B5A0599
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.15625 0.02344
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B1CF721B9EEB0C6493C1C51BDC542700
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.81250 0.00781
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B82F4DC97A4A8A294D73291B74845901
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0009.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BEF139501E938D2C1CA39677927B6C17
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.10156 0.00781
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F02DEF5A88048BAA069F62B3752AD147
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0011.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 -0.50000
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/CF262405A5955041259CD3610B9491E7
 { // Q3Map2 defaulted
 	{
@@ -7872,52 +4285,6 @@ pulse/CF262405A5955041259CD3610B9491E7
 
 	{
 		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/97D1CC207C39B6695258B5DEBA1EE7F9
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0010.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7E97A01F7C10FB0E31CECBCEBB2FC2E0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0005.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 -0.50000
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -7945,486 +4312,6 @@ pulse/8343F3EAE4126B2B7F7A077EAB9094C0
 	}
 }
 
-pulse/AB40BD93AD6B08070731A7FB7EFB612B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.01563
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D47182A33011221BA6F95A82244B1FE1
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.29688 0.14063
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/DD89A5E37CF38EC1291D436F8DE23AD1
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.17969 0.01563
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2587D5425D85FAC4D487729691ADDEE5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.25000 0.00781
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F3A9F6983D65D1A0C166F7AA9A508570
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.31250 0.08594
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/5E1926C0652040132AA7BF47728983B1
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0004.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.51563 -0.55469
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1B6856753D7D469FA21CFA591592F297
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0040.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/630B9CBE134AECD575AB66A6933E5F9B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.25781 0.00000
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/5881D62417823272DBFFF3EF33293728
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.25781 0.00781
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/168CC8491BADB2F745D684259C0B8A4B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.30469 0.03125
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BDDA0881F1EC582DFFE400598D99FAA3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.07813 0.01563
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/ED4A66E82F6E580FC9373124DB05A831
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/e8base_red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/821B7FC01689A27F07CA5E32B2EFE31D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0031.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/e8_base1b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/877C2F8B96C3510989C1D6638E3797B5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.22656 0.00781
-	}
-
-	{
-		map textures/pulse/e8_base1b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FCC0D4D4A47F6E5C353858B9BB4558A6
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.29688 0.13281
-	}
-
-	{
-		map textures/pulse/e8_base1b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FC24D17E95C96F71EF96A0EE51C84D12
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.49219 0.01563
-	}
-
-	{
-		map textures/pulse/e8_base1b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2B39B40EC3CBF9FE55C42CF376CFDA3F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.46094 0.00000
-	}
-
-	{
-		map textures/pulse/e8_base1b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/80D7AB907D33EB66955266FC34F96395
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0032.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8base_blue.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B8368BB1F14474E8E801F01AABD060C5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0024.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F4BA834F15449E5C96EAA0E588839EDB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.01563 0.03906
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A9D290977C45590BC012DC7F5DD69010
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0024.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/BA363234744BBE3C2DD797C53380B211
 { // Q3Map2 defaulted
 	{
@@ -8438,144 +4325,6 @@ pulse/BA363234744BBE3C2DD797C53380B211
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave square 0 1 0 0.01 // style 3
 		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2E44A8B8BCB37C367D99D9ACBBBED8B5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0023.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D289A383BDBD9C5ADD421F0C4F43D732
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0024.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/54154C8B0D828991AD9AA68BB3DA95F4
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0022.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.45313 -0.36719
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8C7C345B142A806DED23E1C1EB747326
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0024.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F3F382824FFA4494D94DEE2C70CA420F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0022.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A367BF3629B0D2901DF64320CCD06434
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0024.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 -0.50000
 	}
 
 	{
@@ -8602,213 +4351,6 @@ pulse/6FA545C5F3C316C5192B033BAB73F57B
 
 	{
 		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/DCE14DE16ECB1E31D02D3501A6E80C3E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.56250 0.05469
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/252882AA74D4434635389C89A5B1B394
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0024.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 -0.50000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/166BE0982353F30EFD1F4BCFECD29B23
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0024.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B036952A6593A8CD8632F34113691401
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0020.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/35104465820CE36D41FB90A93B23C226
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.17188 0.00000
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8F2B907E3C204F609B9DEFC0EADD2E65
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.21875 0.00000
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/0A1F7890A6332E7A9BDC89DA0EB268B0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.36719 0.00000
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8913C5F0F34D8216C4F9CB6F34FAC1CA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.05469 0.03125
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/066AED63C9DA583C2D88F45D846BDDC6
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.02344 0.03906
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -8860,29 +4402,6 @@ pulse/E8B551CD5D544CC7F6BFB81B06375166
 	}
 }
 
-pulse/DF48C3DFA86ABF6E7EF802508BB11D7C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.21094 0.02344
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/8F92B57275FEC873F84FC742443E5745
 { // Q3Map2 defaulted
 	{
@@ -8906,236 +4425,6 @@ pulse/8F92B57275FEC873F84FC742443E5745
 	}
 }
 
-pulse/9168E126B3CFB94CF0C79D04F89E97CB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.32031 0.08594
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/80C85F8ABFF86FEB1EF169F325FD2B10
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.03906 0.00000
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/252DE76E931D9812A292FE87FED889C9
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.74219 0.00781
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/543D66398E64ABAC49CFD8AA7BCEBFDB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.42188 0.04688
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/804F60967C2F1436F95CA96EA085F5F1
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.18750 0.07813
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/225DD8BC08371D7B0A30335541C0370E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.42188 0.00000
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/15181394816A419199E85611C60FD934
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.37500 0.00781
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/AED9B738A5DC928F32244F1516ED5708
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.03125
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/9C227BBC55A6C8A57CDB0A520D0A4934
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0047.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.14844 -0.75000
-	}
-
-	{
-		map textures/pulse/floor1_l1_2a.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3A2311501848DABFF5C068A61609B7E3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0047.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/floor1_l1_2a.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/952DFD6FD41A65408232734F5C419EA4
 { // Q3Map2 defaulted
 	{
@@ -9146,28 +4435,6 @@ pulse/952DFD6FD41A65408232734F5C419EA4
 	// Q3Map2 custom lightstyle stage(s)
 	{
 		map maps/pulse/lm_0048.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/floor1_l1_2a.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EFAB0FE746A3E8643B120871B8EE6A68
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0051.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
@@ -9217,28 +4484,6 @@ pulse/1B3FA88C4C127175DC24BF363731D5BE
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
 		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/e8cretesmlltrim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BF969EAA594E65D17AE59185CBE6FE5E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0019.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
 	}
 
 	{
@@ -9363,167 +4608,6 @@ pulse/6A42C4B0C4F96D58E40D2CEC765B5209
 	}
 }
 
-pulse/32959164AD4F4F748A13469A2C1DBCBA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0053.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.16406 -0.74219
-	}
-
-	{
-		map textures/pulse/multipanels.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/DA1A828401AC331D4DA6E8AD8E9A625D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0049.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/multipanels.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/90405ECC793E011D20F1E3ADF2235E12
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.62500 0.03125
-	}
-
-	{
-		map textures/pulse/multipanels.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/9738410330266DB103A98EEF46793BDE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.30469 0.05469
-	}
-
-	{
-		map textures/pulse/multipanels.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EA23ADCEB2739416D219C811B668E705
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0020.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/multipanels.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D9C96098900FC5EB4CB48643B77EB5BB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0020.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/75297A3220679848905FC0A99DA35C0B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.07031
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/7D58977A504FBD9B0E0198A4A5970305
 { // Q3Map2 defaulted
 	{
@@ -9541,679 +4625,6 @@ pulse/7D58977A504FBD9B0E0198A4A5970305
 
 	{
 		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/924C7AF6DD0432F5AB2A94234B309FBC
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-	{
-		map maps/pulse/lm_0024.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A8D095C24DE7490A37286D2766E7CB43
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.15625 0.06250
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C07593826F857AB974E240AE672D80A5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.25781 0.10156
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A5ABE7137E661B4EB3FEB9AD907F72F1
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.25000 0.00781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C578FC12AC5FD6B1799B4BD33206E325
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0017.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 -0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F93BF8E61E0C7DFE4EB61CABC4CCD5E0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.14844 0.04688
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BCA6A6F92CDA2C3E779709C3C8279B92
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.10156
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/CACB132F28128F2AD2C158D4C0AD8FB9
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.03906
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/CC0A3E59FAA152F33332E5089BA0DE23
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0016.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.06250 0.30469
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/4B94AEF1E083D45ADC4A8BDDB07BC193
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0024.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/34E1154F2CF6EB64191451BD9C3717B6
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0024.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C43E549404B3FBDB3D6B40D5D12E10BB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0016.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.23438 0.36719
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BDD9583CD54C2825E36164B57F6D2E3F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0017.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8A32A4EC5FED3EC9CFF3636A1AD41889
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0017.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E9D5FE8F84C24F99028EB5B4DEAED18F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.25781 0.03125
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E7BC6182DD68CF877418EAF1680E6A19
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.25781 0.30469
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C5D597AF57AD3A66CC4441B86512AF82
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0016.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.25781 0.25000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3C6803D807977E9C8C235F7F48A9F8AF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.29688 0.29688
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EC4F65E656D640C73C448750882AE499
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0021.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.25000 0.48438
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E45CA33182C4EBBFB78DD5E3522FF436
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0016.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.15625 -0.01563
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F2F2077653042FCD8C16894A5A3DBFC7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0024.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C6A718F9C75A1B34A3D30BB4E544F8FB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.26563 0.01563
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/4AD731404128FDF1ED098A45871F59F7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0016.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.51563 0.09375
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/912582CCA19A43837E5933844D7526D6
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.23438 0.24219
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/0FB42968B1A6E0C804B053CF0745EA4A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0024.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7CFD1BF10EFA93D1256F10FE8AE5ABD1
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0004.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.51563 -0.55469
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3C9F78876516A8F96B051AE54BAD98EC
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0010.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/9751A7995C909B17FE430DB37FEEF5AE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0038.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8AF23827F38C962936C2FF785757432E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.25000 0.00781
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -10265,324 +4676,6 @@ pulse/E75B21799B9E16B62FFD262834FCE0CB
 	}
 }
 
-pulse/0D44D8DA4ABF3B335F82514FB2D6665C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.61719 0.00781
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/68C30A4567E383FA7DD9F6EDC8CE96A3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.24219 0.00781
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2EFD19DE9591BCA9C4D1EA7EB0D36F92
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.18750 0.00781
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/988CAD06A9B61BB0A6ED74177290878A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.26563 0.03906
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/27603DC416B6B1B614C8CF072CB60296
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0011.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/ED1F276FFB8A57314E1EA3F790EF3F51
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0024.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3D8F0049D02268491806506EE5800F52
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.12500 0.00000
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/92035A018DCF281A21481CFB129136CF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.12500 0.00000
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/4ACDAC2D7F6090166FC550DD3D8BC656
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.85156 0.00781
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C53AFAC91B5C0BE6B10D42B711503186
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0015.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/80201F941066D31B329EB56519C92BC8
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.05469 0.00000
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/99378014CCFD97424F97571457D1347D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.15625 0.00000
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E7702F0F712547AF68734A626E7388AF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.12500 0.01563
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8500B6E72CEFACD5D10E19AD56C86657
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0017.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/8805FB0C486B85ED83F21AE75FBFDF89
 { // Q3Map2 defaulted
 	{
@@ -10597,29 +4690,6 @@ pulse/8805FB0C486B85ED83F21AE75FBFDF89
 		rgbGen wave square 0 1 0 0.01 // style 3
 		tcGen lightmap
 		tcMod transform 1 0 0 1 0.06250 0.00000
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/08B2D26399AC23A8870A9F0116A0F54F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.24219 0.01563
 	}
 
 	{
@@ -10652,211 +4722,6 @@ pulse/4165F0B024BE5C6E9306908EBF60CF28
 	}
 }
 
-pulse/0C5A8019CA3BCA7D35C79757A52B306F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.02344 0.00000
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/56FA67B0B93281D9F188AA6FA226DE38
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.85156 0.00781
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2EE2FBA591A1AA1CFAF865F652F3A218
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.42969 0.00781
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/521D826495D1FC25ACED91E9A75EC37E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.41406 0.00781
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/543AAFEF0994F9F444AECB4D6D1D8FDC
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0024.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/59CA951FAD4D15EBF34641A735A7B884
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.06250 0.00781
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/9C4EFA85D1458436C923BF50FA3C98BA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.42188 0.00000
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F9C8CF9C232AFD84FF55D09D0DA6E297
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0026.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FAE7C43134ED11A99E6A7BB1D63EA76A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0025.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/56AA1DC36B1128718AAC72FC58B7990E
 { // Q3Map2 defaulted
 	{
@@ -10874,502 +4739,6 @@ pulse/56AA1DC36B1128718AAC72FC58B7990E
 
 	{
 		map textures/pulse/flat_dk.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/855AF6F0498BBA0844C1C6980D01E0BE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0047.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/flat_dk.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A169A2FAFBA99938964B83C3D4296BB2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0042.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/flat_dk.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/067E533F426B3F1AE6175FFB625E4BF1
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0047.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.14844 -0.75000
-	}
-
-	{
-		map textures/pulse/flat_dk.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2D231264BFA34AB6F31FD2C58E3A0856
-{
-qer_editorimage textures/pulse/cubelight_32_white.jpg
-surfaceparm nomarks
-q3map_lightRGB 0.5 0.75 1
-q3map_surfacelight 50000
-q3map_lightStyle 3
-{
-map $lightmap
-rgbGen identity
-tcGen lightmap
-}
-
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0044.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-
-{
-map textures/pulse/cubelight_32_white.tga
-blendFunc filter
-rgbGen identity
-}
-{
-map textures/pulse/cubelight_32_white.blend.tga
-rgbGen wave square 0 1 0 0.01
-blendfunc add
-}
-}
-
-pulse/7F19BD3B7B1E546924B3721C946AC343
-{
-qer_editorimage textures/pulse/cubelight_32_white.jpg
-surfaceparm nomarks
-q3map_lightRGB 0.5 0.75 1
-q3map_surfacelight 32500
-q3map_lightStyle 2
-{
-map $lightmap
-rgbGen identity
-tcGen lightmap
-}
-
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0044.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-{
-map textures/pulse/cubelight_32_white.tga
-blendFunc filter
-rgbGen identity
-}
-{
-map textures/pulse/cubelight_32_white.blend.tga
-rgbGen wave noise 0.75 0.5 0 20
-blendfunc add
-}
-}
-
-pulse/B9393A908A920E56C6A68D25A073D019
-{
-qer_editorimage textures/pulse/cubelight_32_white.jpg
-surfaceparm nomarks
-q3map_lightRGB 0.5 0.75 1
-q3map_surfacelight 32500
-q3map_lightStyle 2
-{
-map $lightmap
-rgbGen identity
-tcGen lightmap
-}
-
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0049.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-{
-map textures/pulse/cubelight_32_white.tga
-blendFunc filter
-rgbGen identity
-}
-{
-map textures/pulse/cubelight_32_white.blend.tga
-rgbGen wave noise 0.75 0.5 0 20
-blendfunc add
-}
-}
-
-pulse/7C0ADD8EBE8DAAAE321721EA07F723C6
-{
-qer_editorimage textures/pulse/cubelight_32_white.jpg
-surfaceparm nomarks
-q3map_lightRGB 0.5 0.75 1
-q3map_surfacelight 32500
-q3map_lightStyle 2
-{
-map $lightmap
-rgbGen identity
-tcGen lightmap
-}
-
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0047.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-{
-map textures/pulse/cubelight_32_white.tga
-blendFunc filter
-rgbGen identity
-}
-{
-map textures/pulse/cubelight_32_white.blend.tga
-rgbGen wave noise 0.75 0.5 0 20
-blendfunc add
-}
-}
-
-pulse/37D3EE3B39D5305DF4C3E49FEA13B8FC
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.10938 0.01563
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/5B0DE2FB54D717BD87B7580D6710918F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.67188 0.00781
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/01753DAAD28930FD2518C38B6FC44686
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0081.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F893F398804469A8D65A0A69CE3C5689
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0081.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 -0.50000
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/69117F30329C3B38C3FD000D643414DB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.11719 0.00000
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B021F545D144A15FF0CD4C964905C3B0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.21875 0.14063
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/0337042C4F2D079B7414C788DED6ECE0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0080.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/61E0112666727E746517F6696F410ACB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.60938 0.10938
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/0A253B721223EFA194D05631DB87B93D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.78125 0.00781
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2377614A4E10F8E53B2C9442FB54FF24
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.32813 0.03906
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/118ED50B78845797C833ECBC6573FE80
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.21875 0.01563
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/07D1286CD48EF978BE6CACAA4D1E042B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.34375 0.19531
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/AE7832E07A281B46E60713629B82B731
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0080.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.60156 0.24219
-	}
-
-	{
-		map textures/pulse/metal-red.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -11398,74 +4767,6 @@ pulse/52034AFA93FE8947790AD6FB2ABF9B78
 	}
 }
 
-pulse/FAB8351E3EE5B7C4D000D7FC1FE17634
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/black16x16.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E762787C2E1EE712995017A332E2210D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0002.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_floor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/DB7129E4BD036FFE506AC915B4D60AE7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.40625 0.04688
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/235DEB11EF6A1FAC868F693532023C2F
 { // Q3Map2 defaulted
 	{
@@ -11479,236 +4780,6 @@ pulse/235DEB11EF6A1FAC868F693532023C2F
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave square 0 1 0 0.01 // style 3
 		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2AF37CFC89151C5EA7D512FC98BD82B2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.35156 0.00781
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BF92BA29B17F680046DBDEC2F30EC6F7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.02344
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/631302D8E897DF3BCA163D1D1BDD28F7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.55469 0.02344
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B6480CBBF4FE223D21A392227ADEBAA6
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.38281 0.07031
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/22EB6C8CC792777C33D4D47E78F57AD5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.07031 0.00000
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E766CC6103522011D64B2E871A16A16C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.33594 0.02344
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/788F27A53B320BC01218771F6E8611D5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.28906 0.03125
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/862363CDC7B5A0FB7C524842ED95B234
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.58594 0.08594
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3F90487C38BC42B29D69E94C1F88E0D3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.63281 0.03125
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EBBCDEE8F71ED9093AD05D86B91BE672
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.41406 0.10156
 	}
 
 	{
@@ -11740,212 +4811,6 @@ pulse/1C92CAC0205D256637AF56982BC220E2
 	}
 }
 
-pulse/C70C283CBFE08B39F3A05944423FFF06
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.25000 0.00000
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/38F9D1D33ADCE85FC5C295A9768436F7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.44531 0.04688
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3AAF221B82C456A3C012C512B9E65649
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0010.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 -0.50000
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2A4C43C72A2D614471DBE206CBCB2ADC
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.12500 0.06250
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/AE6BD17B6BC2A810A4F69F10E320503C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0004.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C93EC11062AB3388C008D83C42142952
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.38281 0.56250
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A97BC5D353A9A5A8524D53A61C3EAA8F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.28906 0.00000
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F30FE47F53A09FFC4C97C84746087585
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0009.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B5BAF0DA65365812E66AA99D2FB3C6B9
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.24219 0.03906
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/8DF13497169D10CCC17E15B997919A09
 { // Q3Map2 defaulted
 	{
@@ -11968,347 +4833,6 @@ pulse/8DF13497169D10CCC17E15B997919A09
 	}
 }
 
-pulse/28060890ACF152D4FA5368722BDB81BA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0005.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 -0.50000
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2848338B26792A4FCB8E792EF672A2B3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.20313 0.00000
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D828253241A8E96B9C39B84B7BB4B22A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.04688 0.24219
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/05F2E61C6D5141307828FCD2D57B79D7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0004.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A6FE2051E6940FA1038A4CE2652AFEB2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.88281 0.14063
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3D781BA613C061E3CF7DFE6EE8FCF61C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.09375 0.26563
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1CD4EC7122278A85088AC8B46EC6FF07
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.42188 0.05469
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/15C5896FC9B838F646AA1FA3A2BA8E72
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.29688 0.10156
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D6622FA7B34BE5F719EA4065F579FE91
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0073.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/panel5.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/4E5CAC05ABB05311014D023470A23C98
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0081.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/panel5.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/738E7FEA15F528431114116A4AD20656
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0079.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/panel1.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7476D6D463278C4FAF9821EAF0127E65
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0081.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/panel2.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A394537F7C8957B75C16772C765FCCBF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0073.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/panel2.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/CBF0FAF95D436327B940486E60357013
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0081.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/panel2.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/427CC4B003F3FA3FDEE8A96876268B6A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0081.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/panel2.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/0AFB08BFEE441C979047E755DCA2D107
 { // Q3Map2 defaulted
 	{
@@ -12319,28 +4843,6 @@ pulse/0AFB08BFEE441C979047E755DCA2D107
 	// Q3Map2 custom lightstyle stage(s)
 	{
 		map maps/pulse/lm_0063.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/9983232916F05805613D608D18795A72
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0062.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
@@ -12376,29 +4878,6 @@ pulse/645FAA1D059298F2C232118AFB6712CC
 	}
 }
 
-pulse/C72D68898D3645501D52ED95A539D1DB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0062.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 -0.50000
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/5D5073B3137ECEDDD357407D67490ED1
 { // Q3Map2 defaulted
 	{
@@ -12413,52 +4892,6 @@ pulse/5D5073B3137ECEDDD357407D67490ED1
 		rgbGen wave square 0 1 0 0.01 // style 3
 		tcGen lightmap
 		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B9C8B4AE270152325EA6B7E037FEB8D9
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0062.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/6A97988B33977B293833D5201AD9032D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0063.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
 	}
 
 	{
@@ -12514,279 +4947,6 @@ pulse/7AB7FF6A29DCA204EBE1B2BAFD92438F
 	}
 }
 
-pulse/4E273C12E499A8128D331F82665B0B40
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.40625 0.00781
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D6F89DEFD04722563FEFBD5A064CAAD7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0062.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/01BFB89FB3F6324C221C61AF1ED7FD9B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0063.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/17D295F0B8E9F050F8FA1D04C91A2136
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.40625 0.37500
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/4303385774085DE27B06C059D7D319CF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.38281 0.00781
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F50EAD71F02C91310CA9D66D0518D9F2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0052.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8base_red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E15D0170300A7BC48D103A57223DD33C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0052.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8_base1b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D099CCC27D7581E32A473761153341ED
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0052.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/e8_base1b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/0C690AB96DFA1472CF9876A1B692239A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/e8_base1b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/305D4797CDEE0257B4959DA6D484335A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/e8base_blue.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B15DB79449FE9196DD949A9A843513C4
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0025.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1CA16BDFFC5340109819B6EBE2D53E1E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.75000 0.07813
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/E0CE3A95668CD18DA2961F7E41A26EEA
 { // Q3Map2 defaulted
 	{
@@ -12800,190 +4960,6 @@ pulse/E0CE3A95668CD18DA2961F7E41A26EEA
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave square 0 1 0 0.01 // style 3
 		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/94B777D35E8501296CFAC51C88AB1AD9
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.03906
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A17F3240884C3F5EE9EA463CC4512ABA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0043.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D21F0D75B2F69375113586942F4CD0D6
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.11719 0.11719
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/0CB7470D9DCBB81A52FBC343EFB5217D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0018.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8A75CDBE5CC6787602D38E42C5F59A25
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0042.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1F4B84F993FE0FC4C959ECA63BCFA28C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.32031 0.08594
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/59D7B977DBAFF1E0E61D9632650C153E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.25781 0.15625
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D94624187093B2D2E84DD43DF7581E07
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.01563 0.00000
 	}
 
 	{
@@ -13015,213 +4991,6 @@ pulse/2359F13681A93414997BCECEB67E6600
 	}
 }
 
-pulse/EC362A860AB708ECF935E2F9AB50F7B2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.11719 0.02344
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/4E0F8AB3DBC621B52D9759564E1603EF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.71094 0.01563
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A8A3091C0351E2B4143D8B755598F276
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0033.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/0889BC18E7CC40336489820C90F4B511
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.65625 0.18750
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2E7D829E546A0A32904C0B06FBA6BD49
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.32813 0.00781
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/5B7393ECEB1E7D7682512981CBDF40D3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.85938 0.06250
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/4898D0B75C185479F73CAE9D8AC767CF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.24219 0.01563
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C5C85FED16D26CDEC5ED211B2406C4F3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.57813 0.09375
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/59DF7BBDFF617BDEAE5CA564118BC110
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.03906
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/43ED5D62DBC8E9A366D414E9A348DC0A
 { // Q3Map2 defaulted
 	{
@@ -13240,234 +5009,6 @@ pulse/43ED5D62DBC8E9A366D414E9A348DC0A
 
 	{
 		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/4C73589969E62687843E9C622BAA169D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0081.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/pallette_top.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/25A882AA6AF4FA4C33F86E1FF8C660A4
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0078.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.57813 0.24219
-	}
-
-	{
-		map textures/pulse/pallette_top.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/478AB9D226A585F21D45545671CAB5AD
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0081.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/pallette_top.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/4C98AA33D392D37DD6D730F60B4CDF48
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0064.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.04688 -0.69531
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A568B7185ECD5D85653260CA0E272D77
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0064.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C983231AFD1D8CFD06807388ADA4A69C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0064.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/229249BFD00ED82EDDC252FCDB1F4113
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.83594 0.00781
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/DCF7E6CE741B53783C4D77843F9B64E4
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.04688 0.10156
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B6ED76EB10C20C5DEF7BA0A644ED95C2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.33594 0.01563
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C87672F4CB6A1AB8383533C79232C0F0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.13281 0.02344
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -13539,97 +5080,6 @@ pulse/6FAE8C0F6690AA0054504BF9354AACDF
 	}
 }
 
-pulse/12D22C5EFDEF9735635D4C8C01F7EF06
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0063.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8cretesmlltrim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/94193709575215F2B800EE954A578B5F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.06250 0.00000
-	}
-
-	{
-		map textures/pulse/e8cretesmlltrim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B1C9D4DDDECC843E7D3D6FBEFF58BD76
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.81250 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/0DC9B752442D981821FEBBDA5205F0AC
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.05469 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/B8C2A50FFA1D72D53CCACD83F29109E6
 { // Q3Map2 defaulted
 	{
@@ -13644,466 +5094,6 @@ pulse/B8C2A50FFA1D72D53CCACD83F29109E6
 		rgbGen wave square 0 1 0 0.01 // style 3
 		tcGen lightmap
 		tcMod transform 1 0 0 1 0.03906 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B5280809267DCD5A43B6E234AE8B31AD
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.39844 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7F4DB9E242B32FE9E2C58E851B9210C4
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.08594 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C14F1E3BD87B01CAA111D5386E491702
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.32031 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A92A888242962BA6F5B7E26869491B46
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.31250 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7AFCD1154AF724E579E6A69BAEAFC36A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.09375 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3FA33C41F098AC0ECFAFFB957A908F15
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.22656 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/129035E625C89BDDCCEF9152AFF9740D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.78906 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/98E737B0DE08C3FA39CBE274EFA8A39B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.10938 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/26CDEB558ABB14C144CEADD3AFD67074
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.44531 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/20EE0AB39ADD290003BBE6A5E7C2677B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.09375 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FBC755C724A84EF7593EF2E2699F2454
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.21875 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/CEB3BE39FE86F06AA82EB4416094D453
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.24219 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/4BEACC795F57B54D83044D709EB0DBAF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.81250 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/897837A8F6B48E8F596EC63FB039E4A7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.85156 0.01563
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/02156FD982A1C907EE7F8253DCD00DF1
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.23438 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C25B3C0FAD9EB6A7C4A042DEC6AFC0A3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.20313 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3973DB3C6D5EC101326EE812FC4CF741
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.19531 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/9137F9605C8A786CA5675029D2B8D643
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.26563 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1030E52066829F8C020DD19EF0F94CBF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.12500 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1285BECCCC25090BDE29590863CD6FD3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.13281 0.00000
 	}
 
 	{
@@ -14135,29 +5125,6 @@ pulse/C0D7B9D8F77D4ED6EB9514DC2F9E9D29
 	}
 }
 
-pulse/6DCD9D8BF64CC23853092ECA4CCA4ABF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0066.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.17969 -0.01563
-	}
-
-	{
-		map textures/pulse/floor_trim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/19004CCDB193B3DAE25A6DEFD53641EE
 { // Q3Map2 defaulted
 	{
@@ -14175,189 +5142,6 @@ pulse/19004CCDB193B3DAE25A6DEFD53641EE
 
 	{
 		map textures/pulse/multipanels.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C426AE69646830B5C5DDF7CF5DBF0F1F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0064.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8metal03b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3A37F76065151E03DB9015D4ECED87A3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.11719
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/CBC3006B304120BFF61431E1D67165A8
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.26563 0.02344
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FD7FD7D3DD76E3ABB7FEB9D44C8EED43
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.07813
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E652193D7BBFFBE5115E5527E95E4D9C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.57031 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E5BD872DC1835076501F9D5017BC106D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0032.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.20313 -0.24219
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B9AD0E5C79BF861DCCAF68E011644E9E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.02344 0.20313
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/842F23E6AD94F5B7B3552358EA611275
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0038.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.21875 -0.67188
-	}
-
-	{
-		map textures/pulse/base_wall.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -14386,547 +5170,6 @@ pulse/9F01D01025D7C67FC33E01F2B64F3E9D
 	}
 }
 
-pulse/D8492193E73427E2E7D71FC2352D02C8
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.51563 0.05469
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/24E0401B0AE4B462B24BB65AB58A187D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0034.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FCB0DF276E36F83565DD24CCF20E7374
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.02344 0.13281
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C6450E1B04970F3706C18B67CC8BA574
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.12500 0.02344
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/6A652B951B6109741C011F8F4D099160
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.35156 0.00781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C49D250050AD0F9CE192048B9317B1F2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0032.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/DFE96C6479F2B1322ECB6BC13AC3E532
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.51563 0.01563
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2E2428CC11E0AEB46BA0D8DAFAEF2B05
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0030.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00781 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D1C542B08F5299247DE5F9A5936D6BCC
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.33594 0.00781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/0D1DB5271292262281189BB76714FD57
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0032.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/4E1B2F238F9199E85045EEFF743FB2BE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0031.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.33594 -0.21875
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F74284FF7A7411E647B5481C54F6D5EE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.07813 0.02344
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3F3FFE590C3F3643837729161470D1A3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0043.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-	{
-		map maps/pulse/lm_0043.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A0F4CEEDFB4838715DB307FF434C8987
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0034.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.11719 0.30469
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/4602737C7E1C6C8C798544235D372DEB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.39844 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A2AC72452DA1B0C26F78F6E78A60474A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00781 0.33594
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B00F009AC37EC1781FA2CE8C01FB98F9
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0043.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-	{
-		map maps/pulse/lm_0043.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B2FFD702797FA5B78A0E83B65B0375C5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00781 0.29688
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1910C07E0BE1E8E279B5734A83A0680D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0039.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.51563 -0.07813
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/6A7EBCDD1901E0B6F179A36500AFA294
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.85938 0.10156
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/200C4CFA343CFE88914A19E60D46C569
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.24219 0.07813
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2A72961121AE1A52499AA1EA8595EFBE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0029.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.00781 -0.44531
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/DB31569CF258776EF134BEA4B5076A9C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0032.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.25000 -0.61719
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/B44A6069CA1A8A3D78AD065C2DF3A488
 { // Q3Map2 defaulted
 	{
@@ -14941,1087 +5184,6 @@ pulse/B44A6069CA1A8A3D78AD065C2DF3A488
 		rgbGen wave square 0 1 0 0.01 // style 3
 		tcGen lightmap
 		tcMod transform 1 0 0 1 0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/18C0BD26C9C067FD09CF0DD87587F80E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.10156 0.31250
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7C1FE1538F71B42C46BEAC21D3F2BD60
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.07031 0.62500
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F63FA69021E263467D8E1DFFFA449318
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.41406 0.07813
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/51AFD1A601F5287D6BCB343E511CFF6E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.35156 0.00781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/47E26EAB3E322853ADCC8EC4AE51BE40
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0033.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.73438 -0.78906
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/55FA5254D60296477555956DED950207
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.13281 0.01563
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BEBE7F04809715611FD94847DDF35D4E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.17188 0.04688
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B979DB2B6772D57A5C8CB4CB77293035
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.01563 0.00781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/AF3D889874784855CE9939570DD1BA86
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0034.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.30469 -0.45313
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A6B5F93E480D895757724A667FC14151
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0029.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/579A4280306DBA84C7E0F9C6631072EB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0039.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8D9076CD3EEE900BCD57BD9667A6E62A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0039.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.35156 -0.13281
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FCB07C1BF784E81B6AF9828C96F8226B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.13281 0.10938
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EE44A78195767ADF4F22763C59F07450
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.10938 0.07031
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/5D2E96423891887028E130AF91FEE5A2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.36719 0.00781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A0749F2EC4A50D9AB3876CE353416C66
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0032.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.14063 -0.13281
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/988DBDEC76CB0A24E98439AC637F5EBA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0032.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.83594 0.26563
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F525D4C7E0C49E271859C17ED4D732C9
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.57031 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/6025C857053FC4E2BF58323546ED647D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0039.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.32813 0.12500
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/40ACF62A45CFFEA2207E57B3702BE20C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.35156 0.06250
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/444C42525FA5A2143B98151CA1B1EC26
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.15625 0.12500
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/572471DFE299392F20161CEA5BE40AE1
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0040.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.39844 -0.49219
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B81CC869FA1C08A43DC0288EC6661D56
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.24219 0.32031
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/66334A8A5ABA4B33BC81ABBC5D090903
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.03125 0.12500
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/5B1CC247955BFF5907267872DA9079CE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0033.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.72656 -0.80469
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1FD61AB4671015A76736282836AE6E3F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0012.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.06250 -0.71875
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BA6500BD15E4ED6F5E74A1EC10DB5D08
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.25781 0.04688
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/67BC10815301ADA3694A103C2CEB3F75
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.33594 0.65625
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/717CF9236FD54E4AEB5A6EC3C6EE5ABE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0041.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.07813 -0.10156
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A1B806031AD0ADB08301412814069647
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0039.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BDDCBD0AEC0602D5B0B442057BE9463F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0041.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.25781 -0.07031
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/287F443DE5A8FEED8251FB2B00ED5F65
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.63281 0.29688
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D6DCD36601869EEAB1C6635BE6E16BE1
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.09375 0.46875
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/24A134B5BC3BA77C6D63F9B8E8FD60B6
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.04688
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FB54B9ECE47CFDF832B78DEF2B2A3670
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0032.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.03906 0.23438
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C127D277900B8CB9A8F9BB7FD4FFE4F2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0032.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.29688 -0.81250
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7A1042E85BAA520FE290B32584A21193
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.10156 0.01563
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F1620739D6683CAFC4F0AEBA06332B19
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.14063 0.02344
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/6F8A558A9E0C537C395EF5783E6945E0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.47656 0.19531
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/31748D5287A581D6118235E2FE995083
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.75000 0.25000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2F84F3158964256A6201E2DF270D2C15
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0034.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.31250 0.02344
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1C039E2703E3EBE44EAF00AF3614D2D9
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.36719 0.33594
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A55B0E2E901536C2300BD11756424000
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.25781 0.01563
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C8C656010D098702EA855E75F05F5BF4
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.10156 0.70313
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/76A6CD0B651D139699AB804E95F2AF74
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.29688 0.28125
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/71A15999358B2BBD90B7815D6E50C729
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.25000 0.14063
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EB3437C78D5CD2AA50C4534D091F22EB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0036.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00781 0.20313
 	}
 
 	{
@@ -16076,1362 +5238,6 @@ pulse/DC4DD31B74AABD4271936F9ABE4E2F49
 	}
 }
 
-pulse/5DC08443C617E00A7C5E5B498197A7CE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.60938 0.34375
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/90F8A07B4DE14578A27592636DF80E7B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0034.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.48438 -0.55469
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A3C9CB0F9A5158019F528C7DA70CE55F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0016.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.33594 0.53906
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3D45FB16C886D07496FB938FC5718990
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0013.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.00781 -0.09375
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3922FD725857461FB034B8493129EF37
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.28125 0.40625
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BDE80C75FCDFE04F45064E8078F85744
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0038.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.25000 -0.78906
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/89A131CAA41D58EAE9070288EECBCC95
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.38281 0.24219
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/190D92C3613408920819677766C53035
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.14063 0.32031
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/98B19A14B8C59CCE3C2D4F70D7CD378F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.17188 0.49219
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2665B821A6C77347DD932A867950C0FC
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0038.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.02344 0.10156
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1EACB3963C139F9BDA49C7F42A2E9A4B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.06250 0.10156
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BBFE13CFECDB8649EBB9C54988B7EF2C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0039.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 -0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/AF0CC1CB4387203327FFA59F426D591E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.87500 0.03906
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/109B6CA2D26CDA110E6368F5D431BB3E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0034.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.27344 -0.07031
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C478FAD221DB508EC8ED29B48E7DC6FA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.27344 0.02344
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B51B0701CD4F3AABEC90C74DDB8ABB82
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.10938 0.36719
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/70232C87B4FE9FEFD637DF200C2D0EC6
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0033.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.10156 -0.51563
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E195B87BDE5D079EDFF05658AE75A5D8
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.33594 0.27344
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/4318DED1FCFE52AC37DA9D5E40F625F2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.48438 0.25781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3B62A39C18E69AC4830AE907AA486CEC
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.83594 0.22656
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B928AD9C76535E6D8845D20152A9E039
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0038.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.49219 0.04688
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B55D82E00913DA841D07E79508370303
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.14063 0.17188
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B8AA8F98F66A102B877C481B7A085395
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.51563 0.33594
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/37025821C28C989E1705FD3752C6B736
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0032.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.22656 -0.58594
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BA3DDD3D1C9EC86DF89311908E126854
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.57813 0.42188
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/AF90B8368F9BC8D9C9BEF13C103D01F0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.03906 0.17969
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E87CD4D63F60B30710483F882B950A65
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0042.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.80469 -0.42188
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/528E8C58FFB0603DE9E06950AFDE1B39
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.46875 0.19531
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3E575A11D3C1C6D74A5C8B8B52FE3AFA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.20313 0.10156
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3F5CCC7855A86C99C31829E0D31549C5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.10156 0.16406
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/966525552EC14E3F9452CBD9FFE0989E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0038.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.49219 0.45313
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B8642876A6FBCDD3B613820616B11452
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.09375
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2238197C8B7CB00CF9276B70B2F01684
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.69531 0.00781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/81F53175F3F5AD96D5A3415C7CD06298
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.31250
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/26831B70703208808A183E62F4A3D023
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.25781 0.24219
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/30D50925F668DA8278CB654B03E4433A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0031.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C8ED7741D518C29610EC223D57F5A9C2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0004.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BBC262C5D817C0EAEABE55130DEC7FF5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.85156 0.34375
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/61B6F88E0572E34B575BD3E9B09DE73C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0036.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.65625 0.25781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/0A746835ACE5CBB47A968C911E5CD24F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.13281 0.04688
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EF4DF82332AC041EB5DE7B366C5971FE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.25781 0.21875
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/74CE56121FABE9EEA7C32FCB4538E786
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.31250 0.31250
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/45785C5F06FD52AB0DF096667054D6BA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0038.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F62368782DD62F12705FD1AEFB331EDE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.34375 0.18750
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C3A8B0911E24BCA7BBDB42E6627E5533
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.56250 0.89063
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/03123292F0F925E79589A14DC983E2FC
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0034.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.18750 -0.14844
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/191954D940A39A73994F78F15E9E077A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0032.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.21094 -0.78125
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/CC80BB9268B335466DE5C57ACAB8EEB1
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.31250 0.01563
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E2FC91A62AA5950346704DB604B951CA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0034.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.35938 0.17969
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BA6A05C21DB288453A9AF7567B5AAB0D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.11719 0.03906
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C6A7B113EB51161C3B238BD95AF4EF2E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.49219 0.50781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F4895DAB629221F1AE9E9EAC003A6986
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.85938 0.00781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/5E5E2F5075338741C9D00A5F901F190E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.58594 0.08594
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1CDA6C741AE83B96E0AF421A795D488A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0036.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.37500 -0.41406
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D7A9AC24873B8163E9920B035846E13D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.07813 0.03906
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/03662181A8982886A99E8A52BB6BDAF5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.13281 0.60156
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D754E74668112E79628526F962EC0895
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0038.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.62500 -0.34375
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2795D8ADFDB10AE763DACBDB25E35806
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.13281 0.03906
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B47382CD17A881C854E82A72A48DFB11
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.03906 0.16406
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/ECDD6C41A8861E315A1ED213B2FE4CC9
 { // Q3Map2 defaulted
 	{
@@ -17445,604 +5251,6 @@ pulse/ECDD6C41A8861E315A1ED213B2FE4CC9
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/321333EE416D8212602E0B0A82BE9508
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0041.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 -0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2924ADEFFBBAF34230B4D2E79AFA6D0F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.34375 0.47656
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2415333B9893212643F88B6460882698
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.10156 0.62500
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C391589D71C021B6D953BB020B4B54A8
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0033.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.07813 -0.76563
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/77162156F11C8030DDA4035D7D31F3F4
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.07031 0.10938
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/14C1886C0477AAED5291993F8D0C6ABD
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.10938 0.37500
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3B41ADF371B499E5958BF8DE4DD82A0F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.35156 0.02344
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FBE036E7FAF5DD3D501114FA7BB71B0B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0031.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.13281 0.20313
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8A5F70AB5A13F74552D3B550C4B8A6D3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.54688 0.03906
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/809EAD4019DDAE002DDAF78D7C35244B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.42969 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/0D5CDDD76467122C0AEBA71DFED2E0CA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.07813 0.73438
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B58AF47BA4A2E7BC82C8A1EA9F362D84
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0042.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.25781 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/718B24BB7EB55CE65196C3A721FBAAD5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.49219 0.07031
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3C67A9DD2D2C4B1508B3DD936A271D25
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.29688 0.07813
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FE040928D900196AD12B114462821852
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.14063 0.08594
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FE8663201993C93B41CFA82687302345
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0032.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.04688 -0.38281
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D84209CD7C19EC852ED1037DD35A15FB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0034.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.15625 0.03125
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/6E8A540B87C1C5DB6BA0571E59DEC710
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0042.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00781 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B1D1865FA3A80691875993BE21A17BC3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0034.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.68750 0.02344
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B92D7313BF2748CFD762A79276CA80C7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0035.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.67188 -0.14063
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7F2F523D451D0B00423F5E6EDD543A75
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.02344 0.48438
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3BF49636FD994A56FE34A884FEFBC003
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.51563 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/6426D501A8AB09F9A5B6CEC99BD44F8D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0038.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.39063 0.25781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1623E0CA12253696FB55563F05DACEB0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50781 0.07031
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/71951E90D92CA9BE1C244BDF994684F1
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.47656 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EA8FA26804087D30C40385406CA78FD4
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.57813 0.35938
 	}
 
 	{
@@ -18075,167 +5283,6 @@ pulse/CCE35BB1B9A1A8D1432044B8F8A27189
 	}
 }
 
-pulse/60F6B31D684CDEE1984981577A3A7664
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.15625 0.01563
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1B0223F538A6102D47D802E2D3B40848
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.38281 0.17969
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/36E96DDF06A3F943884E2832021E373E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.21094 0.19531
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/4F91B999ABBE228603FF34921C28AA8C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.17188 0.36719
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EC89F4589EA62187A54859AE3C44A6DC
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.03125 0.32031
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FD9C7551B3E508080D1F0742ACC7C6F7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0033.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.57813 -0.72656
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EE34B6BEA590BF2A4DE252C05B12FFDE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0034.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.44531 0.18750
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/8EC37AB20C2FF5643F0D9BD6B7D87A34
 { // Q3Map2 defaulted
 	{
@@ -18249,213 +5296,6 @@ pulse/8EC37AB20C2FF5643F0D9BD6B7D87A34
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave square 0 1 0 0.01 // style 3
 		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/10C35CF4A9597B16338E506173D146C0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.24219 0.25000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/6C17BD95701469FFDF22C4D27D5CE533
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0009.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B5CA35E9DF25275BF3845C5371033FD2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0031.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.53125 -0.07031
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/924C492741001EC094AD4254CB8C7C77
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.43750 0.00781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F3DE69C0B6348C951860A762C4CE51BB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0032.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.32031 -0.25781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B43CA80ABBA256FACFEC8612245FD3D8
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0036.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.59375 -0.22656
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7D6434333A112665CDF66B9523C3BA2C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0038.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.26563 -0.45313
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/49C2030736C45C2E5E3A8677F4B11B2A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.51563 0.00781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/CD4595C268E313785A19C35664AF4307
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0042.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.35938 -0.31250
 	}
 
 	{
@@ -18487,73 +5327,6 @@ pulse/6E6B86BA95E448ABB03F50AA473A0AC4
 	}
 }
 
-pulse/55623D41F2EB18EF073AABE0F7CE5ACC
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0059.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/0A8E75D4A3AF421F94D1109FF266EC33
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0058.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/34903FE0E7BA223911491B954033297F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.46875 0.19531
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/85391581FF1DCBC2545C9285FBACC689
 { // Q3Map2 defaulted
 	{
@@ -18567,189 +5340,6 @@ pulse/85391581FF1DCBC2545C9285FBACC689
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave square 0 1 0 0.01 // style 3
 		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/28409E3A8FB13C71F2C8B78C3F4A5719
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0058.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/780BFC4410DDD87FB1518413469CDA4E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.35156 0.00781
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E465E11214EF81C4499C7A7568F581BF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.46094 0.00781
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F37BB6F13BE62CC85487D906EC295718
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0060.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 -0.50000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/DA30EEE5A7A917F06BCDA1F1254DA80E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.27344 0.00781
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EF509E952F0C37535B60167912E01B6B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.71094 0.00000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1F1942C3BDBF76BF27265C154ACE4393
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.42969 0.00781
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/251BD85FF1B7F53168F3E6ECA0F01F0A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.05469 0.00781
 	}
 
 	{
@@ -18782,442 +5372,6 @@ pulse/5D5FCAE602C2743924D4F4798A4DDC54
 	}
 }
 
-pulse/58BC8D76DC24DC1A91A2B3112735DED2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.25000 0.00781
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/27399E638B48FCCE7D6D93F1FF1A915B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.71094 0.00781
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8D85A8977CE37760D64969961A17AA03
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.24219 0.00000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/510320A439A0F2E0C79CD6BA865E5703
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.58594 0.08594
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FE3939E7B75D536C102F2F83DF4034A0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.24219 0.00000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/99AEDE49225122ED5C7D288C5F5B9EBA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0060.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EBFC51C3F55B0D40B78AB2BDF15BD825
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0059.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 -0.50000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A54138227410A6D171B17E60ECC2226D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0031.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/262C2682F7FFD6B2CD0378286A1F4317
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0059.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/DEA4258C3DED570B4CA8985C4DBFBC1F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.55469 0.00781
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FE99C085F8F51AF8EDD3A8626E6B7B27
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.02344
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/0D498EE7A0F649E21956EDF90C4D4BD1
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0060.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 -0.50000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/DC137259840AF0ED6A5B6392156F50B5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0058.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 -0.50000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3F254FABDD8AFAA68C015C58FD9D0A07
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0033.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F07924A11E006F6C47AEA232BE2A6F81
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.87500 0.03906
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/9DA986A9D6D5FDD79261C897A251B556
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.72656 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EDEB5A3089ED6067BA5AD94D227E87A5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.25781 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A09C87D94AA8FB3E7D7F7E774D1C18B4
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.44531 0.49219
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/4C48906D5A5A0BC5120EE1397E9D032D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.67188 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/3A348D10AEF74F907451C251696FBB54
 { // Q3Map2 defaulted
 	{
@@ -19232,29 +5386,6 @@ pulse/3A348D10AEF74F907451C251696FBB54
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
 		tcMod transform 1 0 0 1 0.54688 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/62C4F1FB04A79AAACCCCA7D3971CBA76
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.14844 0.00000
 	}
 
 	{
@@ -19287,29 +5418,6 @@ pulse/A230FC78E59EEC660CE216397ED05733
 	}
 }
 
-pulse/2C36B52D8C65350B8C86B92907F1AB12
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.22656 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/CB8B00AADD535B896D259C6AF295746D
 { // Q3Map2 defaulted
 	{
@@ -19324,374 +5432,6 @@ pulse/CB8B00AADD535B896D259C6AF295746D
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
 		tcMod transform 1 0 0 1 0.08594 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BBD06A4A4299BBB01F229F7626D3DB59
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.78125 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D1F781F56DEAEAC656BDF4293A468780
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.58594 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/40D131BFD98AEED78F1B055D59FF359A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50781 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C74B47EEECEBD6EF3EE39E72BE7F2700
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.27344 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D3576073A35FD726C02A5C07256B4BF5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.31250 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1D5687BABD1144C813141F3B3D19525B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.42969 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D3B7A5BFD536BAFBFEA32D8667D36993
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.19531 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B34E83B0CACFB6146099156D8309ADF1
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.89063 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A8A582A2845F5C56CAC34804C2472685
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.19531 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3EC77909BFB887B9272C73DA3DB5EB61
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.64844 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/913E5AED7D21644FD7E35F79C816A2C0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.75781 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E243200405C8B51C35FC599250789F5C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.87500 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/73434DA2D15363F4294D9CA9718F36F2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.37500 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/CA4AEDA265DF4206A82202ABCBDF6970
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.01563
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/AE9A61418C944B5D80239C05336A8218
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.10938 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1674777FB4ADBDA4B452A690E686F82A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.79688 0.01563
 	}
 
 	{
@@ -19724,121 +5464,6 @@ pulse/5DD54DB44FC8B1AD1A73CD3D107197E2
 	}
 }
 
-pulse/2B19E78DBE8DE560ADAE8BE3725E54E4
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.27344 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EB825A62FBE6900C83838473B4843A19
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.14844 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/AF8696518A76789C48AE91ABA52317D3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.04688 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C1961022AB25B92BC45EF439BD51BC16
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.14063 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/DED664B5948583CCD872F3468FC081A7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.12500 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/F1E7A9C0614309F7E9CC31840B2D8F1F
 { // Q3Map2 defaulted
 	{
@@ -19857,326 +5482,6 @@ pulse/F1E7A9C0614309F7E9CC31840B2D8F1F
 
 	{
 		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D0B189E5BCE0F213B5311FFE689E86CC
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.32031 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D1FDE984CDAC05CDE4D63077048FBDAA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.55469 0.02344
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/475424F8151A0B9FC6C84ED884399EED
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.45313 0.01563
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7A87BEF3E5B506A4D35E37A8E514CD73
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.25000 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7CA161A5862637BDCD3EFB1F68105B9F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.38281 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/835C62C76E491146345F6E14D152B3B1
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.77344 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/9AAF2F4E478340F455705FFA6CC1847C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.93750 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/585F14944890C67256B06591CEE745FB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.39063 0.03125
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F8920B5149675D4C41CFB85B7D0DE51C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.39063 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/DCB4887B5C04EB12D743BBD6F2796394
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.91406 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/568E1CD9454C8748C1AB042311B1385E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.37500 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/04D20ACA4A160A581ECFE45E34C1A060
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0069.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/flat_dk.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/350B9D28ABAA1AC7E71008C8D0CA4A91
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0068.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/flat_dk.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F032C569E452F10881F65E23DE86603F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0073.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/flat_dk.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -20202,62 +5507,6 @@ pulse/42E5140EC0E612CC548A2A888A746FBD
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
-}
-
-pulse/5CFE50DC5726522B8039367F0655A0A4
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0068.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/flat_dk.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/41BC70398424037D36DF866D7CEA47C4
-{
-qer_editorimage textures/pulse/cubelight_32_white.jpg
-surfaceparm nomarks
-q3map_lightRGB 0.5 0.75 1
-q3map_surfacelight 50000
-q3map_lightStyle 3
-{
-map $lightmap
-rgbGen identity
-tcGen lightmap
-}
-
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0069.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-
-{
-map textures/pulse/cubelight_32_white.tga
-blendFunc filter
-rgbGen identity
-}
-{
-map textures/pulse/cubelight_32_white.blend.tga
-rgbGen wave square 0 1 0 0.01
-blendfunc add
-}
 }
 
 pulse/80BB3CCA24C355E9CC346FE3F38BFEE2
@@ -20326,359 +5575,6 @@ blendfunc add
 }
 }
 
-pulse/057B5E1622D94151EFA350BF39976B4D
-{
-qer_editorimage textures/pulse/cubelight_32_white.jpg
-surfaceparm nomarks
-q3map_lightRGB 0.5 0.75 1
-q3map_surfacelight 32500
-q3map_lightStyle 2
-{
-map $lightmap
-rgbGen identity
-tcGen lightmap
-}
-
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0070.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 -0.50000
-	}
-
-{
-map textures/pulse/cubelight_32_white.tga
-blendFunc filter
-rgbGen identity
-}
-{
-map textures/pulse/cubelight_32_white.blend.tga
-rgbGen wave noise 0.75 0.5 0 20
-blendfunc add
-}
-}
-
-pulse/9C405D0D14299E6D8E70B83DC48A1347
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0085.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D8F6AE27E534847D10444A8AB3951A83
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0085.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 -0.50000
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/9C75A0DD4E7D1E7ABBD8B48FD1264CB3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.28125 0.00781
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/334D2D8EFD98F9B8B6D0227190AD641F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0084.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/AB39970E3055057FCB9B6EF6DA5A8FC7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FE1DA48E0E7808146E5C85B9EBAA90A3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0082.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/24430B7BC4ED92592F4DC64A3E4B83A4
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.67188 0.00781
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3B934133B2B836C537BCF377464654CF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.10938 0.23438
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2B8D93F49242E1867183E58B34A74D09
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.32813 0.03125
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/592794CF472EA22E99ED9142A4732BEB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.32813 0.02344
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/551748A4DE30B70F448289FD66E393E3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0084.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.80469 0.32031
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C2152DABDC95F6E38897A95E516D4669
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.21875 0.05469
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EE1B97DC87931EDFB8F86BE8318CEBE9
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.54688 0.00000
-	}
-
-	{
-		map textures/pulse/metal-red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/CBEA4BB50711D8B2E21AABDFC2BC4CA8
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.66406 0.11719
-	}
-
-	{
-		map textures/pulse/black16x16.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/9AFE2021946B471290A586E465D73F0B
 { // Q3Map2 defaulted
 	{
@@ -20701,98 +5597,6 @@ pulse/9AFE2021946B471290A586E465D73F0B
 	}
 }
 
-pulse/FB9FC53A5ED0CB39282BCF045827C5F5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0010.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8CFB5BA8DD25C8C219098497A5BBFF02
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.41406 0.00781
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/72970964074B5FF3F2E5DD8DA9B074D0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.58594 0.00781
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7714843236D5503B76E1AF84B85FC9EB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.41406 0.00781
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/93DE3D439235A386A52894DF9311053B
 { // Q3Map2 defaulted
 	{
@@ -20807,75 +5611,6 @@ pulse/93DE3D439235A386A52894DF9311053B
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
 		tcMod transform 1 0 0 1 0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FF9A2F0C945AEC43066323F283390B00
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.32813 0.07813
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/43C3CF4AB7257402E5B76AFA5B627B10
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.45313 0.55469
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/27F579BA53F9D06A87AFB4687C5853F5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.48438 0.00781
 	}
 
 	{
@@ -20908,374 +5643,6 @@ pulse/80C098AB34C07B9C40B5475E49EC4DE7
 	}
 }
 
-pulse/3F59B721F51AF215646C2AB846D6B1A5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.32813 0.05469
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/4BFD33048BBF3F894514809BD16EEA94
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.58594 0.06250
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F6DD6A0A0F1E577BA91D65055B5251BD
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0004.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/9ED19FFA64D5F5B8853960A966F8D373
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.06250 0.09375
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/9CFBDF4E5D19EF2BA91E1D94FFA89280
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0008.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/13517DB2B7D096FA6E9554C6DE5B28BC
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.70313 0.01563
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2B8F43ED53E80B454F1C6D2E1089E8D5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.26563 0.04688
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F2BEC3E6C519E6977DD762723C7B1C46
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.14844 0.00000
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7CFD0C6F5531A5BA6E2684A450A851C5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.54688 0.36719
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/80F91D8F9046157B7A249FDAE689ECD7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0011.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E9BF19B5D064A852D22A638507D64E50
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0008.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 -0.50000
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/5DAE37D1ABE91F78381F2398409DBD37
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.24219 0.00000
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8B3C24B73A9B62C87CC6A71106F1DACA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.43750 0.00781
-	}
-
-	{
-		map textures/pulse/base_v_ridged.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D323BFAA39250A249C651293CDE95321
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.41406 0.05469
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/4D19F21C37DF58631020F16B97A33E1D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0005.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.22656
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3D204D6BD945E97DBA95EF6A69673A65
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.02344 0.24219
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/8C6B14C5F720E3990A1592B7CC77DFA3
 { // Q3Map2 defaulted
 	{
@@ -21294,440 +5661,6 @@ pulse/8C6B14C5F720E3990A1592B7CC77DFA3
 
 	{
 		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/44237CC40FB8ACE2841EA08C9D6DD38E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.17969 0.07031
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1A3AEA352053B92E59F6B274043C2773
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/68B4DA88970B01DFD971F3194109A04E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.25781 0.24219
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FB2CD0C7A19594A24AE9A82C467B8CC5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0006.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 -0.50000
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C5FF74E19A49C7960EBD6D55513A57FB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.46875 0.12500
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8C7431B71A0306885A4BFAB824E5C4B7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0005.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.14063 -0.18750
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/62EBE79B6C1BBD64B6387A6DF50EC7BA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0006.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.23438 -0.55469
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/CAB0B3973CA9F2B09E6074EAB180C647
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.57031 0.00000
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1B80DBBAF7D71052268473A68533ED1F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0006.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/achtung_clang_128.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/849CFCA7F48BA3CB7FEC82E1B0FACAB8
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0085.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/panel5.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2449E0885815D802CD79837C07942638
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0085.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/panel5.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8E7F93B7630887676A57BF676FE629B5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0086.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/panel1.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8A33A388417A8CB4D11029FDC6CE48FB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0086.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/panel2.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A3A9AEB20A3C5D7F420CD74E409ED1F8
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.34375 0.21875
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3A404747B30DF18D16D0B757F6640DE8
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0066.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 -0.50000
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/73DF53791C70EFBC882FA5C504272120
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.53125 0.00781
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D0FB9ADD4EA19EEA45ED728AAF136C31
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0066.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3843C51F921A318DBCC550719D89F52A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.45313 0.01563
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/0E1A9720F9BFD13A6F6EF3DAC393CB48
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.02344
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -21756,75 +5689,6 @@ pulse/E2FFB80F7E2A9272CD608F5D8922366F
 	}
 }
 
-pulse/E064A94846AA2A621C31C67F5B09CDD7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.24219 0.00000
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/6EDF5F2B468976CD38444D4C26702FF7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.10156 0.19531
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A1527B39FD28A29B3F4FF43E47027635
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.32813 0.13281
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/7703EFE17CDEB3FBBE60D226752B98CC
 { // Q3Map2 defaulted
 	{
@@ -21843,142 +5707,6 @@ pulse/7703EFE17CDEB3FBBE60D226752B98CC
 
 	{
 		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/0229DE30CBB803ACCB39E5CD92404B1F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0066.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C248526779716D370F7E9BB65C88244A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.41406 0.18750
-	}
-
-	{
-		map textures/pulse/e8cretefloor01c.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/24F3E3DB4E7B97C44704C7C0B977B72C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0055.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8base_red.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EB742610D96D3D341CC30E33A701BC9E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0055.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8_base1b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1DFA1F3F72106F18C7A5CB492D377CFC
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0055.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/e8_base1b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/26BD0AD7660A4CBFC1ECC713F70DE569
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0055.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/e8_base1b.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -22052,121 +5780,6 @@ pulse/5AEEEE1BCF0510F36D0BDFBAF8B783A3
 	}
 }
 
-pulse/4DC0100886218B8BCBB3009EAF407495
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0039.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/28165B185F4210E854B89190BB07780C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.36719 0.02344
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A861933A4EC3B9AECF1565188D935C71
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/069268230E82D7F5B66698A2C6F26AB8
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.85156 0.04688
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7D9EDFF24B7E24FC91A28724E078A3F2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0044.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/E938661680AEF8D20D790527DA241A6C
 { // Q3Map2 defaulted
 	{
@@ -22180,98 +5793,6 @@ pulse/E938661680AEF8D20D790527DA241A6C
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BFF5E4F1420BABC840A0A9AA1BE5C895
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.27344 0.01563
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/052356EF962CDE2C705D9248416E5702
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.28906 0.11719
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/11A6B11992A97D605ACC6BFCCF84C918
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0044.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/598ADE6CCDB7C58EEA46CCA1DF5253C6
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.85156 0.01563
 	}
 
 	{
@@ -22304,1404 +5825,6 @@ pulse/D700BE0C318FCA84DA149BF882E124EB
 	}
 }
 
-pulse/3527FC9CFC2960D5BD629E5CC84CC882
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.37500 0.04688
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E0FD4DE4B069B46721425484EDD26C21
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.61719 0.16406
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3A6D4156E714962349DC44A3EBC5D163
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0039.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/31CBC1C19DC35D15FFAD2BD7CC9DB023
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.24219 0.02344
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/205103C63C90A658C756B59439E924AA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0034.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B68496AC8077CB28E36F532D394EC2C8
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.37500 0.33594
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/496B80AF0CA5E4C5E1CB128EABDC5C75
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.25781 0.00000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1FD7D6BFBA36087052D56A92EF4EE40E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.67969 0.00000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BECBCC71D1309F40E9B44E3789123BD7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.23438 0.00000
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D73F5485A0BC51F9ACD2E3608CBDC6B8
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.35938 0.03906
-	}
-
-	{
-		map textures/pulse/base_yellow.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D6A1FED536998984BA586E8A2527EC46
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0086.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/pallette_top.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F272B85C0976524BF88BE2B4F4ABC4D2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0085.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/pallette_top.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BA0281FEB72312A4A2536E11CDC6DD1F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0080.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/pallette_top.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/5434511C0C1A973B83C066C86EB55E08
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.31250 0.01563
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C54A57A53EAF29E3878004F103954F3F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0067.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/91F387D6FECDF36BFB0A25A3C9C8F288
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0067.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/867E7795697F66AB1945BABB73B35D17
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.72656 0.22656
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3C3E16F906A8F3CA7C2787F2BA07348B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.39063 0.05469
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3EADF5BEF0266CB5CE15AC23E46AC31B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.14063 0.06250
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E27ABFCBE3EF96A33E9AAA5A47DF9F26
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0067.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/242E21F35267BB95158AB0818AF0EDD0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.40625 0.05469
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/018C1F740CC305C8B145B0B6B5920DB2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.32813 0.03125
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/97C8D96FCEA5A64EC9B0788ABC0A9BC8
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00781 0.01563
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3E8517B93B3B9406713436F9AB677549
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.10938 0.02344
-	}
-
-	{
-		map textures/pulse/ecrate_drty.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/874AE59ADB35459905AFAAD7A6E09D84
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0080.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/floor1_l1_2a.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1C8BF9A137EFADADD742FEE94158652E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0077.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.14844 -0.75000
-	}
-
-	{
-		map textures/pulse/floor1_l1_2a.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/6C19CF1358C8CBE4E260FD35F89F9539
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0081.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/floor1_l1_2a.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/0D3B071F3AC94F9893E98B50C2C8746E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.04688 0.00000
-	}
-
-	{
-		map textures/pulse/e8cretesmlltrim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FA9F8BC25F10E4F627F94A9664160A98
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.29688 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2B0364F7EDB6F2E9934DF054774B8E4B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.35156 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/AC4DE45907C42FB7B1E9F5C7F739593C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.25000 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A92DA3173ADCC54A738E90E444F52087
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.14844 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/341B6A4625798F6CBB77BC21438FA9DD
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0048.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/6766A28FE9362638170A9CA84244D62B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.00781 0.06250
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/45EEF358E786227C8043E9A05698E943
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.29688 0.03125
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FB910F58CF39B6F63CA1689AF8AED91A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0048.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/502797E8528B4C1915F0DB1549F64973
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.83594 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/158444663817C52FE0D65FB2ECC0CBED
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.08594 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/DC3C94BCA941ABEF3417EAA90869AC2E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.12500 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E358C963E07D255DD0F4F83E74D28900
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.11719 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/386A6EADAAFD08EFC8193F24B2F7C2CE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.77344 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8CEB23847471FAE2EB7A65E1CC83EE26
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.30469 0.01563
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3A102CD56455CB46EAED638320849CD3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.75000 0.03125
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/514F4C487329FBAECD8CDDB6209FF7AA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.79688 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/5FF4FB897B2EF1A799E7673ED1E0CDF3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.73438 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/97A9A1982277BE03C587E8CF899D6F49
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.41406 0.03906
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1DC2BAAFBE2310A73FBE7B1348AC43F3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.03906 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/5F0CB8E5345BE53E005DF7DF6557FB02
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.27344 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/594E05BC115D3BE255536B2D5D224113
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.12500 0.00000
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3578A406861645E2264E339A59C2C4F0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.12500 0.01563
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C5AC0D911BEEAD6DC353E3C75B4259C3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.59375 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/0CA01621AFB80E059AD1A67678DD5372
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.56250 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/97A6504E508A405F7BA4163A1CC400F8
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.05469 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3D5D796687319CBCEE9AB7A444D5719A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.37500 0.01563
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EB55F8CDC696964FFEC4638CD34DA4D4
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.45313 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F1C42A416621888B563B4CADA3E4081D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.57813 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B29BC670C3A7EE9AE8BA03335698F790
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.87500 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B07483D30790F851C8D11CD85EB62442
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.06250 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BF9A45C9E3874531ADC9FFAA3917E34E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.44531 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8B6E8D5E498C8E3A15F47F03403FEEE9
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.20313 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1B59C36AD1A3B271CE6C0E64A9B13CD5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.53906 0.00781
-	}
-
-	{
-		map textures/pulse/e6basegrt_smll.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/6BD8441A6335978774D1EB8C9FFBD25B
 { // Q3Map2 defaulted
 	{
@@ -23719,185 +5842,6 @@ pulse/6BD8441A6335978774D1EB8C9FFBD25B
 
 	{
 		map textures/pulse/floor_trim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/891642FB60C0CF17F5ADD7492E98E6EE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0078.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/floor_trim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E92444C5FE469EEC2E7040C9390AD95B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0081.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/floor_trim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/CA79A319463434E296DB5A2CD53CFB3A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0079.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/floor_trim.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/45E316BA62805689A1A64B8C618D2AD5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.54688 0.08594
-	}
-
-	{
-		map textures/pulse/multipanels.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2F93E13B20770F288823D35114FD297F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0081.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.01563
-	}
-
-	{
-		map textures/pulse/multipanels.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D99B2B4A86DE8C3FF8179368D3E8DC41
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0083.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/multipanels.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A9127CC27B29FBFB952E1C1C34F9F3CB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0084.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/multipanels.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BB46A87162A4323FFD502DF599BEF2F3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0078.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.07813
-	}
-
-	{
-		map textures/pulse/multipanels.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -23921,120 +5865,6 @@ pulse/8F758D12F316B181CF1E2C6D73FFA52F
 
 	{
 		map textures/pulse/multipanels.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/AB2F4D571501C83774B088BE24E6A07C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.16406
-	}
-
-	{
-		map textures/pulse/multipanels.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8136D9748C55007913FF93D52FA24DFF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0041.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/multipanels.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/CC2596EF31EFF81E6F7A0938A8EBE9A8
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.34375 0.16406
-	}
-
-	{
-		map textures/pulse/multipanels.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FE13FBA558B8838F12900F976FD60517
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/e8metal03b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/9C8A016BB77862AAA6F4FAF04D463392
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0067.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/e8metal03b.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -24075,29 +5905,6 @@ pulse/DA931319FC01D29C7B15AC1565D14955
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/305980A1F3C271E22EBED148849DA5A5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0039.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.10938 0.11719
 	}
 
 	{
@@ -24152,29 +5959,6 @@ pulse/A313D6229C3BA719CBB6D83BEA4952DF
 	}
 }
 
-pulse/52CBCA8D94209F71D23C19364175EE0B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0035.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.13281 -0.36719
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/FBFE129AB279A6AF1D24E0D699B5D833
 { // Q3Map2 defaulted
 	{
@@ -24189,29 +5973,6 @@ pulse/FBFE129AB279A6AF1D24E0D699B5D833
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
 		tcMod transform 1 0 0 1 -0.50000 -0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A4CDB749115522EC16B7E902B3BA1924
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.09375 0.06250
 	}
 
 	{
@@ -24266,144 +6027,6 @@ pulse/DE78F6080A5D4E2620BAA4C45611ED2E
 	}
 }
 
-pulse/123FEBDF38B1101C7C19735B2A1E5CB4
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.17969 0.03906
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F702DE0A2D2C394478CC9268FD8F0AEF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0039.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.07813 0.14063
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/5169865AAAE8795B03059A84803273EA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0032.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.46094 0.23438
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/67A35477356C271269E56660A4377D13
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0039.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.66406 0.18750
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/DB879B217726D68BEE69B8435307167E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.00781 0.63281
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/89ABDCE0CB417AFA07ADC0E94FCCF00B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.35156 0.53125
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/6CACC7CA4F0341DE8BD66EE3C1A41D09
 { // Q3Map2 defaulted
 	{
@@ -24417,167 +6040,6 @@ pulse/6CACC7CA4F0341DE8BD66EE3C1A41D09
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave square 0 1 0 0.01 // style 3
 		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E203D1E6AD5E20525F4B43FA546BF26C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.45313 0.19531
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/535AA9A6237A0D039A4B2D6790E6F3A5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.38281 0.08594
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A7C7495B35FE6676A42A65761EA63451
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.42969 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C7AD1409FBC2EFAAC79D1521AC5E6940
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0030.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.31250 -0.07031
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/981BEC485862F8CD4CC46B504E605121
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.15625 0.28125
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C30892618528CF191B7A2E26D2C9AFD3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0030.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.08594 0.78125
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8557E1A292977A704AB0ADC8D46D2D9F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.10156 0.09375
 	}
 
 	{
@@ -24610,98 +6072,6 @@ pulse/DF75B546DE44FA484D7723F5D50464D6
 	}
 }
 
-pulse/10E0E79ACE83654D188F7D2814A7F435
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0033.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.62500 -0.25781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/566D510A50EAC2086B3144C1BF5826CB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.06250
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BBD31C0A80130EF0A71785176FB31934
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.33594 0.13281
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E45EC9E03EED814892B0C24832ADE2B4
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.20313 0.83594
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/12D4FC9B79B602EF7AFBCDAECF802BEE
 { // Q3Map2 defaulted
 	{
@@ -24725,502 +6095,6 @@ pulse/12D4FC9B79B602EF7AFBCDAECF802BEE
 	}
 }
 
-pulse/55304F8EA75936F6738D216578A9E694
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.01563
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A399BA006559E50F7B1415474D19E4B0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0033.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.03906 -0.36719
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7F54BE7AB9648B146855DC6EBF196247
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.13281
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1B55F4FB6B73FFABE3B3F5512AE2123A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0032.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.56250 -0.29688
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C00DECA63E8354C0572191B94270A83B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0033.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.26563 0.09375
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/4A4769D7F2EA65B5FF505875E7C51AA2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0034.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/AD4A52F54F3555260EF48E56C08E1C6E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.62500 0.04688
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/75BF046E9FA80BA029AA06A46D327891
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0034.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 -0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/226A36B4012511A43F529A709A00E5EF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0044.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-	{
-		map maps/pulse/lm_0043.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.61719 -0.40625
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F607479D5C476EE57ECDFA687C61EAD6
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.35938 0.00781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/0B90E2A6BAC2921CC934280E49B76C4C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.35938 0.06250
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B5E67CA036D985632B45E7DBA24065D7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.16406 0.13281
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C662EC39A95756939A39F6C23A270469
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0044.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.50000
-	}
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.03906
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/15ED06E3A3360D1EAA8D474D71F82012
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0041.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.74219 -0.35938
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2EB191B70063EDE90007220CA92311B4
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0040.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.14844 0.18750
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/98DC270DA0DE4E177C2C5355C99E599C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0041.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/98A142B913FEE4DAF5A447B9AF1B001E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0034.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/10CBC4ABD9D6C8633BF9C474ED6C5811
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.10156 0.21875
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E6DA7260B59433FFBA549B3E6BD82421
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0033.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.07031 -0.35156
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2024C10D304C5056AF5528E06A8872C4
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.24219 0.00781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/AEB67BDE1BB477939819012344418D4C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0031.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.21094 0.42969
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/1FCCE25516B5FE07A234A7D7F6C716D3
 { // Q3Map2 defaulted
 	{
@@ -25235,236 +6109,6 @@ pulse/1FCCE25516B5FE07A234A7D7F6C716D3
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
 		tcMod transform 1 0 0 1 0.00000 -0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8AA9DA243A44BF46D21C34C5E201DD16
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.03906 0.54688
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/949CA059F7B286BA217CC2B7DBBD67F0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0038.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50781 -0.17969
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7C776C975605514730D476ECA5086B38
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.38281 0.00781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BAB12CF5ED0779791FF6F351E8922DFA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0040.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.41406 -0.82031
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/01C716B9A2501E548143559B380EB52C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.15625
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/9979EADDF98764C4E5A00B28D2B6086D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.05469 0.59375
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/929205F401B038DDB38A609E810A2085
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.05469 0.09375
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E631A576BF3B9B35DB4EC7AE57389887
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0037.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.26563 -0.19531
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8C57C94EE6992B5DE6029635E54016AE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0014.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.23438 -0.49219
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F21191872D42D2C1F3E152F69B99FB41
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.43750 0.03906
 	}
 
 	{
@@ -25520,190 +6164,6 @@ pulse/849828CD8A6392ECDB6DDA1FC30412CF
 	}
 }
 
-pulse/CDD5849568F33F8E0617FA001F00EC0C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0033.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.19531 -0.18750
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/6DD8975C41CE3016B38914E0FBAE642F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.46875 0.06250
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1947240CE46E7940397B7FC33DA08B75
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.75781 0.07813
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FEC97BDFD6E6656CC09196858EFBA31F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0033.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.03906 0.42188
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B6F1B5109E2AF063559EBC6CC670DCBB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.70313 0.12500
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/FC4BA1BBB90892A0DC64F8D5F6117C86
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.79688 0.62500
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/704EEE8292FC3B68F1F96A848DDA46C6
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0035.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.05469 -0.14063
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C91821BEE80D53D92C9EA5D00EE7802A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.06250 0.31250
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/ED8BF9981487EAC2A4820DCE25AC3BDF
 { // Q3Map2 defaulted
 	{
@@ -25718,1593 +6178,6 @@ pulse/ED8BF9981487EAC2A4820DCE25AC3BDF
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
 		tcMod transform 1 0 0 1 0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2FB18DBD2BE5ED8E1F9E2A7E30202B36
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0034.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 -0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/696B173FC6D88F0E624568B7BE8C4EF7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0039.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.29688 -0.32813
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/89F3C364B97FD8AE1ACD60CBE2736FA0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.47656 0.00781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/38C3617EF4E39E2F38052BD2D3DB9C2F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0037.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.35156 -0.28906
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/9B3E8EBE20CCB4D4DF1987820E7D81A9
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.84375 0.03125
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/95839DB6F3DEF4574634A9C64FA08A01
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0041.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.14063 -0.29688
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/6164BD109D330A2DD5293ADB5B6BC027
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.27344
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/603AD6FA6682678C93E268D93B927797
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.23438
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D5BF36C1EC66CCA171699BF9BEBD1343
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0031.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.03125 0.02344
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/55BFC2EF4D1032FEEE68A57C46432CDF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.35938 0.03906
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F8C5374B7A00E09CC295CD28809F0FF0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0011.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A96CA2B5BB0549C9D52ABD8AF706816D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0037.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.30469 0.26563
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7D4AF8F541C7D2D447B2F59F7C2E3F2C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.03125 0.32813
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/66CFC8B796153FBA72FC6DEDA9A983B0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.32031 0.46094
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/098757B06915449E15D92D179E9E3AE3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.53125 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/14A23F4B27E2FDBEA0F7A26CF9AF8E5B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.89844 0.16406
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/AA4BF6177005AC53744FB17D5390E721
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.79688 0.48438
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/0CAA5CECA54D7B999E195959F64D1564
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.62500 0.01563
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/059FDB828EA90C8A4E6C2B80D436955F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.47656 0.17188
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B1712CEE6044B9895264A12A41DE2058
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0037.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.92969 0.60156
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/4E1FB7BFC22B710EB7F171ED4B34F869
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.61719 0.11719
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/21D05214902DA57CBABD89E8153961AD
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0034.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.02344
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/5828FDA2BA8D0ADDC9D3A87053E8F666
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0032.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.06250 -0.38281
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/76389C2BE100FCD2AED4FF02B92123A0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.62500 0.30469
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B77673F51F196BE113F23AE2653636E6
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0017.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B09E448D9DF7C3391AFA398DB90F54AE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0032.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 -0.07031
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/CFB5E921AB94E68DD80F87475018DCC0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.33594 0.22656
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/54835633F0FB5836630B2FD42A23C3E9
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.86719 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/AEA157F406A4C629B69C8B8B98B4EB13
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.52344 0.21094
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BE9B870F6A78E1C62B6C1284490EAC90
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.14844
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A6B471DD4627FC01FFE50E7B5E540252
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0031.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.26563 0.20313
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C592298815C31F4FFA6EABCCCB5DFD44
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0035.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.05469 -0.10938
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/695FD6A262AF43B2EE8D5F4182AEF536
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0035.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.12500 -0.16406
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1A5143A8CE41533D3D7FEFAA15C45A1F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0033.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.75781 0.07813
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2A71ACA57E918D1F736628504029F71D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0033.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.75781 0.03906
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EA84BC9050E67607704BE7CD9C8A7866
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0033.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.03125 0.21094
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7389E64EB03A7E14C70A231E0F674D74
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.19531 0.14844
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BCB103A3C8DE150332CBED9618A4B5B2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0041.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 -0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/AA1DDC772FBEAD6115D2E47997F61470
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0040.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.23438 0.09375
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1220977CFEDF345E0A92B3722BB3A717
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.32813 0.05469
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F871201A04147A910C3977FD2D4FFB83
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0039.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.07031 0.73438
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/678E2F13D8F9D6CB5E7FA907BFEB6E9B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.08594 0.25781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/71DB53EC0C012C2F31028D90B31AA1EB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.19531 0.53906
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/2B18C461244A2C6A8049384ECC67DED3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0035.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.14063 -0.34375
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/09C07F51A834265DBAD0158DDCF480D2
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.57813 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/040EE9A93D3263ACC4D63C5EACF6B5B4
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0042.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 -0.48438
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/AD9E29A52C0FE7A69F37848C00704B3F
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.12500 0.00781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A872645E3DD63F6C06D41562C0A20CBC
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.36719 0.36719
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/5671BC5A679FF2A9B045ED2E364D7404
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0006.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/840E3AA98768FD823B45DBF53FC725A6
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.25000 0.47656
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/360C4136AC9BFC690ABBF200CF55C455
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.47656 0.02344
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/5B2EA3C0FED06B28312CB9D4EC993E1C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0035.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.43750 -0.53906
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/CB43603511CAF5F33DD2AB4001F220C3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0041.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.20313 0.24219
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/90FE0C711F754FA25250280D79E24010
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.03125 0.06250
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F97784F25667C822E45CF4F89BA56165
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.43750 0.30469
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/36A40128E4A0826A3E7EF1537209693D
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.48438 0.09375
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C16590C09BAA94D14238CD316628E1A4
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.04688 0.13281
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/74DEBACEC7A7D4036F5809EAA715FE36
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.07031 0.14844
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7355CF22CDC222A42FD43E67D159501E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.80469 0.00781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E8C64CF00393FBFC94C0183B13E661E7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/320822A184D0F31B8C66361CC1EE5430
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0040.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.59375 -0.26563
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/DB69340D217BCD0828CE7320DEB6F1B0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.04688 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/05D63FBED0A5905E5AE65F51C70E689B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.36719 0.00000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/DAA197592C33DC334DDBC2270D4EC4EF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0034.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.73438 -0.87500
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/18E29989C509376B5AF2888B850437FB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0034.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7FC2CA7F80BD67AC833D280C7E6FD4DC
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0042.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.07813 -0.59375
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/6F8CBE67387A8892311A299FE106A399
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.05469 0.14063
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/53F0EBA7949F6577644854D37914A0CE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0035.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.10938 -0.50781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/D46719D74AA3F4B584BEBBAA77A6047B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.13281 0.00000
 	}
 
 	{
@@ -27332,694 +6205,6 @@ pulse/CEDAF869E674AEF3C1E229CC55DA17CF
 
 	{
 		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/395197AF6780CB8E901417EB95F4389A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.22656 0.00781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EC82903081F8FEB154E2E5C688A42FA7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0035.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.45313 -0.29688
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3005EB0521A234D9705D564553F88AE0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0031.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.38281 0.23438
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/17673639E63CBF20BC684C3C92E588F7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.24219 0.04688
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EAA8C7C25C681A6BB0DF39F7BA5E2DEB
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.46094 0.08594
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/74AC8FCAD0D9CC7F78CBA78DE05E36DE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.32813 0.00781
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/65995B9DD98E402CECEDDB0498F2026C
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0036.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.32031 -0.25000
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/30973B7CF221DE7728633789C87A78B8
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0010.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/786D19156995CF361B8575830A8D0165
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0037.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.46875 0.13281
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/16B074740431243A6DE9E34E89FE10B5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0034.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.49219 -0.28125
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8FCE799E30CD0D82A7B2C1617AE6C6A0
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.04688 0.19531
-	}
-
-	{
-		map textures/pulse/base_wall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/1F2BE2CEEBF1135B3E0B46A128E137DD
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0063.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.50000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/30B4C4E42381AB594F4E687B0B65DC49
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0062.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 -0.50000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F376E4C8C765195565B92DFDD6E028DF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.68750 0.20313
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/09A18FC900F9FFC31D41A66911FE41DA
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.24219 0.18750
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EE9F10E97D842890F99FEFF17FEC33CF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.61719 0.03906
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/EAFDEE10021B6888BED8C669466292CF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0062.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 -0.50000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/15FF964D44837CFA934683E56DFDB3C4
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.68750 0.20313
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/E0F6E63B10170F92D3C0AD6E8653F171
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0032.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/147A53A338099AA828666A9170094940
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 0.03125
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/DD8E3AFE9281B1C00AA0204CD61D2D0E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0063.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.50000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/27007F9B8653B5AC06329A5DC37E5793
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.37500 0.20313
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/7EE995405A048028142DBCB23FF517B5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0062.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 -0.50000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/802B5B35D1B9A4F2DF79C3F45E5FEA15
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.44531 0.16406
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/B3CDAD9168ACE170B7E1752378001AB6
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.01563
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/8661221E705856CB4EE0D8903200D397
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.32813 0.05469
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/35F3B33FB2DE8ADF39CAF3583FD103C5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.60938 0.00781
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F009AB3C908C48ECC70B4D931253ADAF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0063.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.70313 0.06250
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C5855D712ED454D9C96384371CC35A5E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.13281 0.00000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/594EE4816B975DAA7D6CB003067FBB57
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0061.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.00000 -0.50000
-	}
-
-	{
-		map textures/pulse/e8clangfloor.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
@@ -28070,74 +6255,6 @@ pulse/7385640EFF7B28F2796180333F78308B
 	}
 }
 
-pulse/09833CFED93AB2968A020FB35E682C2B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.18750 0.00781
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/DCF77CBC84439BA46E9CE0D36ABB4D39
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0034.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/88030CB264E1570F19D5B9DC36BF12B3
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0043.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.00000
-	}
-
-	{
-		map textures/pulse/e8beam01b.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/B81622CC52010BEDC9EECDE3355EF8B3
 { // Q3Map2 defaulted
 	{
@@ -28160,121 +6277,6 @@ pulse/B81622CC52010BEDC9EECDE3355EF8B3
 	}
 }
 
-pulse/55B86FAE8F21A64CB4FA0D97BC410323
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.50000 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/963227C3AF90328979A69432BD662F4B
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.52344 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/253CC0C1E5928623CE223A32E0864AFE
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.15625 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/BF007565667C2EEE0B6D8FA1CF325965
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.64844 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/46146574C2CD991A7F83ADB5E5F371A7
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map maps/pulse/lm_0026.tga
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.28906 -0.79688
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
 pulse/97EC905A458FB46BFE7B90AF35D53D17
 { // Q3Map2 defaulted
 	{
@@ -28289,236 +6291,6 @@ pulse/97EC905A458FB46BFE7B90AF35D53D17
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
 		tcMod transform 1 0 0 1 0.07813 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/08BEB5AC105E43616EE046A33F59EFD1
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.25000 0.28906
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/69F185160D8F638E43A15813E8B9624E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.52344 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/F38A874D7F63C6EEBE931E1A17D031AD
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.46094 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/CF045ADE76617900127EFEA0216F1D83
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave noise 0.75 0.5 0 20 // style 2
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.62500 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/6CD851290F810CDB3863521CB8B14D28
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.43750 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/08AAA508E3F298B600694146C411F4ED
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.64844 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3EA92B85F05DCC52DF011AA6BD2436AF
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.41406 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/3834941E747E57C138DD59C02663AC45
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.10156 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/C92D9741D2A97D726969AAE9C2D36797
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.78906 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/A4E23EA03B06A4900CEFBA20E36A969E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.31250 0.00781
 	}
 
 	{
@@ -28551,7 +6323,7 @@ pulse/EC522B2FA94B5EEE7F901414A6A7C7A5
 	}
 }
 
-pulse/FD6E1AC2A011F3E0334CB4F07E694B4A
+pulse/6B2F3A84D9307CBFCA33F5B8EEA13B46
 { // Q3Map2 defaulted
 	{
 		map $lightmap
@@ -28564,17 +6336,62 @@ pulse/FD6E1AC2A011F3E0334CB4F07E694B4A
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave square 0 1 0 0.01 // style 3
 		tcGen lightmap
-		tcMod transform 1 0 0 1 0.03906 0.00000
+		tcMod transform 1 0 0 1 -0.87500 0.01563
 	}
 
 	{
-		map textures/pulse/blackwall.tga
+		map textures/pulse/metal-red.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 }
 
-pulse/EC61DE5FEF5F49B8CB8ADF18AF174D9F
+pulse/3FFBA60EBFAF569CA03A9993CBAC8C12
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0051.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/7576A83F9C5F098072A5A2950F55D9E3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0050.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.47656 0.08594
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5073821D777AE1D70742BC098CDD7FBD
 { // Q3Map2 defaulted
 	{
 		map $lightmap
@@ -28587,17 +6404,17 @@ pulse/EC61DE5FEF5F49B8CB8ADF18AF174D9F
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave square 0 1 0 0.01 // style 3
 		tcGen lightmap
-		tcMod transform 1 0 0 1 0.28906 0.00000
+		tcMod transform 1 0 0 1 -0.32813 0.01563
 	}
 
 	{
-		map textures/pulse/blackwall.tga
+		map textures/pulse/metal-red.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 }
 
-pulse/9B3282E316D70B42AC374FDAFE4A2BB1
+pulse/436C4DFB31C3F53974FD73312FDC1364
 { // Q3Map2 defaulted
 	{
 		map $lightmap
@@ -28606,21 +6423,338 @@ pulse/9B3282E316D70B42AC374FDAFE4A2BB1
 	
 	// Q3Map2 custom lightstyle stage(s)
 	{
-		map maps/pulse/lm_0046.tga
+		map maps/pulse/lm_0048.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave square 0 1 0 0.01 // style 3
 		tcGen lightmap
-		tcMod transform 1 0 0 1 0.50000 0.50000
+		tcMod transform 1 0 0 1 -0.16406 0.26563
 	}
 
 	{
-		map textures/pulse/blackwall.tga
+		map textures/pulse/metal-red.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 }
 
-pulse/B2EA1EC1FF7657261BDE4275501419C2
+pulse/BF3AA2FBF78FCBFA64D9F5425C24A1FF
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0048.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/81BB9352B3D15436464CBB40C9B1A67C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0051.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/50912C0EE9B6F34FF25A5CE6ADFB6706
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0050.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/1605C77AD74909BAA96C7C45D0B9C845
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0005.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_floor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/7E850F958E36321230CFBAB51BC813EE
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0007.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/DF3B70E6BAA8B162D4309B4ABDE0740B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.51563 0.00000
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/537D4C3C2B78C80AE68D48AED8EC3170
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.06250 0.02344
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/14973116E6277471EF08BEFB3ADBE456
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.40625 0.00781
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FF5D413324890C7C45D41BAF9B556BA1
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0008.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/43DA37F8F460B078A5651687E58C6EA2
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.24219 0.11719
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/BD4871A82D112906F9FE125CAD3517F0
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0008.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/B6D9639EB38CF4D0B8930371063E9D46
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50781 0.00000
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/98D656B0DE02F94D747311DE0BBA2868
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.32813 0.12500
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E499D82D8DE9442B72F642933AE23614
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0004.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A6DA7A46967822DB714817850C721D6B
 { // Q3Map2 defaulted
 	{
 		map $lightmap
@@ -28633,17 +6767,40 @@ pulse/B2EA1EC1FF7657261BDE4275501419C2
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.61719 0.01563
+		tcMod transform 1 0 0 1 -0.09375 0.14844
 	}
 
 	{
-		map textures/pulse/blackwall.tga
+		map textures/pulse/achtung_clang_128.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 }
 
-pulse/42345635629688075D8287BAE2041287
+pulse/7738F79275ADC01F1AA91BAA8FCC5DE1
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0001.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/54F6AC04566F221D8F79B3270EBA114A
 { // Q3Map2 defaulted
 	{
 		map $lightmap
@@ -28655,87 +6812,860 @@ pulse/42345635629688075D8287BAE2041287
 		map $lightmap
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.64844 0.00000
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/30AD5068311E543CA0332E427C86B81D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.36719 0.01563
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/882C9E1BC53575171428DEAEF4153E0B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.26563 0.25000
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/1F5AE96EE57EE6C50AF0DAE80CD3E49C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0037.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FBF2889791B0263BB1696068034D0D18
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.01563
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/71B2509C9C90981BBDBD9FC419C5B1B7
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.03125 0.00000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/218A2D80F1948242DB85A1A9BCF2D07E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.13281 0.00781
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8BA71C7371B17D6A498FD884C458487E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.34375 0.00781
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/9DA62B96D3A91F5B6BE717F006A18A17
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.07031 0.00781
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A39F523DC78C04A27E380A8F26B118F6
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0030.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8base_red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/97AA1364A36C48316A6A29EA49A3A154
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0030.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8_base1b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/09F21D42F77A30D09FDBA60DB00EE51C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0030.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8base_blue.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/09358C1D19CCD9CCA5D0E9A29B425C29
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0021.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/DB45445B823308646C8CD791F332A989
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0022.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5A95177B7484DBCA2F3688B02E108F10
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.04688 0.10938
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/BAA7DBCA8CFD34E0F664BD0C98E50F4B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.27344 0.01563
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C465B2CE34159D0417D69B5ECB2E1BEA
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.53125 0.04688
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/50DD4024E21BAE8539E2AF9010BC4662
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0018.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/66BECB2D395084CCE25F8179A1512113
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0015.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/73BD5199F5A643D3565FBAC106E4FAA9
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.24219 0.07813
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/531ABEBCBD47B1708F581049E690236A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0022.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/51EB52A3B4F5E80884C4ED3095BCDFC8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0022.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/25DD2314B7F164FBA867AD71CDB90304
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.03125 0.00000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C8862AF0607CE6A471A868025A526CC0
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0019.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6F9D778CD32EA11C8D5A5853A068604B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0020.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5CD7FB5499CE23F94F9AD5BBCA9709D7
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.03125 0.04688
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/1911CE8EDE580CE5338824847EA8518D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/936C1A473A2C4068AF4371C91D730443
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/9E2766460CC864EC05571AC834FC9739
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0022.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/784146B42489BCD6966F262A96F3D5A3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/pallette_top.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5847F7DF409F1D5BD6710DE07C932AAD
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0052.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/pallette_top.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F173565494F62CB26CBDA55224287BA9
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0051.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/pallette_top.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E165F3E0E7C4FEC725EA634D1C29D492
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.63281 0.00000
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/640EF53758741BD2F91CA231EF0CF4F2
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.71094 0.00781
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/686886166AAEB96ABE35C085DF61B414
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.21094 0.00000
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A14345AAC0736E3E698C166327CCCE8A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.17969 0.01563
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FBAE7AC4D4B81FDF8E32B957F5F243C2
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50781 0.01563
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/340CA7999F99757EB3117A198D2090F9
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
 		tcMod transform 1 0 0 1 0.24219 0.00000
 	}
 
 	{
-		map textures/pulse/blackwall.tga
+		map textures/pulse/ecrate_drty.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 }
 
-pulse/637CF66E49C27AD38D1FB0E64D8353C5
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.60156 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/79D3647AB8106967E77E6101FA9CE99E
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 0.06250 0.00000
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/AD41965756D00BEE0B9050EEC433DC6A
-{ // Q3Map2 defaulted
-	{
-		map $lightmap
-		rgbGen identity
-	}
-	
-	// Q3Map2 custom lightstyle stage(s)
-	{
-		map $lightmap
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen wave square 0 1 0 0.01 // style 3
-		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.89063 0.00781
-	}
-
-	{
-		map textures/pulse/blackwall.tga
-		blendFunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-	}
-}
-
-pulse/6528350BD01F48752A544B5516DD1DF6
+pulse/8745A4E895F904186F156F9EF7FB9000
 { // Q3Map2 defaulted
 	{
 		map $lightmap
@@ -28747,6 +7677,1924 @@ pulse/6528350BD01F48752A544B5516DD1DF6
 		map $lightmap
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.52344 0.00000
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/001E9EEB9471CBC8EF76D7F656931D75
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.51563 0.13281
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F8CBEF61CEA191AA36433D8A0963AABE
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.33594 0.04688
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/7F953F0000873E3A375952BF37369ECA
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.08594 0.00000
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/174C30B5CBCD3A08AE35DE868F396BD2
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.57031 0.06250
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/14320EB545907DE9758CBCC887E99E41
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.17188 0.01563
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/81195D7FF1D07DA77BA59CE2262BFAD2
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.13281 0.00781
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5F51DF7475F8909671DAC78A5386013F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.28125 0.00781
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/385BCB68F20BB66CAFF3A6B9C7177598
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.57813 0.15625
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/934ABD06DCCC9C1D9DB9BA0485B6F6E0
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.03906
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/B4F0884649562E19209DCCEB5322D3B7
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0041.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/floor1_l1_2a.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/14390D1958C0EF0837E04CC90DF256B3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0042.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/floor1_l1_2a.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0E5A65567A959245CB3CC1C5D946D0BC
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0043.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/floor1_l1_2a.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/BA37CDDAC5B3D1A988F9ECAC9A014A11
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0044.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.14844 -0.75000
+	}
+
+	{
+		map textures/pulse/floor1_l1_2a.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/EAF845F4E137AAE37E504861AA4D3D77
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0041.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/floor1_l1_2a.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/59DA81813A4650D54E99060784259C26
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0044.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/floor1_l1_2a.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/2E4621E705997258BC48F77D69860C49
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0017.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8cretesmlltrim.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6C1FA7985DE66A144F639283B62409A3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0040.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/floor_trim.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/AD399F12FEDD2FD9AB0F2B66A9DC9DE7
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0042.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/floor_trim.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/86DB4833A17637B00EBC76F0A6026807
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0044.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/floor_trim.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/402E93F5F1B73C3799EE80E01480F43F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0041.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/floor_trim.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F3404788F5E2B25F409A58C84DB31813
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.56250 0.00000
+	}
+
+	{
+		map textures/pulse/multipanels.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8EC4C4C08BC745376317F0CDAFC7C536
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0049.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/multipanels.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6409651AFD51B4C63B1FF44B1A894819
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.62500 0.00000
+	}
+
+	{
+		map textures/pulse/multipanels.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/622E39C7501D2DAC23EE90A577A7AF80
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0019.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/multipanels.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C2CCD33364B49FA3392EE5443EABB16B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0014.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/9BB594F5B98AF8CC46BE0F5914E3B1E4
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0015.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A1CAFA8F19072343900F15F6C153C2C3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0022.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/48079B73752CAC3BE3B6E35602020871
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0013.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/405401DC7C3173F037D2CA22D994DE22
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0015.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E5F49175A901F64A0AD76BC3599F7549
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0013.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.24219 -0.04688
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FF5EB849E6B845A538E3074A3A9962DB
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0016.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.53125 -0.53125
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E7DD749B60D07BFD8F140A90C6CC7376
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.13281 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/096781AA303C3224804CED5E9497B1E5
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0021.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/294091BDACC4B5D6484316B1235E761B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.26563
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/27A9515C7BFDEC57C91746BDA15EC08D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0015.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.35156 -0.42969
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FAEC2167ADE0B96D63170DCAB9097342
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.06250
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8ABE60FF39C48A8AE30BCBD6DF24F003
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.72656 0.01563
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/753DFA61E74DE6253A9D5A6C2287667D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.46875 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0CE7B4D4320285C9E5FB2FCAFEC0CFBA
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.73438 0.03125
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/22899E6E56C4BDD7F053772F2014C07B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.17188 0.01563
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D11F93FA91F9601808A7065BDB6CC39E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.46094 0.01563
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6F5999A7ABD64A03FB7EEF5B2E9EFDAA
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0022.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4BF0569C231685BFE6B161EEA40F651C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.06250 0.77344
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/56BF32262699ACEB68DF760D354E3284
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0014.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/975DB31FD961C8A3D1B37E0E8444B893
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.57813 0.02344
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5AFFDD3328F39C08D1BD78E19239ED4F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.51563 0.38281
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C7EA11CCC4FAA6F66F471FEDB52DA32B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0016.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.08594 -0.15625
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/01634DF89CCD77A4FC0396E589F98FBE
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0020.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F4130E1D7B2D36A84299BA5CF82D3925
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0015.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.21094 -0.41406
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/28D83A254895C7951B2F132743E9DF96
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0020.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/14093E6B865593793E542D6B3D4B490A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0020.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/396DB5C9D1FDCA84740C805035E247F1
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50781 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0C1AE70F69DE51C7C4DFC921626DAC46
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.07031 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/39DF7A6427DB56105FA882EA7D381CA8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0016.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.46094 -0.25000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A05D8587EE7A5CCF1C71C3471DCC6878
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0008.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F7DE0ACD68CF2B7675222968751AAC67
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0016.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.08594 -0.22656
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4643C1918AEF7F7EBA1D034EDF09C8FA
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.76563 0.09375
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F597538F8F78E6DEBA077D9E7EC18139
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0016.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.71875 0.17188
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C140D68E6E06F1DCC4CB734C78C63986
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0018.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.42969 -0.24219
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/3426DB7A59001EA2860A5AC27450891F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0015.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0C880FF274B97E26B4BA9D89CECC3487
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0022.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/09849C0F76D5819CA12E3ACD68F72BC8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0008.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E178748311958D657A9FA67AED9CD8E4
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0015.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.09375 -0.11719
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8FE8F8C09C5460D7BCD4A418519D3754
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0014.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 -0.24219
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4D131381DA00480202AC969148016484
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.31250 0.35938
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/EB053989B8F81D075C087D499F2FF386
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0022.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F0FD5681E73BDAFFB140648700D1C80C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0004.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A34B35B6F90E31D03C5DC821B74FF1AC
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.26563 0.17969
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/070CC0BC41483D1F0BA29855CAD88718
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.32813 0.29688
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/23BD1FB4332218AAA730F4F65454D486
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50781 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8AD9167A95C6579B029F232CAB101825
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.21875 0.02344
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/89F7C603DEC093A97436D9C58DE7CCBB
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0036.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0A478BFE2E403E69AFDBB5A3873E6500
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.51563 0.00000
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4B3EF16BB1A171F011B9E1992B450604
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0014.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D6A850CE459B14A753EADFFDA8CEDB29
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.37500 0.00781
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6347452C4D10B30A65C3EC101FFEA144
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0008.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/9518318430B73E3AF8FB36B4B9F0FB54
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0032.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/EC3304A8E6F093E8AF6D53800AEF90E3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0014.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6A979E2DE82EB4A9BAB1F6AEA42326AE
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0020.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/667ECF0CA6A6D0EDC44143F99F558F5A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.07813 0.00781
+	}
+
+	{
+		map textures/pulse/blackwall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/1994E3AA351EBEA714C0C88C8EADC322
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0023.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/blackwall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F06C6943D6DD7EC286BC106CAE6832FA
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.36719 0.00781
+	}
+
+	{
+		map textures/pulse/blackwall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/856CCC542F043A905A2D907A52752A8F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0023.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/blackwall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/B98550C44155473FC051447B096B915F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
 		tcGen lightmap
 		tcMod transform 1 0 0 1 -0.74219 0.00781
 	}
@@ -28758,7 +9606,53 @@ pulse/6528350BD01F48752A544B5516DD1DF6
 	}
 }
 
-pulse/0A6213D482C72BFEAD03665916CE86DE
+pulse/02029D3655E0F7DF1D99DE46B49C66A9
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.68750 0.00781
+	}
+
+	{
+		map textures/pulse/blackwall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/7F46C5980E37DCB91E88FDB8F6AE430E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.82031 0.00781
+	}
+
+	{
+		map textures/pulse/blackwall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/53D397C6FF7B0A56026A31554887F41A
 { // Q3Map2 defaulted
 	{
 		map $lightmap
@@ -28771,7 +9665,7 @@ pulse/0A6213D482C72BFEAD03665916CE86DE
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
-		tcMod transform 1 0 0 1 0.32031 0.00000
+		tcMod transform 1 0 0 1 0.15625 0.00000
 	}
 
 	{
@@ -28781,7 +9675,6264 @@ pulse/0A6213D482C72BFEAD03665916CE86DE
 	}
 }
 
-pulse/CC6C03B78CC066237947AFAB7C26C164
+pulse/C1616A0097BA2ECFE2A30A62B454B487
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.26563 0.00000
+	}
+
+	{
+		map textures/pulse/blackwall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/37B92E8BEF3B9BEE6635154D14AFD6EA
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0041.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/flat_dk.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8AE87781A0A01CEF2D1DE2FB23FF33B9
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0040.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/flat_dk.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/DE9B26E0DAC711A6EA6BB070C5A10605
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0039.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/flat_dk.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C90E19EA19F088DBD723C7A8DF8A7C83
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0044.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.14844 -0.75000
+	}
+
+	{
+		map textures/pulse/flat_dk.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/678E6F425013F5BAD9523F18AE251C9E
+{
+qer_editorimage textures/pulse/cubelight_32_white.jpg
+surfaceparm nomarks
+q3map_lightRGB 0.5 0.75 1
+q3map_surfacelight 50000
+q3map_lightStyle 3
+{
+map $lightmap
+rgbGen identity
+tcGen lightmap
+}
+
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0041.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+{
+map textures/pulse/cubelight_32_white.tga
+blendFunc filter
+rgbGen identity
+}
+{
+map textures/pulse/cubelight_32_white.blend.tga
+rgbGen wave square 0 1 0 0.01
+blendfunc add
+}
+}
+
+pulse/5AC5E8B585CC3188A29C44EC42238C20
+{
+qer_editorimage textures/pulse/cubelight_32_white.jpg
+surfaceparm nomarks
+q3map_lightRGB 0.5 0.75 1
+q3map_surfacelight 32500
+q3map_lightStyle 2
+{
+map $lightmap
+rgbGen identity
+tcGen lightmap
+}
+
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0041.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+{
+map textures/pulse/cubelight_32_white.tga
+blendFunc filter
+rgbGen identity
+}
+{
+map textures/pulse/cubelight_32_white.blend.tga
+rgbGen wave noise 0.75 0.5 0 20
+blendfunc add
+}
+}
+
+pulse/CE9FD6CE34CB9B68140F5E291036D327
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0082.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/82A0566762D4B977A653361EFACC707C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0082.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/933E7325F62233AC71310F9113D75EF1
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.17188 0.02344
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/1C4D8F1825094E1EDB774C4E0394618E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0081.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/71FD019E4C746539098E57050D311AF0
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.87500 0.02344
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/52B5FC1472B1F65C8580C797853234E0
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.21875 0.01563
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/BF38D06380DDD69E4C9C4C7667DEC86A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.14844 0.00781
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/2B0DC0BE1E947DD2B2C26716E2856107
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.10938 0.02344
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/432D1AAB0B2B25CAA40236967474FDE5
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0003.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_floor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/59184216105E3F6288118BF16E5FC948
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0005.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_floor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/B5FBBF322A0649CE0203436E28CF5E28
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_floor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8753A3E11FD2910607AD0346F3AD8F8B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.14844 0.18750
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/716118AF16D085AC1CBA3E65F656D8F0
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.10156 0.25000
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/ABFE2B1F8C96FB1FB38C183A1D35FF87
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.25000 0.02344
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/1B2A3BD5BFB3BD6507C07702D0F5FDED
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0011.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/580133DF9AF9F952F9FF34FDFFA81901
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0011.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FF99FC1517600CCD4784DD659A2BC154
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0006.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C262FECF4E79B0A844ED69014C3613F2
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.42188 0.03125
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/664AFF389539B82DCAD4165B0AB21FBA
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0012.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/543CCF2045B67FEB1ECD849B9CC9C9D0
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.74219 0.03906
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A29437EBEA10EB09C96F6C16B8D8667B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.25781 0.00000
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A08C122DED45163552A1DF325557529D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.11719 0.06250
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/47BA946F34231E0E72ADA1B93BD12858
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.25000 0.03906
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/84C7B2788BB0D1309393643E37B2CF3E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.26563 0.09375
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/1405784C15B1BCAA02F4497B5E688A69
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0007.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/28BE455DEF180FCF7324B516F9C8695C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.21094
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6C246D8CD17A446044F23E19D37B4ECD
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0011.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/AE573EC643AAC1C5674D9C1771B011B4
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.10938 0.24219
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/94B7455E30895FB8DF32AB65A5141E37
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.26563 0.00000
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/47E93944E07199ABD4BFF49605342D59
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.37500 0.03125
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6888B3A78924EFC4FCAEDDF2C0505440
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.29688 0.02344
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/9E1ACC70C4E2893B4E241FFB0ECC77C0
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0006.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/1C6DEFC985D3C168C74D2388B710E344
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.24219 0.14063
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/2315D3721E54A1B839C3470064A8ED35
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0002.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/44D31F01685BB03E8896B0965C2B7266
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.03125 0.24219
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/06E7F4D59E90D18D123EFCCDCD9C6680
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.46094 0.12500
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D1975D19E834C0A2A3FFEA2B524773B9
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.10938 0.12500
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/27A451C8FBF762B454E637DB47A4D96E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0005.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/72375FC7F0937D3D179D296475F38D0B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0006.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/02CB855790C5E38F2E47CA5D876768A4
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0005.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/CEEB8AA7E44DB56502833956F6DDEAA2
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.25781 0.03906
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/75551FAE80E963E45F9F0DAAEB2BD387
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.34375 0.22656
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0BB49F05D607CFED40659DB178BD2687
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.44531 0.03906
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/DE18293B7643F3C304B6FDAB613D2B34
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.26563 0.02344
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8FE765563EEE63D71A5CD0FAE9FC53C3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.53125 0.21875
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E3FCD17C994A87C7306863C00F081ACA
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0004.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C4A61BF33DB272C38423FE5361BCFEBE
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0003.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/EF1793A3AF212DE7B284AD65CC7FBCA2
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0081.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/panel5.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/1DEADD9E4C78790109BAF1ACF5D469D4
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0083.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/panel1.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/EB27A354ACC28DDEF8D6A4B1066ACFA8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0083.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/panel2.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/BEBFF3FE155D5D9AC3EB9DFBE2163627
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0080.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/panel2.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5AC17C22B43B29B390CAE871ADC1203A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0079.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/panel2.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F322633B3F03710C9B4A09A5779B122E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0064.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FD117D52E7ABF0C0C61CFA0EC135614D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0064.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F7CF4D66D985C87BFDE189B0A4F11A51
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0063.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 -0.50000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/76850CA8496D794BCD1E023F61A8B28B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/13FF83EF8407D4556E3CA0F233E0DA9A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.14844 0.03906
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F6DB4A5F8E2D89FB33961A5A1DDDCF11
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0063.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/CC0AECE3C5CE903ADD78AC30EFD267EA
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.45313 0.02344
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/32F700414AA87FF8F1BFD6D187EDA15B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0064.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0A495B2F0A53D373B011080973AB0CEC
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.60938 0.00781
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/9C31182A45DA5C5D1E8E178F4E6C1C8C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.10156 0.01563
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/96527058E2A5951B6151CFB08FCA7F64
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0064.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 -0.50000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A1D596A18D2BE00E83166112D51C14B3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.21094 0.00000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/32CD3E6B9E4892C060457C3EFE042D0B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.55469 0.00781
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/AC27783202615C0A756275713FD61E89
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.25781 0.05469
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F2B56E206C954039D099CC6E1F8EE4F0
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.40625 0.05469
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/B3BC7AEE3DA7FB28706AAB370F053EE4
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0064.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/9DCA4D5A52149E6275D833FE6EA6B4DD
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.48438 0.07031
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FFE8E9E2E5515BC41F6C552A7BCB6C07
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.19531 0.00000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/09BA76A95756A4D75D59A242D494D66D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0054.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8base_red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/11DFAABD61CA98ABFF3469AD51DE630C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0053.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/e8base_red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6F5DE254BCF006E7598A2CCBDF8FBA1D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0054.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/e8_base1b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/72264DD37E9E9A82E707F650100AB117
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0054.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8_base1b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/B59CDE3313C605172ECEC78657835438
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0054.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/e8_base1b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/099DB0AE884A0B458294F2C91A252C7C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0053.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/e8_base1b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/BBDAD8C8FFF09BDF473CF90DF75F6C20
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0053.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8_base1b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/309BAA41AFC73476EB26060EE8B3EA4F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0054.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/e8base_blue.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D0B491531E7D117D1B6B150CBFDDF339
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0042.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D36EB85F6CC8E88594549D1F1A4D0E0D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/3ABD552F1E62A735C1837AA7A5726619
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0025.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4E8C8FC6BC108D657A97E364092B0163
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/905A6371A671BF6AB017DF96C0454027
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0042.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8ABB53F118733AEDB57E8B88C0DA516A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.25000 0.02344
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C12845EEDC627CF9255A415870C95643
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0042.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/85905A180356305583E308DC716C8589
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0035.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/BB35CBCD6D3C2585A2491A15FCB5138D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0040.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/7A5B3A7DBB0E62743BD59D44AAAE1710
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0043.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6DB503C31FA430AD8BAAF1C4FABE1847
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0043.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/11AEEB96EED6E92586BDA9D219BEDA95
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0043.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/90CCF7490DBD18B6342EBD85CED10D9E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0036.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/B6BD397CA18D548BBA778DEC15CE93F3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0044.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/51E66F9AA7E3F38B6568D0BEAF6F3037
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0040.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/BD0D6C243B1096FAC3E7CE9BA6B4CE67
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0041.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5B80BC3C734BFC5C4837D0F6369B3F17
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0032.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/CACFFE761005C33AF2ACFB11C1B959BB
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0043.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/ABA85A59CFAA56D148D601A06BF16793
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0040.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/506D8DEF2A3686E3767610A979A937A4
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0025.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/58E0A0F723E2867D314AEFA812AF4FA5
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0042.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/319E362B870FA90670EFF512C52D9BC1
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.25000 0.00000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/343FC2ABB38918F5C33CC2A5A33F6416
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0038.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/450F7EA9BA5CC7E7CDD1AD9BE499651A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/191052A92832E7A3F3D7D5C3E1AA7EA4
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0042.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/60D575E71A114707FFC514A56C7328D6
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0083.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/pallette_top.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/98E6A44348BA7DD92F0ACD17E6E20AB8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0082.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/pallette_top.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F8E8F752BCE5E78F544A92BBAEEF202E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0065.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/EB186BB5FE1291BA72731289FFD8DC80
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0065.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F6094D46AD00DB61819FF6758D7089DB
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.02344 0.00781
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/1231D84E0CDC45B1C34EE69DD19C721F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.06250 0.03125
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0E08A9E24CFFACBAB7E8B3C038CF558B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0065.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E9421BBDBAC78D27AE9342F4023C5B98
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E7E3999051F22A7DD0B1BF999A6952D7
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.14844 0.00781
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E60DEA95C92B8B0E563BBD2BCE12354E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0066.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/floor1_l1_2a.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4644E96070A6409EEEB3F262565F912C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0078.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/floor1_l1_2a.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D9F0B4C5382CFEB15E9E691EC57C3340
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.32031 0.43750
+	}
+
+	{
+		map textures/pulse/floor1_l1_2a.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4569C7C6C0AA19D9D7ACD6E7972E7D77
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0072.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.36719 -0.15625
+	}
+
+	{
+		map textures/pulse/floor1_l1_2a.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/81D01BA5D876E5B1FEF21636E304E70F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0072.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/floor1_l1_2a.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4AB2ECC5A7B2854F9E9AD1F802FCF326
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/floor1_l1_2a.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C084C415FCF574EF9E1F8452F8AD2EFD
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.03906 0.00000
+	}
+
+	{
+		map textures/pulse/floor1_l1_2a.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E46FEF47652278F171EE2009BDA2CC61
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0065.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8cretesmlltrim.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4413FD74614F2C295EA42CD5F15B603D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.10938 0.00000
+	}
+
+	{
+		map textures/pulse/e8cretesmlltrim.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0657DF8E49D2C72495542B5B42FB8797
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0047.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e6basegrt_smll.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/21437F6518FCB1344C78FF76C20965AF
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0047.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e6basegrt_smll.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0F2EEEA72F7623E331421CF2D88A1B18
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0073.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/floor_trim.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/9B78E57AA8E3B8F8E9CFD050A0972E64
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.20313 0.00000
+	}
+
+	{
+		map textures/pulse/floor_trim.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/CB42DE039CB9EEBE130B971E2CEB620F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0072.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/floor_trim.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/3801432234BB820894AB38B5ADADB2A7
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0074.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/floor_trim.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FAACE1573AABECC6CA6761EB9E95F038
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.34375 0.11719
+	}
+
+	{
+		map textures/pulse/multipanels.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C7307F410C689DDDAA68D612BC4B075B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0082.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/multipanels.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/225AEDE43A0C13D93972E6714A47D302
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0080.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/multipanels.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/33BE291EE63FB0BFA06203CD9975B2FF
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/multipanels.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/9B9D36E6050AE0A2046C2A816BC3A60B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.71875 0.14063
+	}
+
+	{
+		map textures/pulse/multipanels.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/1B85CBDC670415DE569CDC55E1EDF4B4
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/multipanels.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/7CEFD8A299465DE59504F94153CF1BCC
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0065.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8metal03b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/BD0F75120C2B312B49656D20ACCAC91A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0037.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.07031 0.03125
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/69E4744E9C5ED1D2B5A16C967B87F5AC
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.25000 0.11719
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/ADD1586D1AAB94A50A400EDD802A88AF
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0027.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.07813 -0.61719
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A5E943349A0DB614C7244689E855BD10
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.01563
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/28210E77C901E2E8484772C9A2E5696A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.10156 0.04688
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5F8DC6CB160E692A717A144829A4C9CC
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0044.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.61719 0.10938
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E059A1A849FA314280C794D3BA3DDB43
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.15625
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/1F3C1A88ECC34741B5138E380B1957A3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.13281 0.02344
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/21AA47C5515396E0CAF9695443E69FE9
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.25000 0.02344
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FDCB74AE8D3BD9BA2DAC5AF35579D71B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0030.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.26563 0.04688
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/60B4B0EB0099576E6258DC3A30F08C3A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0030.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.04688 0.78125
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C93CFBC0B5BD713DD66DD2F6398373B8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0032.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.64063 0.25000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/2086F1808E1CB85688FED25E4ED3A8AF
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.49219 0.21094
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/DEB165611C9B0D0F7F970B40BC764B40
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0029.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 -0.21094
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F349EAAE8FBB7FFFA65774E7836963CE
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0031.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.17969 -0.24219
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5E5B7E62BB90FDC05EDA01E9B6F478D2
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.24219 0.21875
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4480BE8A280E139000A9CDCAD552939A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0030.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.48438 -0.45313
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6126B5A6AF8C10199FB876B01D24FC7E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.03906
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/75642999FF2E1E98E49308966C056FE3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0032.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5A6607BF12974F758B0CE5649CC16028
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.29688
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/2D47B5BA1C249BCA5C9F6B58009D9734
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.37500 0.03125
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/1A168C6E9297A0FCBB85F89107D58BE8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0021.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A292C8437EE6654DCC6ED31CB730DB80
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.37500 0.03125
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/34788B50F4D63484812A9C6FE8AEC395
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0032.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E95E1ADB1990F557FC920879FB980D64
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0025.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.59375 -0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/3CAC487622F41BCC723287F8C1A262C4
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0033.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/B1DA27BEAEAC923EC68BC0E2058F1AF4
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0024.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.34375 0.17188
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D4C5A993E349A8DAC5313118114C5A8A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.51563 0.03125
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E1BD8CB0047142A40AB518E40552BCDE
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0044.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+	{
+		map maps/pulse/lm_0044.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/75128AA6A1E24AE1B2E70FA65C0CF859
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0040.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/2FF21AA3BF3950DFD3924A3D28BD4907
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.04688 0.07813
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/32A604CB5023A389AEBCC2565CC19A90
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0042.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.27344 -0.24219
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5C11321A83B22B63DBDDD1C69C69EBE5
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0040.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/1B78C5FAF1DC1557F6668706C5FB1823
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.46094 0.03125
+	}
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.26563 0.46094
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4B3F593918D2FBECC4B09CAFF648C7B1
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0039.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.21875 0.07031
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/64610C9FE2470A88BB7C5B5D761CBD7D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0032.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.32813 0.13281
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0848E99607A60EADAC89A42B72E92DF5
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.07031 0.06250
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F3F0023E7F1264DB319C3F020AAE6EF1
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0033.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.42969 -0.42969
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A0F26C8780D5F17C833CC161B7C026C7
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0031.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.01563 -0.41406
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/678B6F7920F22767DAA76E9E1C232617
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.51563 0.51563
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/07D9F7FAD7A1314B10F8F788846DA280
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0032.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.07031 -0.17969
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/7775FB2AAAA1A16792D07C2C8BF2FEF8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0034.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/37522762B76E3B7D5BC235F0FB08BC17
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0042.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.38281 -0.36719
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0BA5A716ABD38F08BDD2DEFC327B886B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0018.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8171CFB19116EA4AC473B3A25E85D020
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0038.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.08594 -0.11719
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8E4ECD522A5165F9EE8DE416339252B7
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0030.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.53906 0.25000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/1B232C63566E499988056F617FA8DF78
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0019.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/CF6E9503614D9271996AF4BCFC01B22E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0032.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.70313 -0.14063
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6EE5A77DBD543D9B2EB2C2F429969709
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.75781 0.07813
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/751DF53F3CC051093FDF3A009B1493A2
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0030.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.07031 -0.20313
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5965DCCE5D1344C642E46D0CCB046A2E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.67188 0.02344
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/948C2D84E4300752A1D149E72FE2DD0C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0032.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.25000 0.30469
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/EA5EBF411B3F31347551EA44BFE8DE20
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0030.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.48438 -0.21875
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/847D98FDC5A54A57C3B9E14618B12218
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0035.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.35156 0.20313
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/139766DD941B03165964DA69D09DED25
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.25781 0.13281
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E3EC9929D89A9157260E124CF11DE064
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0034.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.45313 -0.22656
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/BB7D0810E395DD6C082207DA2A6292EC
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0033.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.35938 -0.69531
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/CD010BA51F855E46EA03472ADE63F8DF
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0029.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.04688 0.07031
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/7950CD471AF1521E7A9D76A98B6531AE
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.41406 0.03906
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8396A82CAFBF8FA2568E779853D39751
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0033.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.10156 -0.44531
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/576ABCA327FCEC1B533E01E3535B2117
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.24219 0.32813
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/078FF73DB1E729271215DB97AB3AD03D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.18750 0.57031
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E1DC23F6A87C536D6D6167D6A6BF2485
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0035.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.02344 -0.42969
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/911C92D55E5937B1047DB27A651CC6F9
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0040.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/912AEFF5412E35DE9EA10CD258070931
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0040.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.60156 -0.34375
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/3CF390C930E671AAA52AD739A4D2907D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.48438 0.03906
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A95EF8CF1631A68522E18F16E9BE27DD
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0038.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.10156 0.08594
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4BD81DAC5A2207CD42DBB8BBA18BA6AA
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.75781 0.52344
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E261D76CADD38D82B3FF52918C4EB651
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.39063 0.24219
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/BC1D91D4BFE0EE62AC7A34211D39DE8F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0036.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.33594 0.42188
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4A5D029783ED11F973150F9E2824E3F8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0038.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.34375 -0.10938
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/532EB514AE7924235D5A355FADFC118F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0031.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.45313 -0.66406
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6102FF0BC0634095F39354B9D870714B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.52344
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A247CAF3789EF52B08E418AE957FEB00
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0014.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.17188 -0.59375
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/2B57C4DEC0EF7378BF394ED4FECA9114
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.07813 0.14063
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/387719D109FDD2D42FBA4877F0A9CF0E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0033.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.08594 -0.71875
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/624BED89AC18CD92E795BE8DDA9D60E3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0038.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/61669B7426B4425C5C6A5A88E7E24987
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0032.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.18750 0.07031
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F6F11C257C2A3EA84DB6F39CE308A5CB
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.18750 0.32031
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5E29052CFE1E9753D8EB4844675897A9
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0034.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.28906 -0.31250
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0E2C1320FD30D0BE4EF6D87C3DA034ED
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0038.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.29688 -0.03906
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C70BADC43E126D954F87C86322E7C28A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0039.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.68750 0.21094
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/16332B9A491D558F01E2E329537FAB7D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0033.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.15625
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/EEB6F7E21E41D173458BE259F3FA751E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.34375 0.18750
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F27B50F794767D3D1B363FFEA35D36C0
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00781 0.20313
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0E50E4DDD2E6FC5ABF61A41BC839FDE8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0015.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.57031 0.42969
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6E9368F4BED35FA74E91F07E688860BF
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.27344 0.01563
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5A1CD8060FFABDFEABFB498B37FFE7D2
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0034.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.01563 0.17188
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/51E7F1A04194B1682F58F2DBE39BADC4
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.25000 0.03906
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E3F0EA21EF33CDD43F13C4399C1694CE
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.07813 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5B7F27DD9C6AF2849BC609429F03364D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.11719 0.02344
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/7DD4D468AEA0486F1FAE3B50E03E1BEF
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0033.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.35156 0.00781
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/90874A0D00D57B0BBAF5A4570DB1BC63
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.19531 0.30469
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8A4E038DFF7EF34253BF25B6995CD460
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0038.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00781 0.03125
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/57B62DB2906B01C77D95C22E1C8800DC
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.17188 0.28125
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/894809F8ABC6AF774A24CEF349B9E3F5
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0037.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.10156
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/31645B00ED9B9AAD618E863C57213C2E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.53125 0.21875
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/80C9B845249FEE8F9CF76D17EB185E30
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0039.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8D4087EB2E8B92739B0187699CB2AE62
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0038.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.03125 -0.25781
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/34C278662F581B5DF32B7AABAEDE4134
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0033.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/2CF898506DF62010A47422751ED8B36B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0040.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FF3B6393208AD61CD47507231932F70B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00781 0.27344
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/770A8C7D53EB118AFFB41C29AEAD5020
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0042.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.26563 -0.25000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/9C8E0FC29CCB161CF9FD26EAD321100B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.13281 0.24219
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/3BA8E0CC1E77FBF552F205F85A8675F2
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0032.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.36719 -0.18750
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/78714919F784345426E143CD042F910D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.38281 0.07031
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/3B888E2817B7756CE2A274EB1C6034F6
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0006.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/07B3BD15DB94D20EBF96787760D5CBB6
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0026.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.04688 0.32813
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/9C4C586E2456B280154F2CA5FB8A9513
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0035.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.16406 -0.67969
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/251E14626500603908395696227BB8C0
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.01563 0.16406
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/B3A699D25B1773A216A0E7FDDC1D1282
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0038.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.04688 0.05469
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/7BE392F38B13903EA6D54A9D0C5C8D8C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.41406 0.01563
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5859C233F11C592DDE973B2F14B3016C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.46094 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/57F18C11FA578555C165E945944031D3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.14063 0.43750
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/22F1BEE57DE3329FD6D2918076142782
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.14844 0.18750
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0EAC91296712B5CB453E588C65DC099F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0034.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.47656 -0.32031
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/43949B644E8A24495ADC3706C1C6AAD4
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0006.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/92434917C65D08765CE3D16B3F6F5361
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0011.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/99119BC43F89C2FB0870E8DAC18AD54C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.51563 0.06250
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/86AD727A6192DB8116C381C128FC22A7
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0035.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.08594
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8F33D5E820A8EC27758E33D254343480
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0060.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FD9E5F863D26ACF0365ED66F04947216
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.61719 0.16406
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/DFAAFC2705BCD918B09BBAA0F63D4A92
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0060.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/7C6C35446ECD96185F42F77A81BEBF95
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.25000 0.02344
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E833693A806D33617AAC9A11DC0EC619
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.43750 0.01563
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/58A29FBBEAB4E10FB1C794DAA1B1308A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.21875 0.09375
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/DDB0A5CDFC067D41E74AFAEE75870711
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.01563
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0B26C6338F6760CB2964BAD38A2CEA67
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0061.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5E37025DD29A5F8B7B33A1979C893DBF
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.20313
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/13E8321454F78FBD33B918E6264E441A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.40625 0.01563
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/7A1B727FE54CC7A52F316E27C843FEED
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.31250 0.00781
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F38359BBBBAED11AE7DA6184A544A6FD
 { // Q3Map2 defaulted
 	{
 		map $lightmap
@@ -28798,13 +15949,817 @@ pulse/CC6C03B78CC066237947AFAB7C26C164
 	}
 
 	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/06FF8A72D56A1F2A3A309EEF78838055
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.20313 0.00000
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/632947E1BE3D00C8A242C07A31BD5DAB
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0060.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8120A3C14C630709769D2A35E0419101
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.25000 0.03906
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/360DFAA039189F832F483841E198C927
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.44531 0.01563
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8477D2F9097C5F01F7D2D443104484FE
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0060.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/DECEE27C880C1234FC5AA13FD1DC1F2C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.18750 0.01563
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F56119A0122FAA2422BF6C8B0D958CD0
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0032.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/7BD8E1E5548413D179771F7F5E8E09D7
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0061.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/B3B0AF3AD9E6766FEC341789BF985208
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FB946A94D703A5FEB7D138BDD18D37DB
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.27344 0.00000
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/B5B73D90F23CC2F0B6ABED84AD37264B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.67969 0.02344
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/3B8139D8E4EFA0D54FD5A3793DE72C79
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.28906 0.00000
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/09C47AEC1814D848B69E7F0F97693772
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.41406 0.00781
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6E9E446293EDD924C2E5A04C27DAA037
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.32031 0.00781
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A34CAD988F078842BD0A8A280FE383F6
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.18750 0.00000
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A0C3A4F42C5E0C8228702FDA33368118
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.03906 0.00000
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6147D2B94A1C244EFFA81EE8FD92910A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.30469 0.00000
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/CCD808B2074DBB564972152F01FEDCFA
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.03906 0.00781
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/02AFB753C57A2022CC8AD069028FB737
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.13281 0.00000
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/B0C74FF7A37E6BC86609D804CF887AFF
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.39063 0.00781
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/609BCFB10997676DC6CADDE6281AA7E7
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.71875 0.07813
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/EDA5AC89BC44E7B25251EC74A46AA7C3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A6DFC5B016392320EEB16948D0B3BB91
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0030.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.03906 0.13281
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/BB8B91980A487C57F7A0A5A440DAF141
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.10938 0.00000
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/B52F9761F4AD361BF6C2D45C89F31D5B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0043.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/DB9791BA52461708DB8CD125345871DB
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.16406 0.00000
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/EA8467937A52FC9FB34D3AE324F94AE1
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.74219 0.00781
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/167F443ACA0B76585B68FF89A209ED29
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.04688 0.00000
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/EC8BA1965D0AF3DDDC8BA5F21081287E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.67969 0.00000
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/135D81F136F8F0475EB2F9074404BC8D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.28125 0.01563
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/320D8A9EDBD0B4DD8F56BC57FE911B5E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.25781 0.11719
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D26DBFB818D84F0511BB97FC5240E112
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.45313 0.07031
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/2745B81452C59C3D3BD7786E884C27A5
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.12500 0.02344
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/CB4C87F9AC0666625097411563BFC45C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.40625 0.00781
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/806128FC29E9432D6496E0671D2AB63C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
 		map textures/pulse/blackwall.tga
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 }
 
-pulse/E2C11BF1C7965D12093B6AE24DFA4547
+pulse/902F3E6BF0A686523AD315BD288A4406
 { // Q3Map2 defaulted
 	{
 		map $lightmap
@@ -28813,7 +16768,53 @@ pulse/E2C11BF1C7965D12093B6AE24DFA4547
 	
 	// Q3Map2 custom lightstyle stage(s)
 	{
-		map maps/pulse/lm_0074.tga
+		map maps/pulse/lm_0045.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/blackwall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/040915D32BBF0B2339D9729177F8686E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.05469 0.00000
+	}
+
+	{
+		map textures/pulse/blackwall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0AFE832F3A259F2297B06E452227246D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0071.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
@@ -28826,7 +16827,7 @@ pulse/E2C11BF1C7965D12093B6AE24DFA4547
 	}
 }
 
-pulse/99B9E1D0721807E8A3AF840C1898069C
+pulse/D89555D00E7F944CFEDB263F9B9C4C24
 { // Q3Map2 defaulted
 	{
 		map $lightmap
@@ -28835,11 +16836,11 @@ pulse/99B9E1D0721807E8A3AF840C1898069C
 	
 	// Q3Map2 custom lightstyle stage(s)
 	{
-		map maps/pulse/lm_0077.tga
+		map maps/pulse/lm_0070.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
-		tcMod transform 1 0 0 1 -0.14844 -0.75000
+		tcMod transform 1 0 0 1 0.50000 0.50000
 	}
 
 	{
@@ -28849,7 +16850,152 @@ pulse/99B9E1D0721807E8A3AF840C1898069C
 	}
 }
 
-pulse/3A085253C11F0EDE260BE8A031CDAAFC
+pulse/F3BE9B266EEAFCBECE63547D55C95475
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0075.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/flat_dk.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/05C488A583B939B6F96AE0909CCA78D0
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0070.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/flat_dk.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FEF4B455E094F894AAD73FC9EC4C218E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0075.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.80469
+	}
+
+	{
+		map textures/pulse/flat_dk.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6CCB67A3CEC1FC2C066FBFC0F13CB808
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0067.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/flat_dk.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/49B225ECBFB41E67C2DA2A9FF9D4DA6F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0075.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/flat_dk.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8F70E2D91B556AB64A543B5E13C55A50
+{
+qer_editorimage textures/pulse/cubelight_32_white.jpg
+surfaceparm nomarks
+q3map_lightRGB 0.5 0.75 1
+q3map_surfacelight 50000
+q3map_lightStyle 3
+{
+map $lightmap
+rgbGen identity
+tcGen lightmap
+}
+
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0076.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+{
+map textures/pulse/cubelight_32_white.tga
+blendFunc filter
+rgbGen identity
+}
+{
+map textures/pulse/cubelight_32_white.blend.tga
+rgbGen wave square 0 1 0 0.01
+blendfunc add
+}
+}
+
+pulse/0F63010FCBD7918890854A4A3A4003CB
 {
 qer_editorimage textures/pulse/cubelight_32_white.jpg
 surfaceparm nomarks
@@ -28864,7 +17010,7 @@ tcGen lightmap
 
 	// Q3Map2 custom lightstyle stage(s)
 	{
-		map maps/pulse/lm_0074.tga
+		map maps/pulse/lm_0076.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		tcGen lightmap
@@ -28882,19 +17028,57 @@ blendfunc add
 }
 }
 
-pulse/F27AD70DDB5DD5A93FFA79FDA0DA1DEA
-{
-qer_editorimage textures/pulse/cubelight_32_white.jpg
-surfaceparm nomarks
-q3map_lightRGB 0.5 0.75 1
-q3map_surfacelight 32500
-q3map_lightStyle 2
-{
-map $lightmap
-rgbGen identity
-tcGen lightmap
+pulse/AEFCBEFB1A4E9801A24412BA1A7D6F8C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0074.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
 }
 
+pulse/512BBF8C943E9CC65C300A53E4772897
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0075.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D7B8197E4D79C4837977784E1BA96EC3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
 	// Q3Map2 custom lightstyle stage(s)
 	{
 		map maps/pulse/lm_0073.tga
@@ -28903,6 +17087,7124 @@ tcGen lightmap
 		tcGen lightmap
 	}
 
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/173D0909F6CEBFBDC2746856AB47E833
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0075.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 -0.50000
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C31CB2B26E517722DCF3F4290752CE3D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0075.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.10938 0.00000
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/57641CDD1F1174DD574176DF77DA875A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6C1D85788B2A0967CE67D5EFDC589569
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.25781 0.00781
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F3611758384DD2997C84A879753922DB
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0074.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D55689FF68304EF12288BCFFA921F540
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0070.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.30469 0.25781
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8BE5C6689D4B194E7DAEE1991E8D1CDA
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0075.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FDAC0847F3E58466F4D4E7810E3E33E5
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.84375 0.02344
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C293ADE30062154EEE8A0FB74CCD2FD5
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.43750 0.00000
+	}
+
+	{
+		map textures/pulse/metal-red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/22CB54B27E69B2D750CE8CE118C61002
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0036.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/black16x16.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F58B456F7B5EF1DAB8862C464F357614
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0036.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/black16x16.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5AB864652F4B5E1214C927C8F437B520
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.45313 0.05469
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0475DA9BA8DBAC0004EAA3F892482AF8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.45313 0.01563
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C39A1FC4C91DD8515552BB8783AA0955
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0009.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/564695590B0DBD19D9DF7B0BFE29BCE9
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0007.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A587BA86D280E88AEA1DB27289118900
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.64063 0.00781
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/167BF778C3A09F467C5793D6F5CABA7C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.25781 0.00000
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E95B2E1CA5EAAD8D7281477B3C5783E9
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.53906 0.03906
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/3D63793A48B1686F2FB4F50AF2E144C3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.41406 0.06250
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FD6C219A17679B791CAEE153BC414721
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.53906 0.00781
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6BB5BFCE4B769CB389328FC1ED35355D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.45313 0.00781
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/BCCBAEF3AA7BBAE773BB9CE2C9D25621
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.44531 0.00781
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/7E8158FE48BE4D01977A87C60EA5C932
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0010.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/07836FDA0A1BD35D0ED2326DB1B219E6
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.46875 0.03125
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5A1D07AE20C33A1477CDC22B2A4E95BC
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.61719 0.21094
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/447D4B8A695332E84CDDBA46454526D3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.27344 0.00781
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/DD8CD59A020FB92E0211F8FF686B9C15
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0010.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/90D82B05BD81E66C18439BB4A2D1A853
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.38281 0.05469
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E7E65376203262A117BCBEF3E573F0F8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.35938 0.31250
+	}
+
+	{
+		map textures/pulse/base_v_ridged.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F60A6ECBCD19DC81AAB11D9DD7441ED8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0003.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F553308C6025FCA17B094A70002FED4F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0004.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/81E3AE8902905044692F4B8D8CDC93C6
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0004.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/CC776A52DA8726E2BFFDB8A4BC53B4E8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0005.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/557413783ED8B38A28779FEC19EA92E3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.10938 0.24219
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/B68D027FF2609370B22CDCFE1434953D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0002.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/3D8F6911CA5DBB0F60EFAAB7121DC85C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0003.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/494F07B79A1CDCE9E9A0B51BF21C8EC9
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0003.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E436456BB9071633E69E71E10DC30812
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.17969 0.32031
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/BDF837AE41801D8E68F86C4ED0F24059
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.57813 0.00781
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/B1380F7DF6C601289EE194D51ED9FA9A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0004.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/achtung_clang_128.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/84463366D2232D1F63D9A9E7E008E9E1
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0074.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/panel5.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5399E357486B0A26B98B2E5D3757CDB3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0076.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/panel5.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/3C0A6DE734CAD12850C3B12A69A0B297
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0065.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/panel1.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E7F6036E02CBBD13068C7B30AC20124D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0076.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/panel1.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D0E9F6403E082E96681231F9120E0D39
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0067.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/panel2.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/66DC12956DCE875C9341BA093F3A7177
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0076.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/panel2.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0CF188099D0A8DE45F9DE380BE28213A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0069.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/panel2.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/81634E3E7F912F4AF615581BC13268D9
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0057.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/224E753C7D6C599E6B4596AABCA4739A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.30469 0.03125
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/2765ADEC3E7BEABCB8229A94C1EF7431
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0056.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/BD7C1CAB179B315CCCC49AD394238C9C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0056.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 -0.50000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/9A6C4AFDBBDB137CFE37B4C963679EBA
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0056.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/CD9CD9A1DAB6A1D3319FFAA27A886BF6
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0057.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/DF7D3F465596A8DAE2E5B3BE6F87EFF1
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0056.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/36C7B9739F4FCAF7F63F1A7909CA33BA
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0056.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/279C8AD45A38659D309C3AEB4A2B029F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0056.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6BED3AFF614F901F3AB97EA63DBD623F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.03125 0.02344
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/DEA150C4C70D3E97BD718C27DCBDDBA8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0057.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 -0.50000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/375F283A689E7C927B9CE23358139E57
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.09375 0.25000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/3CA0DD06AB1F5D1717145DF2A8F0D333
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.22656 0.26563
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/3491F3C73C86F9A4DF0C0170CCBF7CD3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0057.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F3B2AE078AC600B8D88CF04438ACBCE8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.62500 0.06250
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/844B4C05F1F4D1E383EDA03EEC6783B0
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.60938 0.16406
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/3FB35EC6E5732D46F3096F52F218E008
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0056.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A62C82C8C60B527C0F8A1F816C44B4C5
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.40625 0.00000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/B82247CCB6B631BB213EC45B0DB688D6
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0057.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/911A0C83659D63D7B98823D474537D5E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.18750 0.00781
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FCD649A1CD77D0DC631B60AB5B4D4D95
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.63281 0.00781
+	}
+
+	{
+		map textures/pulse/e8cretefloor01c.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/89D1FBBA27F307A252E7CCBB18DCF7C9
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0047.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8base_red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/14CA459D0E5AB127128227471D15FD2F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0046.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8base_red.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/16A562E130BABDB6546804D9828C8341
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0047.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8_base1b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/BE3915B7018F8C42F939D5FA16CE065A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0046.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8_base1b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5DB33C33DFD5CABF07D12831587A6127
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0047.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8base_blue.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C992D39450E0AA0FC29223AADF844881
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.42969 0.14063
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D174C90ECC4322B9FE5C4A90E6CF5390
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0035.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E4DFC93A4D147F0D37E59574BAE60805
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0020.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A9A4A30A03116FAEBF0ABACF08BC39AF
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.06250 0.00000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0AD0D58FB2852A50C942EFB67C070785
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0036.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FA4FB94F7436BAA5C3CA7B5F646490B5
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0037.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/2BCAD9BB60F80F46FB2A0FF8EDDE96DB
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0036.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4E3306D49FE163BD4B1579EDC13AC891
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0017.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/2AC150919729D8ED90C907C3D8F6EF7D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0036.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/94E34AD59C30C087426DCF7760791C4D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0036.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FFE9CFB03A6EC650C060BB510616D852
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0037.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6534357E23459E50A6BB6B2AED5FC9E2
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0035.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/30FB289703FE88DDA47964D13BA5E7E8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0037.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0DE00DAFF974B862102C9FC92013B55B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0037.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/AD106276333CA2CC523054DF5CC4896F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0035.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4C6870E3F3E1CCD88F5B6D0A128F7783
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0036.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4EFCB9D4BAC4B49D792A6E8CAE3F4EDD
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0037.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D04CF8B3D810EA4AD1C94B8C762FD2AC
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0034.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E4A8C975D18994AFBD9400D61F8EBABA
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0035.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5B5ABD3C016E915C09C1414E9C54B05F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0035.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/9DA088EF8ABC9199C2721BC246015F87
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0027.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8122BE3944CBC5B658950DBF75E6A484
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0017.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0DDDBCBBA9B160D0F8582AFE6A37582D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0036.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A60BC5CCAB6C4926847FFFD9D37CF1C9
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.01563
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/2CBEC41F482FE569276583A49F09825A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0035.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/867B30FA1CDDA1AC7F264BBD54132606
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0033.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/9E6E10826A8F7BAC892D6743590781F9
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0029.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_yellow.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8846119DD75123BDF9064E9FD90DB607
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0076.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/pallette_top.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/420F01597DB9FC018AC7930E3E31D639
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0075.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/pallette_top.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/775309941376D296400CF65A33565F21
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0075.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/pallette_top.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/11E7495FB03193A7C87373C97A29D6E4
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.29688 0.03906
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/450D6A240D6B0F0E8F2B16F50E6E7A35
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.69531 0.00000
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5FB661ECE2826E993636EF76DCB01C35
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00781 0.04688
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/98042F9F85683BC70F9B1E96207BC161
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.09375 0.00781
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F58FA5B12B4F41D5645401EFFA47AF4E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.27344 0.03125
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/61EF5DB6A2AFCB452F83FC925A5C0635
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.77344 0.11719
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FE3A9F8102E74A4F2F0621EEC801FDCE
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.08594 0.09375
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/37E83402E35A41752FECFC2849A3823A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.67969 0.00000
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/7E9942C23A6ECD72E36BB12892B4CE3B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0058.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5E0F8DECF840F89FABDB7082DB4A021B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.55469 0.01563
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/980783AEC6881E06256ECE765DCBE050
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.20313 0.00781
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/35E1503AAB9E229A52B108C9362FD3B2
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.71875 0.02344
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/1C9317E267A19ED60CC6FD991E25559A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.44531 0.01563
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/45ECD13DFC3F52DA0B27AFEF618EE42D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50781 0.04688
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/341C4FB0EC27643A22AD86D1FC64205F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.81250 0.01563
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/CE10120D532CFBA5D134B5D38B3D5F34
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.39063 0.00781
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/40E1661006B7C4C474C99056AFECD791
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.14063 0.00000
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8D3351FBC65F2CAF51BDCB40092EFB7C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.74219 0.04688
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6633E9E81DD3B5741365357F9B6481F1
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.46094 0.00781
+	}
+
+	{
+		map textures/pulse/ecrate_drty.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5329D4CDD755CC9C29FD62A00101A3B3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0069.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.17969 0.04688
+	}
+
+	{
+		map textures/pulse/floor1_l1_2a.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/052A5D28554D00C91A4C9654779C67B7
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0063.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/floor1_l1_2a.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/BB1E5A3DD22126EBABDB40068BC14729
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0064.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/floor1_l1_2a.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/442D17E0037E4A80752AFDD67B2D9903
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0067.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/floor1_l1_2a.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/DA5752FE5BFCB7D0C1959BE0E62E92CE
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0062.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/floor1_l1_2a.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/7390E903D8AC580B561C8FD407B79688
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0065.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/floor1_l1_2a.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5905EA7CB3B462A972BB09D5EB6C5F80
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0058.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8cretesmlltrim.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/B52AE27C67242C2131CB676017055859
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0057.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8cretesmlltrim.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/2FAF0318288FED357096DF7663C34764
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/e8cretesmlltrim.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D426AFE67A0278029C486EBD9EABB7E2
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0029.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8cretesmlltrim.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A656B1BDA5A14B299FD157E57A79E8F6
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/e6basegrt_smll.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/2D31E1DB4420AD5410E01FDAC50D7340
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0040.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e6basegrt_smll.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A6112EF7C2ACDC4C95EB323758EF397D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.34375 0.01563
+	}
+
+	{
+		map textures/pulse/e6basegrt_smll.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/43E47B6782BB42F4ED48F81D1AB9D164
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0063.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/floor_trim.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A417E56B2ACA044A9CB5C3EF0220D79E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0066.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/floor_trim.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E3ED1A927C8C77BEB93915BADB083644
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0064.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/floor_trim.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/06F356A1CCA5EE1E135A43D812A40D4C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0062.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/floor_trim.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4028DCECAC112EFE2E13D0EB6719AD54
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0066.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/floor_trim.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5767D3D5BA455A0027E54CA2A92FC75C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0074.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/multipanels.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D2E667DDD2147A65D5C28214430A8648
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0076.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/multipanels.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/2175261CB2FF09BE2F4C09FED6D95B8F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0075.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/multipanels.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/9A04FC0E9FB618F2EE4DBD119ABC9F2E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0073.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/multipanels.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D8F1F2E45A03387D25FCB61FA3FCE58F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.07813 0.16406
+	}
+
+	{
+		map textures/pulse/multipanels.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/37E2CDB689D2FD1C1F3C1E102887FA5A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0033.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/multipanels.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4623A9088FC081EFB3519C2A366D478C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.18750
+	}
+
+	{
+		map textures/pulse/multipanels.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8B715172341D1E5CCDA9006E9BDF8816
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0058.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8metal03b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/AED80745A3F41E3E9381A8BEE2198045
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.12500 0.40625
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4855AE3DA3CAC8F90D036C6A67769712
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0036.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FDF5D9D176EC076348023253BF6865B8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0036.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5E01EABDE21A3600141F190DF2AE98BA
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0036.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E51058E6E04B37FCD76000AED4569695
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0031.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C784372489302C9AEDD2C0353FBCF254
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0022.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.03125 -0.16406
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F4CF09EF385F9F5A5C7218AC48475000
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0026.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5E7F4201C07CC1264C8CD7DB5E0B2573
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0027.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C7AD966399C34FE9EFBDBC427DBFFB5D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0027.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/14F9788C0FC7C6457F54C7CF484F1215
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.23438 0.01563
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C94114CB159CF224680253716833091B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.51563 0.10156
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F32CDC59F9201E27C7D2A4C9FB1F01CD
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0037.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+	{
+		map maps/pulse/lm_0037.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.28125 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/DC856250C1B0019FB262619CB9DAF96B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0027.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/CF9868C66B98FC557FE01DC9E658E54A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0027.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/74C48A0603D676F1D02B666F3D861601
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0025.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/02A5D5B5B307BBB3EA5C9445F4EB4819
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0027.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/CEBE5AB4172A5150D6458C6BAA9E55E3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0025.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/DC5A85209B146A3089FFFEF9BA7D1B60
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.45313 0.01563
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C3E2F78C575C071ECDDAFD8ECC7E1C36
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0023.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/EA8567D5283F7CB7B822209928C84D1B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0026.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.00781
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E7A268E729076A060983184CC7FDE1CF
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0027.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F2ADF5621919B117C58009C1503DB1CD
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0026.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E835DB72E169ED6D976D8C2D1489EC33
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.35938 0.01563
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C17A7A4095EC1FA54AF3AB524C03533B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0027.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4AB44B39B5318E6E0A3A0E89ECADB9D0
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0026.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.32813 -0.64844
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F710C8D5716908C7D5CE82AFB14A63D8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00781
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/7E18974ECB1E1DAFD0498392494A57A8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.03906 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/612A333213590521E7E1C9A2BE07F605
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.20313 0.04688
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/3CE9A29ED1198E5BA97C261C8B02CB56
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0027.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F843A580C5F08B505F719BB7670C639B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.59375 0.00781
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/00C002D0AC6F4DAF5FD554F962D9DECC
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.35156 0.07813
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/90AF97DEEBA6E18EF531782E4408D9C7
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0037.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+	{
+		map maps/pulse/lm_0037.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5870BC7B82B23B0EB87779A4E222EA82
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0036.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8E0904233723CB91CB412DCD53DCAACD
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.49219 0.21875
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F7669E485AFBA9673A5B94C6044380F0
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.22656 0.25000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C0E0CDE413D9DC30D4FCF3BE5F54AE95
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0037.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+	{
+		map maps/pulse/lm_0036.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A19ABB348F5CE53DC96D7E8D4EC027E7
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0036.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/CCF5A55745F352BCB456D6D81B34B1BA
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0024.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.39844 -0.29688
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/47B80D68248FC9F03E63391C4C44ADFB
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.81250 0.32813
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/58409646A5B245028278816A6393AA4E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0026.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.25781 0.03125
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D05BAAA3A72BD37C1B589DE0A32E2A7F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0026.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.00781 -0.25781
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6585D84B75D3ACE916D3B5DEE774059E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.16406 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/09FC99840D2C8F59B130EE9F8CEAB65E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0034.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.39844 -0.36719
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/DDF7225F300CB0AC31EFFA1E1E573D32
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0034.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/020DFE6F2CBA575A13E51B71ADA81C4A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.04688 0.09375
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/2633792E0BA1D4D7D4058D4027AE37AD
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0025.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.10156 -0.19531
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F86CA4DF77A272528FB9A4E381FC999B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.14844 0.03906
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0B43D3DA7C34DC391BA753E86BD51921
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0026.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.85156 0.10938
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A425609FAD069ABADAE8C23FA7663BF5
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.03125 0.10156
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/58CBC192A21F67BA2A4725779DD6D066
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.54688 0.04688
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/24763F9CDE2D36F7F09E33D1E9ED932C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.34375 0.00781
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A1B99B9D83AC9C5461D9B4DA6F5189D6
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0036.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5620030BF0F2BE5D609EFF99CE3956D5
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0032.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.16406 -0.04688
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/290AB09BFF0F34213A9CCDFBB6E5D70B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0025.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.62500 -0.28125
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/AC093E72F3A690C25ADC5E55EFFC2D18
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0024.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.12500 0.38281
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/AFB7CA2A00A5572B2502A415F0C394C8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0035.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/82F4E275CEA90FF51CB5D5BC267262D0
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0016.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6E8E5AD71B64D802E5AC41CFEC203915
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.25781 0.00781
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/13BA0510BA9C036D8DE6765DCA8BE322
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0032.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.08594 0.40625
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0A1E094A4CF888ADCDDF1782FD3858E2
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0035.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/01085AEFF5316CA610020F557F038BA8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0032.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.06250 0.45313
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/3FEAA53652EF951A650D1B41FD2FE3EA
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.14063 0.04688
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/101395169292CFFB095008A06C17BE17
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00781 0.17969
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A35417FE352AE22910BA3A883949D9C6
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0026.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E5D09F390D00D30D5594A352C53CC3B7
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.08594 0.04688
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4541329E78F15D8E065A10589BB02C88
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.30469 0.02344
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0BCBC56C94465230770BB9A7700C1B3B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0024.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/DC18E7307666F7032D37FC25E71F50E4
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0028.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.48438 -0.46875
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F945D8B6212FA093F5AB8AF7B91DED62
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0012.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/15E470F873CC2265A11CB316473A64F1
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0032.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.17188 0.39063
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FFD7B57489DE19853526F8923AFE1905
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0026.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F8CD42403C7191C4750559823EF29E33
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.78906 0.24219
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/54E1D448A95444213BCB3C92E0ECC963
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0011.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.29688 0.03125
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/2C79A59D3C23843149B885DAB9059F5A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0036.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/30BF8B02E8D99C1517DA733A3A10DBA8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.30469 0.27344
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/1646A0A685FC828C7BA28BDB120FC3D0
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0028.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/CCF04FDB9E8C840BB6C3BF7D9FD6750C
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0026.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.15625 -0.42969
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/866274AA8FAF97A2D28F34120DA158D8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.37500 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A9E49EACE49BA46E46303CC3866C0369
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0026.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.26563 -0.38281
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/BFF9E77048B79D0E7144FC5937120540
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0025.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.43750
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/20CA522BF80CDFC97161906247F98AE6
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.38281 0.08594
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/7AC9B6AA34606331A4DC87A8098C1634
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0023.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.24219 0.20313
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E9E01B399C113343B4C8FECBB256DE29
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.33594 0.37500
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5A41356F64C3D9543A9B49CA9108AAD5
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0035.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/360E872EB92CAB1E80446553A1DBD380
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.74219 0.10938
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0BEE481EFB954B39E63733DC3FA1AAFE
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0034.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6521FE31D67269FA2B5FBE0032412255
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.49219 0.05469
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0D666B8F672213C9B7FE1898462064B6
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0024.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.05469 0.10938
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/479E9AAA701F3B7824941F96562E8F7E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0026.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/75C0E0EF3FF5ED67C4C3D10D9087B50E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0013.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.64844 0.48438
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/494D02D1F184F8FB81923DFACFF7CC69
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0035.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/BBE49120EEB7092C9674C3E6B1EE28DC
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.44531 0.00781
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/3E61A452154C73EB2E2178581D0873FF
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0026.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.45313 0.20313
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/59C26B71FAC16377ED9CFFFA574490C5
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0026.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.27344 -0.18750
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A5BF6E77CE084D8904523C64AF0F4A76
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0003.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/E01EC84011F60FD910A910284C947B6E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0027.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/5091FBD28763CD0F1D2891334A98D768
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0020.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/B743F83A613BA63529ED22F418B7458F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.04688 0.05469
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6F042B53FD1F9F846AF40401DE08B99F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.40625 0.00781
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C138E6020BF16275C9B8F4F498D9BED5
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0021.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.21875 -0.47656
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/72F390E5384F5D137D92E73C197CB685
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0031.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.37500 -0.04688
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/AE66ACB1A5133512811FA91D7B451567
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.18750 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/58B1F8B233A6E1F871F87C7CACBD8B8E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.07031 0.36719
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6DE148321157899192A798248156D430
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.92969 0.19531
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/3D0B18D816065CBDD77BC5009BD79F1D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.25000 0.24219
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/86D35C9EB02C396143B822CFFCB161CD
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0027.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.19531 -0.08594
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A2AC837748979DAD19849CEDC6715A16
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0022.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/CD8FE411C0FE9714821C048126C3B4B8
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.19531 0.03906
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F10F8AED3001FFEB085F4D49060D092F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0024.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.19531 -0.25781
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D407F702CA3A1FC18DA3C727FB69C8D6
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0033.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C86CD402B3FF5303443CCF7AE5E35E7A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0018.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F877BE3242A91A6EB76F0A49D86A29C5
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0033.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0214DE703E36DEE606CFA0557779B7D9
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00781
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A15C89D6656B5E96710B407C076529B3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.67188 0.06250
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/3FD26FA89A7D9FC25FA503568A94A51F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0035.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/49DAAFA49AFB2E9732DA8ED907FC5C73
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0034.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/base_wall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/439D1F3F754DA84EDC8A765E8DBABFDE
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0054.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/13B3399D5A8AB5BFA3250D779D4E1B9A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0053.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/023586F81CB0CD6DF59CE19E7EEDB317
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.54688 0.20313
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C3E080D3C6EE8901CF16761082AAB013
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.45313 0.01563
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/00BAA44988083DD9B00D6ADBEDB3D137
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0025.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/CF4B154DF81936667E4929F751B2DDB9
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0053.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/DF6B8D39443754C03F489C1C3EC8E483
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.29688 0.01563
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0F60AEB686A578CC4F3ED530BD026B8F
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.30469 0.00000
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/1685929340C6797C611296DD60BF1BE5
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0053.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/3C287668C92A3CA4F499CC768E314CF6
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.44531 0.00781
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F4813BDFC0EE71A610E92F9E75D30696
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0053.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A703A3594B0F266FC06EFF65C80EF9BD
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0054.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00000
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/C99B72B874F6B770C6E15B92AF23AF13
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0054.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 -0.50000
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/2DE1AC51275DF86950F3DFC834EB5689
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0023.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/F7B9F71DC978BD996CF6651989CA392E
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0026.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0655D4B947E6E77BB1BD7B7092667085
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0025.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 -0.43750
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/16C1DCC225B846220521C9996ED44893
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/B27525AF11E70542D73B3EB5CD5506A1
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.05469 0.00000
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/16024DFCC036C16F4813C4523AD8AEC0
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.10938 0.00781
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/BF1AF188029969F29F7E37F78BEB19C3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.00781
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/0B5B872913BA9AF4C56949919AC30BD7
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.64063 0.09375
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D5C88289A648FE088B30C16C1A30301D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.07031 0.00000
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A6AB6B19211B923FAEAC7C84513958EB
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0053.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.50000
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/4D5684A7FC4DF0C1628A479F239621F2
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.43750 0.09375
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D9206528917CC8858787259DA4B89DF1
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0030.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/CBDED218D2FA63C0E0B7BFDA72BCEF44
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0033.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/A2F763584AAEE42E348DFDCB828FA570
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0054.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.50000 0.50000
+	}
+
+	{
+		map textures/pulse/e8clangfloor.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6C34BA83723B8408BE96D3AA00DA1726
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0049.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/297F77EA1292B84382D1C8B29953C090
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.17969 0.00781
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6295D18983910D93FD3CF0985BAE2B8A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.73438 0.02344
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/514833A053ABE759D73EE30B174F4515
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.40625 0.00781
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/55FA1CD87A5A60073387E8668714BD87
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.24219 0.00781
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FD1A3F2280526DED256B83ACCF8EF14A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0025.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.62500 -0.28125
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/FDAABC031A630DBE15EF21DC3DFBBED3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0033.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/878C6AC6D77C555DE8087882D153209D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.13281 0.01563
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/8390EFB6D218C2D5D7A315139820DEB6
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.11719 0.00781
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/CBC035C6AA5FDAB09C2163F496D3C05D
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.00000 0.01563
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/6E63A1B02B853501B5335F79A22BEE3B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0030.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D87DF9FBA15FAD0BA7DD5AF9BE003B73
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.47656 0.18750
+	}
+
+	{
+		map textures/pulse/e8beam01b.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/CB78983582C1DB5899CEE76E17B9982B
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0038.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/blackwall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/7532E8923AD11898B6AD8602E063B98A
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0038.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/blackwall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/87B3E24F0BB8512E588246879AA9CA84
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map $lightmap
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave square 0 1 0 0.01 // style 3
+		tcGen lightmap
+		tcMod transform 1 0 0 1 -0.42188 0.00781
+	}
+
+	{
+		map textures/pulse/blackwall.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/705FC0EA1B16A883B59A0AE64420D4C3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0063.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/flat_dk.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/087050110430C310051DBDFD148664E0
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0061.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/flat_dk.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/D9CF0DB60DE6E64CA504B01B51BA8E93
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0066.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/flat_dk.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/74330C304F68B8F1D56752EC7AD2B4B3
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0059.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+		tcMod transform 1 0 0 1 0.45313 0.04688
+	}
+
+	{
+		map textures/pulse/flat_dk.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+pulse/7B21927B8C454777F24E2CB666D80902
+{
+qer_editorimage textures/pulse/cubelight_32_white.jpg
+surfaceparm nomarks
+q3map_lightRGB 0.5 0.75 1
+q3map_surfacelight 32500
+q3map_lightStyle 2
+{
+map $lightmap
+rgbGen identity
+tcGen lightmap
+}
+
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0069.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
 {
 map textures/pulse/cubelight_32_white.tga
 blendFunc filter
@@ -28913,5 +24215,60 @@ map textures/pulse/cubelight_32_white.blend.tga
 rgbGen wave noise 0.75 0.5 0 20
 blendfunc add
 }
+}
+
+pulse/0F642B72D77F47F1EF98B724D254551C
+{
+qer_editorimage textures/pulse/cubelight_32_white.jpg
+surfaceparm nomarks
+q3map_lightRGB 0.5 0.75 1
+q3map_surfacelight 32500
+q3map_lightStyle 2
+{
+map $lightmap
+rgbGen identity
+tcGen lightmap
+}
+
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0070.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+{
+map textures/pulse/cubelight_32_white.tga
+blendFunc filter
+rgbGen identity
+}
+{
+map textures/pulse/cubelight_32_white.blend.tga
+rgbGen wave noise 0.75 0.5 0 20
+blendfunc add
+}
+}
+
+pulse/16CA4D3904A08FDB6907C78755757557
+{ // Q3Map2 defaulted
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	
+	// Q3Map2 custom lightstyle stage(s)
+	{
+		map maps/pulse/lm_0060.tga
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen wave noise 0.75 0.5 0 20 // style 2
+		tcGen lightmap
+	}
+
+	{
+		map textures/pulse/floor_trim.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
 }
 

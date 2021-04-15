@@ -78,7 +78,7 @@ textures/pulse/sky
 	q3map_lightmapFilterRadius 0 4
 	
 	//q3map_skylight q3map_skylight amount iterations
-	q3map_skylight 210 3
+	q3map_skylight 200 3
 
 	surfaceparm sky
 	surfaceparm noimpact
