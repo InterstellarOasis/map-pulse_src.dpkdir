@@ -12,3 +12,5 @@ steam.wav
 stretched_brown.wav
 	soubok+tremulous@gmail.com
 	
+
+Also "comp1.wav" and "comp-beep.wav" are under Creative Commons 2.0/3.0 with public domain (CC-0).

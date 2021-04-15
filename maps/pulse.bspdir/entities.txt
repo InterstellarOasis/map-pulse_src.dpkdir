@@ -71,7 +71,7 @@
 "classname" "target_delay"
 }
 {
-"noise" "sound/pulse/computer1_short.wav"
+"noise" "sound/pulse/comp1.wav"
 "targetname" "main_door_event1"
 "origin" "4320 -1504 -1312"
 "classname" "target_speaker"
@@ -1216,7 +1216,7 @@
 "targetname" "target_hard_outdoor_hurt"
 "volrange" "1024 1024"
 "spawnflags" "8"
-"noise" "sound/pulse/computer1_short.wav"
+"noise" "sound/pulse/comp-beep.wav"
 "origin" "3856 -2120 -696"
 "classname" "target_speaker"
 }
@@ -1228,7 +1228,7 @@
 "classname" "target_print"
 }
 {
-"dmg" "4"
+"dmg" "3"
 "spawnflags" "29"
 "targetname" "target_hard_outdoor_hurt"
 "origin" "3856 -2072 -696"
@@ -1238,7 +1238,7 @@
 "targetname" "target_medium_outdoor_hurt"
 "volrange" "1024 1024"
 "spawnflags" "8"
-"noise" "sound/pulse/computer1_short.wav"
+"noise" "sound/pulse/comp-beep.wav"
 "origin" "3856 -2120 -720"
 "classname" "target_speaker"
 }
@@ -1336,7 +1336,7 @@
 "classname" "target_hurt"
 }
 {
-"noise" "sound/pulse/computer1_short.wav"
+"noise" "sound/pulse/comp-beep.wav"
 "targetname" "bigDoorDelay_5"
 "origin" "7688 -1690 -1424"
 "classname" "target_speaker"
@@ -1354,7 +1354,7 @@
 "classname" "target_speaker"
 }
 {
-"noise" "sound/pulse/computer1_short.wav"
+"noise" "sound/pulse/comp-beep.wav"
 "targetname" "bigDoorDelay_2"
 "origin" "7632 -1690 -1424"
 "classname" "target_speaker"
