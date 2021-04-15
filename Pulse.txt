@@ -1,17 +1,25 @@
 Pulse RC1 by BillyRazOr (modified by rendered few hours)
 soubok is the first created Pulse as build 102.
 
-Release date: May 15, 2017
 
 ====DESCRIPTIONS=====
 
+Revision 2:
+- Outside human base is reverted to "nobuild" area
+- The outside sound is louder on stereo mode with add some "target_speaker"
+- Added some lights at Watch Tower
+- The water is now allow to build A/H bases, except inside water tank
+- Inside human base is reverted to Base Entrance (with captured layout by before)
+- Other some minority features were fixed
+
+Revision 1:
 - "nobuild" area on outside human base is removed, except on empty places
-- The outside sound was replaced to new form of sound
+- The sound was replaced to new form of sound
 - On human player will randomly spawn to inside or outside area
 - Inside human base is now relocated to Generator Room
 - Fixed irregular place that can build bases at skybox area
 - Adjusted brighter light values and add some lights at darker places
-- Gravity value is 690, from default as 800 (91% of Venus surface gravity lighter than Earth)
+- Gravity value is 690, from default as 800
 - Other some minority features were fixed
 
 

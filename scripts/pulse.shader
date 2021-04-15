@@ -795,6 +795,47 @@ textures/pulse/water
 	}
 }
 
+textures/pulse/water2
+{
+	qer_editorimage textures/pulse/water.tga
+	qer_trans .5
+	
+	entityMergable
+	
+	q3map_globaltexture
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm water
+
+	surfaceparm fog
+	fogparms ( 0.01 0.05 0.05 ) 1024
+
+	cull disable
+	tesssize 128
+	deformVertexes wave 100 sin 1 2 1 .1
+
+	{
+		map textures/pulse/water.tga
+		blendfunc GL_ONE GL_SRC_COLOR
+		tcMod scale .03 .03
+		tcMod scroll .01 .001
+	}
+	{
+		map textures/pulse/water.tga
+		blendfunc GL_DST_COLOR GL_ONE
+		tcMod turb .1 .1 0 .01
+		tcMod scale .5 .5
+		tcMod scroll -.02 .1
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap 
+		blendfunc filter
+	}
+}
+
 textures/pulse/water_radioactive
 {
 	qer_editorimage textures/pulse/water.tga
