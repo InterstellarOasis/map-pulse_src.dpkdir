@@ -3,6 +3,8 @@ soubok is the first created Pulse as build 102.
 
 
 ====DESCRIPTIONS=====
+1.1:
+- Fixed mushroom textures name that cannot detect it.
 
 Release 1:
 - Inside telenodes were removed for restoring original Pulse likely
