@@ -4,6 +4,9 @@ soubok is the first created Pulse as build 102.
 
 ====DESCRIPTIONS=====
 
+Revision 3:
+- Outside sound is replaced for slightly reduced volume, also with longer duration of sound
+
 Revision 2:
 - Outside human base is reverted to "nobuild" area
 - The outside sound is louder on stereo mode with add some "target_speaker"
