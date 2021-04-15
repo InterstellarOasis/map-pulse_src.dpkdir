@@ -102,9 +102,9 @@ textures/pulse/white
 
 textures/pulse/sky
 {
-	qer_editorimage textures/pulse/env/pulse_up.TGA
+	qer_editorimage env/pulse/pulse_up
 
-	skyparms textures/pulse/env/pulse - -
+	skyparms env/pulse/pulse - -
 
 	// q3map_sunExt red green blue intensity degrees elevation deviance samples
 	q3map_sunExt 0.56 0.18 0.1 200 85 15 45 8
