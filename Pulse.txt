@@ -1,0 +1,35 @@
+Pulse RC1 by BillyRazOr (modified by rendered few hours)
+soubok is the first created Pulse as build 102.
+
+Release date: May 15, 2017
+
+====DESCRIPTIONS=====
+
+- "nobuild" area on outside human base is removed, except on empty places
+- The outside sound was replaced to new form of sound
+- On human player will randomly spawn to inside or outside area
+- Inside human base is now relocated to Generator Room
+- Fixed irregular place that can build bases at skybox area
+- Adjusted brighter light values and add some lights at darker places
+- Gravity value is 690, from default as 800 (91% of Venus surface gravity lighter than Earth)
+- Other some minority features were fixed
+
+
+=====LICENSES=====
+
+This map and all medias this map use are under creative commons license Attribution-ShareAlike 2.5 ( http://creativecommons.org/licenses/by-sa/2.5/ )
+  Attribution-ShareAlike 2.5
+    You are free:
+      - to copy, distribute, display, and perform the work
+      - to make derivative works
+      - to make commercial use of the work
+    Under the following conditions:
+      - Attribution: You must attribute the work in the manner specified by the author or licensor.
+      - Share Alike: If you alter, transform, or build upon this work, you may distribute the resulting work only under a license identical to this one.
+
+Licenses details can be found in respective licenses.txt file.
+
+
+My E-mail: billyRazOr2011@gmail.com
+Grangerhub forum: http://forum.grangerhub.com/index.php
+My Grangerhub's profile: http://forum.grangerhub.com/profile.php?id=19
