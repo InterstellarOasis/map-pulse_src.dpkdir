@@ -1,36 +1,75 @@
-pulse.bsp - "pulse" by Soubok
-for Tremulous (http://tremulous.net/)
+pulse - BETA 3 (build 102) ( 2006.06.02 )
+pulse_102.bsp - "pulse" by Soubok (soubok@gmail.com)
+A map for Tremulous (http://tremulous.net/)
 
 
------
+CONTACT:
+=======
 
 soubok@gmail.com
 http://soubok.googlepages.com/
 
-----
 
+NOTES:
+=====
 
-pulse - BETA 2 (build 70) ( 2006.06.06 )
------------------------------
-
-This is the 2nd public beta release of this map, remember to give me a lot of feedback about:
+This is the 3rd and the last public beta release of this map, remember to give me a lot of feedback about:
  - gameplay
  - layout
- - graphics (brightness, missing textures, textures alignments that go wrong, ... )
+ - graphics ( brightness, missing textures, textures alignments that go wrong, ... )
  - bugs
+
 
 KNOWN ISSUES:
 ============
-- fps: I am working on map optimizations.
-- lights: some places are too dark, I will try to find a good brightness level for the map.
-- start points: I will modify them in the BETA 3, any suggestions are wellcome.
+
+# Outdoor Hurt system has been temporarily disabled ( until next Tremulous release ).
+# Spectator can get stucked when going through doors ( bug#2757 )
+
+
+IMPROVEMENTS:
+============
+
+# Outdoor area is now nobuild.
+# Outdoor candy-eye enhancements : rain of meteorite, ambiant sounds, mushrooms, ...
+# Aliens and Humans have a better initial base.
+# New way from "watch tower" to "base entrance".
+# New way from the broken generator to the outside of the base. 
+# Extension of the "bedroom vent" to "after the security door".
+# Lift system has been redone ( sounds, speed, switchs, ... ).
+# Simplified burshs geometry in generators room.
+# New hidden places for Aliens or Humans.
+# FPS optimization ( by PVS reduction )
+# Lot of bug correction.
+
+
+FEEDBACK:
+========
 
 You can post your feedback here :
-	Tremulous forum / General Discussion / public maptest: pulse - BETA 2
-	( http://tremulous.net/phpBB2/viewforum.php?f=1 )
-
-All medias this map use are under creative commons license ( http://creativecommons.org/licenses/by-sa/2.5/ )
+  http://tremulous.net/phpBB2/viewforum.php?f=1
+    topic: "last public maptest: pulse - BETA 3"
 
 
-- soub -
+LICENSES:
+========
+
+This map and all medias this map use are under creative commons license Attribution-ShareAlike 2.5 ( http://creativecommons.org/licenses/by-sa/2.5/ )
+  Attribution-ShareAlike 2.5
+    You are free:
+      - to copy, distribute, display, and perform the work
+      - to make derivative works
+      - to make commercial use of the work
+    Under the following conditions:
+      - Attribution: You must attribute the work in the manner specified by the author or licensor.
+      - Share Alike: If you alter, transform, or build upon this work, you may distribute the resulting work only under a license identical to this one.
+
+
+Licenses details can be found in respective licenses.txt file.
+
+==================================================================
+For further details about the map : http://soubok.googlepages.com/
+==================================================================
+
+- soubok -
 

@@ -1,0 +1,14 @@
+17783_suonho_ELEMENTS_WATER_02_Phasin_bubbles.wav
+	author: suonho
+	link: http://freesound.iua.upf.edu/samplesViewSingle.php?id=17783
+	license: Creative Commons Sampling Plus 1.0 License.
+wind1.wav
+water1.wav
+water_drip1.wav
+water_drip2.wav
+water_drip3.wav
+steam.wav
+	tremulous
+stretched_brown.wav
+	soubok+tremulous@gmail.com
+	
