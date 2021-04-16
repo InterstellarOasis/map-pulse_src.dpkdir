@@ -60,20 +60,6 @@ textures/pulse/base_section_clip
 
 }
 
-textures/pulse/ladder
-{
-	qer_editorimage textures/editor/ladder
-	qer_trans .5
-	surfaceparm ladder
-	surfaceparm nodraw
-	surfaceparm nolightmap
-	surfaceparm nonsolid
-	surfaceparm trans
-	surfaceparm nomarks
-	surfaceparm noimpact
-	surfaceparm playerclip
-}
-
 textures/pulse/white
 {
 	qer_editorimage textures/editor/white
