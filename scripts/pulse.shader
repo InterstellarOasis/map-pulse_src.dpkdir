@@ -433,26 +433,6 @@ textures/pulse/led_green_blink
 	}
 }
 
-//by jex
-textures/pulse/trembru_st2
-{
-	qer_editorimage textures/pulse/trembru
-	surfaceparm nomarks
-	q3map_surfacelight 1500
-	{
-		map textures/pulse/trembru
-	}
-	{
-		map $lightmap 
-		blendfunc filter
-		tcGen lightmap 
-	}
-	{
-		map textures/pulse/trembru
-		blendfunc add
-	}
-}
-
 textures/pulse/monitor
 {
 	qer_editorimage textures/pulse/bnw_line1
