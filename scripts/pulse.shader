@@ -493,33 +493,6 @@ textures/pulse/mirror_classic
 	}
 }
 
-textures/pulse/alpha_000   
-{
-   q3map_alphaMod volume
-   q3map_alphaMod set 0.0
-   surfaceparm nodraw
-   surfaceparm nonsolid
-   surfaceparm trans
-}
-
-textures/pulse/alpha_050 
-{
-   q3map_alphaMod volume
-   q3map_alphaMod set 0.5
-   surfaceparm nodraw
-   surfaceparm nonsolid
-   surfaceparm trans
-}
-
-textures/pulse/alpha_100   
-{
-   q3map_alphaMod volume
-   q3map_alphaMod set 1.0
-   surfaceparm nodraw
-   surfaceparm nonsolid
-   surfaceparm trans
-}
-
 textures/pulse/floor1
 {
 	qer_editorimage textures/pulse/gravel
