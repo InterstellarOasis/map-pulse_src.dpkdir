@@ -1286,6 +1286,8 @@ textures/pulse/spark_02_s
 
 textures/pulse/meteorite_trail
 {
+	qer_editorImage textures/common_src/white_d
+
 //	entityMergable
 	cull none
 	{
@@ -1298,12 +1300,15 @@ textures/pulse/meteorite_trail
 
 textures/pulse/meteorite_mark
 {
-  polygonOffset
-  {
-    map gfx/marks/bullet_mrk
-    blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
-    rgbGen exactVertex
-  }
+	qer_editorImage gfx/marks/bullet_mrk
+
+	polygonOffset
+
+	{
+		map gfx/marks/bullet_mrk
+		blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
+		rgbGen exactVertex
+	}
 }
 
 textures/pulse/blackwall_nocull
