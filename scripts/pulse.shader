@@ -42,7 +42,7 @@ textures/pulse/glass_trans
 
 textures/pulse/base_section_clip
 {
-	qer_editorimage textures/pulse/black16x16
+	qer_editorimage textures/common_src/black_d
 	qer_trans 0.40
 
 	surfaceparm nolightmap			
@@ -54,7 +54,7 @@ textures/pulse/base_section_clip
 	surfaceparm nodraw
 	
 //	{
-//		map textures/pulse/black16x16
+//		map textures/common_src/black_d
 //		blendFunc add
 //	}
 
@@ -72,19 +72,6 @@ textures/pulse/ladder
 	surfaceparm nomarks
 	surfaceparm noimpact
 	surfaceparm playerclip
-}
-
-textures/pulse/black
-{
-	qer_editorimage textures/pulse/black16x16
-
-	noPicMip
-	noMipMaps
-	surfaceparm nomarks
-	surfaceparm nolightmap
-	{
-		map textures/pulse/black16x16
-	}
 }
 
 textures/pulse/white
@@ -457,7 +444,7 @@ textures/pulse/monitor
 
 textures/pulse/glass_trim
 {
-	qer_editorimage textures/pulse/black16x16
+	qer_editorimage textures/common_src/black_d
 	qer_trans .5
 	surfaceparm nodraw
 	surfaceparm nolightmap
@@ -504,7 +491,7 @@ textures/pulse/glass
 
 textures/pulse/mirror_classic
 {
-	qer_editorimage textures/pulse/black16x16
+	qer_editorimage textures/common_src/black_d
 
 	noPicMip
 	noMipMaps
@@ -513,7 +500,7 @@ textures/pulse/mirror_classic
 	surfaceparm playerclip
 	portal
 	{
-		map textures/pulse/black16x16
+		map textures/common_src/black_d
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
 		depthWrite
 		alphaGen portal 256
@@ -562,7 +549,7 @@ textures/pulse/floor1
    }
 
    {
-      map textures/pulse/black16x16   // Secondary
+      map textures/common_src/black_d   // Secondary
       blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
       alphaFunc GE128
       rgbGen identity
@@ -591,7 +578,7 @@ textures/pulse/floor2
    }
 
    {
-      map textures/pulse/black16x16   // Secondary
+      map textures/common_src/black_d   // Secondary
       blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
       alphaFunc GE128
       rgbGen identity
@@ -660,14 +647,14 @@ textures/pulse/rock_steep
 
 textures/pulse/rock_pit
 {
-	qer_editorimage textures/pulse/black16x16
+	qer_editorimage textures/common_src/black_d
 	
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	surfaceparm nodlight
 	
 	{
-		map textures/pulse/black16x16
+		map textures/common_src/black_d
 	}
 }
 
@@ -687,7 +674,7 @@ textures/pulse/blue_thing
 
 textures/pulse/pit_fog {
 
-	qer_editorimage textures/pulse/black16x16
+	qer_editorimage textures/common_src/black_d
 	qer_trans .4
 
 	surfaceparm trans
