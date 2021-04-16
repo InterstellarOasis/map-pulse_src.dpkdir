@@ -1359,3 +1359,14 @@ textures/pulse/meteorite_mark
     rgbGen exactVertex
   }
 }
+
+textures/pulse/blackwall_nocull
+{
+	qer_editorImage textures/pulse/blackwall
+
+	cull disable
+
+	{
+		diffuseMap textures/pulse/blackwall
+	}
+}
