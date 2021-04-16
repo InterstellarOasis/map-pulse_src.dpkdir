@@ -6,7 +6,7 @@
 textures/pulse/glass_trans
 
 {
-	qer_editorimage textures/pulse/KOsAD_Window.jpg
+	qer_editorimage textures/pulse/KOsAD_Window
 
 	qer_trans 0.6
 
@@ -20,7 +20,7 @@ textures/pulse/glass_trans
 
 	{
 
-		map textures/pulse/KOsAD_Window.jpg
+		map textures/pulse/KOsAD_Window
 
 		blendfunc filter
 
@@ -28,7 +28,7 @@ textures/pulse/glass_trans
 
 	//{
 
-	//	map textures/pulse/glass03.jpg
+	//	map textures/pulse/glass03
 
 	//	blendfunc filter
 
@@ -42,7 +42,7 @@ textures/pulse/glass_trans
 
 textures/pulse/base_section_clip
 {
-	qer_editorimage textures/pulse/black16x16.jpg
+	qer_editorimage textures/pulse/black16x16
 	qer_trans 0.40
 
 	surfaceparm nolightmap			
@@ -54,7 +54,7 @@ textures/pulse/base_section_clip
 	surfaceparm nodraw
 	
 //	{
-//		map textures/pulse/black16x16.tga
+//		map textures/pulse/black16x16
 //		blendFunc add
 //	}
 
@@ -62,7 +62,7 @@ textures/pulse/base_section_clip
 
 textures/pulse/ladder
 {
-	qer_editorimage textures/editor/ladder.tga
+	qer_editorimage textures/editor/ladder
 	qer_trans .5
 	surfaceparm ladder
 	surfaceparm nodraw
@@ -76,27 +76,27 @@ textures/pulse/ladder
 
 textures/pulse/black
 {
-	qer_editorimage textures/pulse/black16x16.tga
+	qer_editorimage textures/pulse/black16x16
 
 	noPicMip
 	noMipMaps
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	{
-		map textures/pulse/black16x16.tga
+		map textures/pulse/black16x16
 	}
 }
 
 textures/pulse/white
 {
-	qer_editorimage textures/editor/white.tga
+	qer_editorimage textures/editor/white
 
 	noPicMip
 	noMipMaps
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	{
-		map textures/pulse/white16x16.tga
+		map textures/pulse/white16x16
 	}
 }
 
@@ -130,7 +130,7 @@ textures/pulse/sky
 
 textures/pulse/light_base_common
 {
-	qer_editorimage textures/pulse/cubelight_32_white.jpg
+	qer_editorimage textures/pulse/cubelight_32_white
 	surfaceparm nomarks
 	q3map_lightRGB .5 .75 1
 	q3map_surfacelight 32500
@@ -140,12 +140,12 @@ textures/pulse/light_base_common
 		tcGen lightmap 
 	}
 	{
-		map textures/pulse/cubelight_32_white.tga
+		map textures/pulse/cubelight_32_white
 		blendFunc filter
 		rgbGen identity
 	}
 	{
-		map textures/pulse/cubelight_32_white.blend.tga
+		map textures/pulse/cubelight_32_white.blend
 		blendfunc add
 		rgbGen const ( .5 .75 0 )
 	}
@@ -153,7 +153,7 @@ textures/pulse/light_base_common
 
 textures/pulse/light_base_common_low
 {
-	qer_editorimage textures/pulse/cubelight_32_white.jpg
+	qer_editorimage textures/pulse/cubelight_32_white
 	surfaceparm nomarks
 	q3map_lightRGB .5 .75 1
 	q3map_surfacelight 15000
@@ -163,12 +163,12 @@ textures/pulse/light_base_common_low
 		tcGen lightmap 
 	}
 	{
-		map textures/pulse/cubelight_32_white.tga
+		map textures/pulse/cubelight_32_white
 		blendFunc filter
 		rgbGen identity
 	}
 	{
-		map textures/pulse/cubelight_32_white.blend.tga
+		map textures/pulse/cubelight_32_white.blend
 		blendfunc add
 		rgbGen const ( .5 .75 0 )
 	}
@@ -176,7 +176,7 @@ textures/pulse/light_base_common_low
 
 textures/pulse/light_base_common_off
 {
-	qer_editorimage textures/pulse/cubelight_32_white.jpg
+	qer_editorimage textures/pulse/cubelight_32_white
 	surfaceparm nomarks
 	{
 		map $lightmap
@@ -184,7 +184,7 @@ textures/pulse/light_base_common_off
 		tcGen lightmap 
 	}
 	{
-		map textures/pulse/cubelight_32_white.tga
+		map textures/pulse/cubelight_32_white
 		blendFunc filter
 		rgbGen identity
 	}
@@ -192,7 +192,7 @@ textures/pulse/light_base_common_off
 
 textures/pulse/light_base_common_style2
 {
-	qer_editorimage textures/pulse/cubelight_32_white.jpg
+	qer_editorimage textures/pulse/cubelight_32_white
 	surfaceparm nomarks
 	q3map_lightRGB 0.5 0.75 1
 	q3map_surfacelight 32500
@@ -205,12 +205,12 @@ textures/pulse/light_base_common_style2
 	}
 	q3map_styleMarker
 	{
-		map textures/pulse/cubelight_32_white.tga
+		map textures/pulse/cubelight_32_white
 		blendFunc filter
 		rgbGen identity
 	}
 	{
-		map textures/pulse/cubelight_32_white.blend.tga
+		map textures/pulse/cubelight_32_white.blend
 		rgbGen wave noise 0.75 0.5 0 20 // style 2
 		blendfunc add
 	}
@@ -218,7 +218,7 @@ textures/pulse/light_base_common_style2
 
 textures/pulse/light_base_common_style3
 {
-	qer_editorimage textures/pulse/cubelight_32_white.jpg
+	qer_editorimage textures/pulse/cubelight_32_white
 	surfaceparm nomarks
 	q3map_lightRGB 0.5 0.75 1
 	q3map_surfacelight 50000
@@ -231,12 +231,12 @@ textures/pulse/light_base_common_style3
 	}
 	q3map_styleMarker
 	{
-		map textures/pulse/cubelight_32_white.tga
+		map textures/pulse/cubelight_32_white
 		blendFunc filter
 		rgbGen identity
 	}
 	{
-		map textures/pulse/cubelight_32_white.blend.tga
+		map textures/pulse/cubelight_32_white.blend
 		rgbGen wave square 0 1 0 0.01 // style 3
 		blendfunc add
 	}
@@ -244,7 +244,7 @@ textures/pulse/light_base_common_style3
 
 textures/pulse/light_base_red
 {
-	qer_editorimage textures/pulse/cubelight_32_white.jpg
+	qer_editorimage textures/pulse/cubelight_32_white
 
 	surfaceparm nomarks
 	q3map_lightRGB 1 .25 .25
@@ -256,12 +256,12 @@ textures/pulse/light_base_red
 		tcGen lightmap 
 	}
 	{
-		map textures/pulse/cubelight_32_white.tga
+		map textures/pulse/cubelight_32_white
 		blendFunc filter
 		rgbGen identity
 	}
 	{
-		map textures/pulse/cubelight_32_white.blend.tga
+		map textures/pulse/cubelight_32_white.blend
 		blendfunc add
 		rgbGen const ( 1 .25 .25 )
 	}
@@ -269,7 +269,7 @@ textures/pulse/light_base_red
 
 textures/pulse/light_base_green
 {
-	qer_editorimage textures/pulse/cubelight_32_white.jpg
+	qer_editorimage textures/pulse/cubelight_32_white
 	surfaceparm nomarks
 	q3map_lightRGB .2 1 .2
 	q3map_surfacelight 32500
@@ -279,12 +279,12 @@ textures/pulse/light_base_green
 		tcGen lightmap 
 	}
 	{
-		map textures/pulse/cubelight_32_white.tga
+		map textures/pulse/cubelight_32_white
 		blendFunc filter
 		rgbGen identity
 	}
 	{
-		map textures/pulse/cubelight_32_white.blend.tga
+		map textures/pulse/cubelight_32_white.blend
 		blendfunc add
 		rgbGen const ( 0 1 0 )
 	}
@@ -292,7 +292,7 @@ textures/pulse/light_base_green
 
 textures/pulse/light_base_yellow
 {
-	qer_editorimage textures/pulse/cubelight_32_white.jpg
+	qer_editorimage textures/pulse/cubelight_32_white
 	surfaceparm nomarks
 	q3map_lightRGB 1 1 .2
 	q3map_surfacelight 11000
@@ -302,12 +302,12 @@ textures/pulse/light_base_yellow
 		tcGen lightmap 
 	}
 	{
-		map textures/pulse/cubelight_32_white.tga
+		map textures/pulse/cubelight_32_white
 		blendFunc filter
 		rgbGen identity
 	}
 	{
-		map textures/pulse/cubelight_32_white.blend.tga
+		map textures/pulse/cubelight_32_white.blend
 		blendfunc add
 		rgbGen const ( 1 1 0 )
 	}
@@ -315,7 +315,7 @@ textures/pulse/light_base_yellow
 
 textures/pulse/foot_steps
 {
-	qer_editorimage textures/pulse/foot_steps.tga
+	qer_editorimage textures/pulse/foot_steps
 
 	surfaceparm noimpact
 //	surfaceparm nonsolid
@@ -324,7 +324,7 @@ textures/pulse/foot_steps
 //	noMipMaps
 
 	{
-		clampmap textures/pulse/foot_steps.tga
+		clampmap textures/pulse/foot_steps
 		//blendFunc blend
 		blendFunc GL_DST_COLOR GL_ONE
 	}
@@ -332,18 +332,18 @@ textures/pulse/foot_steps
 
 textures/pulse/platform_signal
 {
-	qer_editorimage textures/pulse/bnw_line1.tga
+	qer_editorimage textures/pulse/bnw_line1
 	qer_trans 0.5
 
 	surfaceparm trans
 	cull none
 	{
-		map textures/pulse/bnw_line1.tga
+		map textures/pulse/bnw_line1
 		blendfunc add
 		tcMod scroll 1 0
 	}
 	{
-		map textures/pulse/bnw.tga
+		map textures/pulse/bnw
 		blendfunc gl_dst_color gl_src_color
 		rgbGen const ( 0.5 0.5 1 )
 	}
@@ -351,7 +351,7 @@ textures/pulse/platform_signal
 
 textures/pulse/red_signal
 {
-	qer_editorimage textures/pulse/red16x16.tga
+	qer_editorimage textures/pulse/red16x16
 	qer_trans 0.5
 
 	noPicMip
@@ -362,7 +362,7 @@ textures/pulse/red_signal
 	surfaceparm nolightmap
 	cull disable
 	{
-		map textures/pulse/red16x16.tga
+		map textures/pulse/red16x16
 		blendfunc gl_src_alpha gl_src_alpha
 		rgbGen wave inversesawtooth 0 1 0 0.5 
 	}
@@ -370,20 +370,20 @@ textures/pulse/red_signal
 
 textures/pulse/led_red_noblink
 {
-	qer_editorimage textures/pulse/red16x16.tga
+	qer_editorimage textures/pulse/red16x16
 
 	noPicMip
 	noMipMaps
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	{
-		map textures/pulse/red16x16.tga
+		map textures/pulse/red16x16
 	}
 }
 
 textures/pulse/led_green_noblink
 {
-	qer_editorimage textures/pulse/green16x16.tga
+	qer_editorimage textures/pulse/green16x16
 
 	noPicMip
 	noMipMaps
@@ -391,13 +391,13 @@ textures/pulse/led_green_noblink
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	{
-		map textures/pulse/green16x16.tga
+		map textures/pulse/green16x16
 	}
 }
 
 textures/pulse/led_red_blink
 {
-	qer_editorimage textures/pulse/red16x16.tga
+	qer_editorimage textures/pulse/red16x16
 	qer_trans 0.5
 
 	noPicMip
@@ -408,7 +408,7 @@ textures/pulse/led_red_blink
 	surfaceparm trans
 	cull disable
 	{
-		map textures/pulse/red16x16.tga
+		map textures/pulse/red16x16
 		blendfunc GL_ONE GL_ONE
 		rgbGen wave square 0 1 0 2
 	}
@@ -416,7 +416,7 @@ textures/pulse/led_red_blink
 
 textures/pulse/led_green_blink
 {
-	qer_editorimage textures/pulse/green16x16.tga
+	qer_editorimage textures/pulse/green16x16
 	qer_trans 0.5
 
 	noPicMip
@@ -427,7 +427,7 @@ textures/pulse/led_green_blink
 	surfaceparm trans
 	cull disable
 	{
-		map textures/pulse/green16x16.tga
+		map textures/pulse/green16x16
 		blendfunc GL_ONE GL_ONE
 		rgbGen wave square 0 1 0 2
 	}
@@ -436,11 +436,11 @@ textures/pulse/led_green_blink
 //by jex
 textures/pulse/trembru_st2
 {
-	qer_editorimage textures/pulse/trembru.tga
+	qer_editorimage textures/pulse/trembru
 	surfaceparm nomarks
 	q3map_surfacelight 1500
 	{
-		map textures/pulse/trembru.tga
+		map textures/pulse/trembru
 	}
 	{
 		map $lightmap 
@@ -448,28 +448,28 @@ textures/pulse/trembru_st2
 		tcGen lightmap 
 	}
 	{
-		map textures/pulse/trembru.tga
+		map textures/pulse/trembru
 		blendfunc add
 	}
 }
 
 textures/pulse/monitor
 {
-	qer_editorimage textures/pulse/bnw_line1.tga
+	qer_editorimage textures/pulse/bnw_line1
 
 	surfaceparm nomarks
 	surfaceparm nolightmap
 //	surfaceparm trans
 	portal
 	{
-		map textures/pulse/bnw.tga
+		map textures/pulse/bnw
 		tcMod scale 4 1
 		blendfunc filter
 		depthWrite
 		alphaGen portal 512
 	}
 	{
-		map textures/pulse/bnw_line1.tga
+		map textures/pulse/bnw_line1
 		blendfunc gl_dst_color gl_one
 		tcMod scroll 1 0
 	}
@@ -477,7 +477,7 @@ textures/pulse/monitor
 
 textures/pulse/glass_trim
 {
-	qer_editorimage textures/pulse/black16x16.tga
+	qer_editorimage textures/pulse/black16x16
 	qer_trans .5
 	surfaceparm nodraw
 	surfaceparm nolightmap
@@ -485,7 +485,7 @@ textures/pulse/glass_trim
 
 textures/pulse/plexiglass
 {
-	qer_editorimage textures/pulse/plexiglass.tga
+	qer_editorimage textures/pulse/plexiglass
 	qer_trans .5
 	
 	surfaceparm trans
@@ -499,7 +499,7 @@ textures/pulse/plexiglass
 		rgbGen const ( 0.1 0.1 0.1 )
 	}
 	{
-		map textures/pulse/plexiglass.tga
+		map textures/pulse/plexiglass
 		tcGen environment
 		blendFunc add
 		tcmod scale 1 1
@@ -509,14 +509,14 @@ textures/pulse/plexiglass
 
 textures/pulse/glass
 {
-	qer_editorimage textures/pulse/plexiglass.tga
+	qer_editorimage textures/pulse/plexiglass
 	qer_trans .5
 	
 	surfaceparm trans
 //	surfaceparm lightfilter
 	cull none
 	{
-		map textures/pulse/plexiglass.tga
+		map textures/pulse/plexiglass
 		blendfunc add
 		rgbGen const ( 0.01 0.04 0.02 )
 	}
@@ -524,7 +524,7 @@ textures/pulse/glass
 
 textures/pulse/mirror_classic
 {
-	qer_editorimage textures/pulse/black16x16.tga
+	qer_editorimage textures/pulse/black16x16
 
 	noPicMip
 	noMipMaps
@@ -533,7 +533,7 @@ textures/pulse/mirror_classic
 	surfaceparm playerclip
 	portal
 	{
-		map textures/pulse/black16x16.tga
+		map textures/pulse/black16x16
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
 		depthWrite
 		alphaGen portal 256
@@ -569,7 +569,7 @@ textures/pulse/alpha_100
 
 textures/pulse/floor1
 {
-	qer_editorimage textures/pulse/gravel.tga
+	qer_editorimage textures/pulse/gravel
 
 	q3map_nonplanar
 	q3map_shadeangle 120
@@ -577,12 +577,12 @@ textures/pulse/floor1
 	q3map_alphaMod dotproduct2 ( 0.0 0.0 0.75 )
 
    {
-      map textures/pulse/gravel.tga
+      map textures/pulse/gravel
       rgbGen identity
    }
 
    {
-      map textures/pulse/black16x16.tga   // Secondary
+      map textures/pulse/black16x16   // Secondary
       blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
       alphaFunc GE128
       rgbGen identity
@@ -598,7 +598,7 @@ textures/pulse/floor1
 
 textures/pulse/floor2
 {
-	qer_editorimage textures/pulse/rock.tga
+	qer_editorimage textures/pulse/rock
 
 	q3map_nonplanar
 	q3map_shadeangle 120
@@ -606,12 +606,12 @@ textures/pulse/floor2
 	q3map_alphaMod dotproduct2 ( 0.0 0.0 0.75 )
 
    {
-      map textures/pulse/rock.tga
+      map textures/pulse/rock
       rgbGen identity
    }
 
    {
-      map textures/pulse/black16x16.tga   // Secondary
+      map textures/pulse/black16x16   // Secondary
       blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
       alphaFunc GE128
       rgbGen identity
@@ -627,7 +627,7 @@ textures/pulse/floor2
 
 textures/pulse/rock_floor
 {
-	qer_editorimage textures/pulse/rock.tga
+	qer_editorimage textures/pulse/rock
 	
 	q3map_nonplanar
    	q3map_shadeangle 120
@@ -652,14 +652,14 @@ q3map_surfaceModel models/mapobjects/kt_mushroom/mushroom.md3 128 0.01 0.05 0.1 
 		tcGen lightmap 
 	}
 	{
-		map textures/pulse/rock.tga
+		map textures/pulse/rock
 		blendFunc filter
 	}
 }
 
 textures/pulse/rock_steep
 {
-	qer_editorimage textures/pulse/rock_dark.tga
+	qer_editorimage textures/pulse/rock_dark
 
 	q3map_nonplanar
    	q3map_shadeangle 120	
@@ -673,41 +673,41 @@ textures/pulse/rock_steep
 		tcGen lightmap 
 	}
 	{
-		map textures/pulse/rock_dark.tga
+		map textures/pulse/rock_dark
 		blendFunc filter
 	}
 }
 
 textures/pulse/rock_pit
 {
-	qer_editorimage textures/pulse/black16x16.tga
+	qer_editorimage textures/pulse/black16x16
 	
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	surfaceparm nodlight
 	
 	{
-		map textures/pulse/black16x16.tga
+		map textures/pulse/black16x16
 	}
 }
 
 textures/pulse/blue_thing
 {
-	qer_editorimage textures/pulse/white16x16.tga
+	qer_editorimage textures/pulse/white16x16
 
 	surfaceparm nolightmap
 	q3map_lightRGB 0.1 0.1 1
 	q3map_surfacelight 15000
 	
 	{
-		map textures/pulse/white16x16.tga
+		map textures/pulse/white16x16
 		rgbGen const ( 0.25 0.75 1 )
 	}
 }
 
 textures/pulse/pit_fog {
 
-	qer_editorimage textures/pulse/black16x16.tga
+	qer_editorimage textures/pulse/black16x16
 	qer_trans .4
 
 	surfaceparm trans
@@ -721,17 +721,17 @@ textures/pulse/pit_fog {
 
 textures/pulse/door_metal
 {
-	qer_editorimage textures/pulse/001metal.tga
+	qer_editorimage textures/pulse/001metal
 
 	{
-		map textures/pulse/001metal.tga
+		map textures/pulse/001metal
 	        rgbGen identity
 		tcGen environment
 		tcmod scale .25 .25
 	}
 
 	{
-		map textures/pulse/001metal.tga
+		map textures/pulse/001metal
 		blendFunc filter
 		rgbGen identity
 	}
@@ -744,7 +744,7 @@ textures/pulse/door_metal
 
 textures/pulse/moon
 {
-	qer_editorimage textures/pulse/venus_clouds.tga
+	qer_editorimage textures/pulse/venus_clouds
 
 	q3map_nonplanar
 	q3map_shadeangle 90
@@ -765,7 +765,7 @@ textures/pulse/moon
 		tcGen lightmap 
 	}
 	{
-		map textures/pulse/venus_clouds.tga
+		map textures/pulse/venus_clouds
 		blendFunc filter
 		tcMod scroll 0.1 0
 		tcmod scale 1 1
@@ -775,7 +775,7 @@ textures/pulse/moon
 
 textures/pulse/water
 {
-	qer_editorimage textures/pulse/water.tga
+	qer_editorimage textures/pulse/water
 	qer_trans .5
 	
 	entityMergable
@@ -795,13 +795,13 @@ textures/pulse/water
 	deformVertexes wave 100 sin 1 2 1 .1
 
 	{
-		map textures/pulse/water.tga
+		map textures/pulse/water
 		blendfunc GL_ONE GL_SRC_COLOR
 		tcMod scale .03 .03
 		tcMod scroll .01 .001
 	}
 	{
-		map textures/pulse/water.tga
+		map textures/pulse/water
 		blendfunc GL_DST_COLOR GL_ONE
 		tcMod turb .1 .1 0 .01
 		tcMod scale .5 .5
@@ -817,7 +817,7 @@ textures/pulse/water
 
 textures/pulse/water2
 {
-	qer_editorimage textures/pulse/water.tga
+	qer_editorimage textures/pulse/water
 	qer_trans .5
 	
 	entityMergable
@@ -836,13 +836,13 @@ textures/pulse/water2
 	deformVertexes wave 100 sin 1 2 1 .1
 
 	{
-		map textures/pulse/water.tga
+		map textures/pulse/water
 		blendfunc GL_ONE GL_SRC_COLOR
 		tcMod scale .03 .03
 		tcMod scroll .01 .001
 	}
 	{
-		map textures/pulse/water.tga
+		map textures/pulse/water
 		blendfunc GL_DST_COLOR GL_ONE
 		tcMod turb .1 .1 0 .01
 		tcMod scale .5 .5
@@ -858,7 +858,7 @@ textures/pulse/water2
 
 textures/pulse/water_radioactive
 {
-	qer_editorimage textures/pulse/water.tga
+	qer_editorimage textures/pulse/water
 	qer_trans .5
 
 	q3map_lightRGB 0.25 0.25 0.1
@@ -883,14 +883,14 @@ textures/pulse/water_radioactive
 //	deformVertexes wave 100 sin 1 2 1 .1
 
 	{
-		map textures/pulse/water.tga
+		map textures/pulse/water
 		blendfunc GL_ONE GL_SRC_COLOR
 		tcMod scale .03 .03
 		tcMod scroll .01 .001
 	}
 
 	{
-		map textures/pulse/water.tga
+		map textures/pulse/water
 		blendfunc GL_DST_COLOR GL_ONE
 		tcMod turb .1 .1 0 .01
 		tcMod scale .5 .5
@@ -907,7 +907,7 @@ textures/pulse/water_radioactive
 
 textures/pulse/e6simpwallsupp_pow
 {
-	qer_editorimage textures/pulse/e6simpwallsupp.tga
+	qer_editorimage textures/pulse/e6simpwallsupp
 
 //	surfaceparm slick
 
@@ -923,16 +923,16 @@ textures/pulse/e6simpwallsupp_pow
 	}
 //	q3map_styleMarker
 	{
-		map textures/pulse/e6simpwallsupp.tga
+		map textures/pulse/e6simpwallsupp
 		blendfunc filter
 	}
 	{
-		map textures/pulse/e6simpwallsupp_tech.tga
+		map textures/pulse/e6simpwallsupp_tech
 		blendfunc gl_src_alpha gl_one
 		rgbGen wave sin 0.25 0.25 0 0.5 
 	}
 	{
-		map textures/pulse/e6simpwallsupp_inside.tga
+		map textures/pulse/e6simpwallsupp_inside
 		blendfunc gl_dst_color gl_one
 		rgbGen const ( 0 0 1 )
 	}
@@ -945,17 +945,17 @@ textures/pulse/e6simpwallsupp_full_pow
 //	q3map_lightStyle 1
 //	q3map_lightSubdivide 92
 
-	qer_editorimage textures/pulse/e6simpwallsupp_tech_full.tga
+	qer_editorimage textures/pulse/e6simpwallsupp_tech_full
 	{
-		map textures/pulse/e6simpwallsupp_tech_full.tga
+		map textures/pulse/e6simpwallsupp_tech_full
 	}
 	{
-		map textures/pulse/e6simpwallsupp_tech_full.tga
+		map textures/pulse/e6simpwallsupp_tech_full
 		blendfunc gl_src_alpha gl_one
 		rgbGen wave sin 0.25 0.25 0 0.5 
 	}
 	{
-		map textures/pulse/white16x16.tga
+		map textures/pulse/white16x16
 		blendfunc gl_dst_color gl_one
 		rgbGen const ( 0 0 1 )
 	}
@@ -963,7 +963,7 @@ textures/pulse/e6simpwallsupp_full_pow
 
 textures/pulse/holo_base
 {
-	qer_editorimage textures/pulse/white16x16.tga
+	qer_editorimage textures/pulse/white16x16
 
 	noPicMip
 	noMipMaps
@@ -971,24 +971,24 @@ textures/pulse/holo_base
 	q3map_lightRGB 0 0 1
 	q3map_surfacelight 200
 	{
-		map textures/pulse/white16x16.tga
+		map textures/pulse/white16x16
 		rgbGen wave noise 0.5 0.25 0 1
 	}
 }
 
 textures/pulse/camera_cone
 {
-	qer_editorimage textures/pulse/rad_circle_1.tga
+	qer_editorimage textures/pulse/rad_circle_1
 
 	noPicMip
 	noMipMaps
 	{
-		clampmap textures/pulse/rad_circle_1.tga
+		clampmap textures/pulse/rad_circle_1
 		tcGen environment
 		tcMod scale 0.3 0.3
 	}
 	{
-		map textures/pulse/bnw_line1.tga
+		map textures/pulse/bnw_line1
 		blendfunc filter
 		rgbGen const ( 0 1 0 )
 		tcMod scroll 1 0
@@ -997,19 +997,19 @@ textures/pulse/camera_cone
 
 textures/pulse/slime_stain
 {
-		qer_editorimage textures/pulse/slime7.tga
+		qer_editorimage textures/pulse/slime7
 
-		q3map_lightimage textures/pulse/slime7.tga
+		q3map_lightimage textures/pulse/slime7
 		q3map_globaltexture
 //		surfaceparm slime
 		surfaceparm slick
 		q3map_surfacelight 200
 		{
-			map textures/pulse/slime7c.tga
+			map textures/pulse/slime7c
 			rgbGen const ( 0.5 0.5 0.5 )			
 		}
 		{
-			map textures/pulse/slime7.tga
+			map textures/pulse/slime7
 			rgbGen const ( 0.2 0.2 0.2 )			
 			blendfunc add
 			tcGen environment
@@ -1018,9 +1018,9 @@ textures/pulse/slime_stain
 
 textures/pulse/pipe_slime_s
 {
-		qer_editorimage textures/pulse/slime7.tga
+		qer_editorimage textures/pulse/slime7
 
-		q3map_lightimage textures/pulse/slime7.tga
+		q3map_lightimage textures/pulse/slime7
 		q3map_globaltexture
 
 //		surfaceparm noimpact
@@ -1033,14 +1033,14 @@ textures/pulse/pipe_slime_s
 //		cull disable
 
 		{
-			map textures/pulse/slime7c.tga
+			map textures/pulse/slime7c
 			rgbGen const ( 0.5 0.5 0.5 )			
 			tcMod turb .3 .2 1 .05
 			tcMod scroll .2 .02
 		}
 	
 		{
-			map textures/pulse/slime7.tga
+			map textures/pulse/slime7
 			rgbGen const ( 0.75 0.75 0.75 )			
 			blendfunc add
 			tcMod turb .2 .1 1 .05
@@ -1051,7 +1051,7 @@ textures/pulse/pipe_slime_s
 
 textures/pulse/electro_blind
 {
-	qer_editorimage textures/pulse/white16x16.tga 
+	qer_editorimage textures/pulse/white16x16 
 	qer_trans .25
 
 	surfaceparm trans
@@ -1059,12 +1059,12 @@ textures/pulse/electro_blind
 	surfaceparm nolightmap
 	cull none
 	{
-		map textures/pulse/white16x16.tga 
+		map textures/pulse/white16x16 
 		rgbGen const ( 0.5 0.25 0 )
 		blendfunc gl_dst_color gl_one
 	}
 	{
-		map textures/pulse/white16x16.tga 
+		map textures/pulse/white16x16 
 		rgbGen identity
 		rgbGen wave noise 0.5 0.5 0 2 
 		blendfunc filter
@@ -1074,23 +1074,23 @@ textures/pulse/electro_blind
 textures/pulse/rmetal2b_pow
 {
 
-	qer_editorimage textures/pulse/rmetal2b.tga
+	qer_editorimage textures/pulse/rmetal2b
 	{
 		map $lightmap
 		rgbGen identity
 		tcGen lightmap 
 	}
 	{
-		map textures/pulse/rmetal2b.tga
+		map textures/pulse/rmetal2b
 		blendfunc filter
 	}
 	{
-		map textures/pulse/rmetal2b_tech.tga
+		map textures/pulse/rmetal2b_tech
 		blendfunc gl_src_alpha gl_one
 		rgbGen wave noise 0.5 0.5 0 10 
 	}
 	{
-		map textures/pulse/rmetal2b_inside.tga
+		map textures/pulse/rmetal2b_inside
 		blendfunc gl_dst_color gl_one
 		rgbGen const ( 1 0 0 )
 	}
@@ -1105,7 +1105,7 @@ textures/pulse/pulse_signs
 	q3map_surfacelight 125
 	q3map_lightRGB 0.2 0.7 0.8
 	{
-		map textures/pulse/pulse_signs.tga
+		map textures/pulse/pulse_signs
 		rgbGen const ( 0.2 0.7 0.8 )
 	}
 }
@@ -1119,7 +1119,7 @@ textures/pulse/pulse_signs_cyan
 	q3map_surfacelight 125
 	q3map_lightRGB 0.0 0.9 0.8
 	{
-		map textures/pulse/pulse_signs.tga
+		map textures/pulse/pulse_signs
 		rgbGen const ( 0.8 0.2 0.1 )
 	}
 }
@@ -1133,7 +1133,7 @@ textures/pulse/pulse_signs_red
 	q3map_surfacelight 125
 	q3map_lightRGB 0.8 0.2 0.1
 	{
-		map textures/pulse/pulse_signs.tga
+		map textures/pulse/pulse_signs
 		rgbGen const ( 0.8 0.2 0.1 )
 	}
 }
@@ -1147,7 +1147,7 @@ textures/pulse/pulse_signs_magenta
 	q3map_surfacelight 125
 	q3map_lightRGB 0.8 0.2 0.8
 	{
-		map textures/pulse/pulse_signs.tga
+		map textures/pulse/pulse_signs
 		rgbGen const ( 0.8 0.2 0.8 )
 	}
 }
@@ -1161,7 +1161,7 @@ textures/pulse/pulse_signs_yellow
 	q3map_surfacelight 125
 	q3map_lightRGB 0.8 0.9 0.1
 	{
-		map textures/pulse/pulse_signs.tga
+		map textures/pulse/pulse_signs
 		rgbGen const ( 0.8 0.9 0.1 )
 	}
 }
@@ -1175,7 +1175,7 @@ textures/pulse/pulse_signs_green
 	q3map_surfacelight 125
 	q3map_lightRGB 0.2 0.7 0.1
 	{
-		map textures/pulse/pulse_signs.tga
+		map textures/pulse/pulse_signs
 		rgbGen const ( 0.2 0.7 0.1 )
 	}
 }
@@ -1189,7 +1189,7 @@ textures/pulse/pulse_signs_blue
 	q3map_surfacelight 125
 	q3map_lightRGB 0.1 0.2 0.9
 	{
-		map textures/pulse/pulse_signs.tga
+		map textures/pulse/pulse_signs
 		rgbGen const ( 0.1 0.2 0.9 )
 	}
 }
@@ -1203,14 +1203,14 @@ textures/pulse/pulse_signs_white
 	q3map_surfacelight 125
 	q3map_lightRGB 0.9 0.9 0.9
 	{
-		map textures/pulse/pulse_signs.tga
+		map textures/pulse/pulse_signs
 		rgbGen const ( 0.9 0.9 0.9 )
 	}
 }
 
 textures/pulse/lcd_display
 {
-	qer_editorimage textures/pulse/maze.tga
+	qer_editorimage textures/pulse/maze
 
 	noPicMip
 
@@ -1220,7 +1220,7 @@ textures/pulse/lcd_display
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	{
-		map textures/pulse/maze.tga
+		map textures/pulse/maze
 		rgbGen const ( 0.2 0.7 0.8 )
 		tcMod scroll -0.5 0 
 	}
@@ -1228,7 +1228,7 @@ textures/pulse/lcd_display
 
 textures/pulse/controlpanel2
 {
-	qer_editorimage textures/pulse/controlpanel2.jpg
+	qer_editorimage textures/pulse/controlpanel2
 	surfaceparm nomarks
 	{
 		map $lightmap
@@ -1236,11 +1236,11 @@ textures/pulse/controlpanel2
 		tcGen lightmap 
 	}
 	{
-		map textures/pulse/controlpanel2.jpg
+		map textures/pulse/controlpanel2
 		blendfunc filter
 	}
 	{
-		map textures/pulse/controlpanel2_mask.jpg
+		map textures/pulse/controlpanel2_mask
 		blendfunc gl_dst_color gl_one
 		rgbGen wave square 0.5 0.5 0 3
 	}
@@ -1248,7 +1248,7 @@ textures/pulse/controlpanel2
 
 textures/pulse/title
 {
-	qer_editorimage textures/pulse/title.jpg
+	qer_editorimage textures/pulse/title
 
 	noPicMip
 
@@ -1257,7 +1257,7 @@ textures/pulse/title
    	surfaceparm trans
 	surfaceparm nomarks
 	{
-		map textures/pulse/title.jpg
+		map textures/pulse/title
 		tcMod scroll 0 0.025
 		blendFunc add
 	}
@@ -1266,7 +1266,7 @@ textures/pulse/title
 //by jex -c2
 textures/pulse/e3grate_transt2
 {
-	qer_editorimage textures/pulse/grt_offmtl.tga
+	qer_editorimage textures/pulse/grt_offmtl
 	surfaceparm alphashadow
 	surfaceparm metalsteps
 	surfaceparm nomarks
@@ -1275,7 +1275,7 @@ textures/pulse/e3grate_transt2
 	cull disable
 	nopicmip
 	{
-		map textures/pulse/grt_offmtl.tga
+		map textures/pulse/grt_offmtl
 		depthWrite
 		alphaFunc GE128
 	}
@@ -1291,7 +1291,7 @@ textures/pulse/e3grate_transt2
 
 textures/pulse/e8bgrate01_s
 {
-	qer_editorimage textures/pulse/e8bgrate01.tga
+	qer_editorimage textures/pulse/e8bgrate01
 	surfaceparm alphashadow
 	surfaceparm metalsteps
 	surfaceparm nomarks
@@ -1299,7 +1299,7 @@ textures/pulse/e8bgrate01_s
 	cull disable
 	nopicmip
 	{
-		map textures/pulse/e8bgrate01.tga
+		map textures/pulse/e8bgrate01
 		depthWrite
 		alphaFunc GE128
 	}
@@ -1315,11 +1315,11 @@ textures/pulse/e8bgrate01_s
 
 textures/pulse/e6v_light_s_7500
 {
-	qer_editorimage textures/pulse/e6v_light.tga
+	qer_editorimage textures/pulse/e6v_light
 	surfaceparm nomarks
 	q3map_surfacelight 7500
 	{
-		map textures/pulse/e6v_light.tga
+		map textures/pulse/e6v_light
 	}
 	{
 		map $lightmap
@@ -1329,7 +1329,7 @@ textures/pulse/e6v_light_s_7500
 		blendfunc filter
 	}
 	{
-		map textures/pulse/e6v_light_blend.tga
+		map textures/pulse/e6v_light_blend
 		blendfunc add
 	}
 }
@@ -1339,7 +1339,7 @@ textures/pulse/spark_01_s
 	entityMergable
 	cull none
 	{
-		map textures/pulse/spark_01.tga
+		map textures/pulse/spark_01
 		blendFunc add
 		rgbGen		const ( 1 1 1 )
 		alphaGen	vertex
@@ -1351,7 +1351,7 @@ textures/pulse/spark_02_s
 //	entityMergable
 	cull none
 	{
-		map textures/pulse/spark_02.tga
+		map textures/pulse/spark_02
 		blendFunc add
 		rgbGen		const ( 1 1 1 )
 		alphaGen	vertex
@@ -1363,7 +1363,7 @@ textures/pulse/meteorite_trail
 //	entityMergable
 	cull none
 	{
-		map textures/pulse/white16x16.tga
+		map textures/pulse/white16x16
 		blendFunc blend
 		alphaGen vertex
 		rgbGen vertex
@@ -1374,7 +1374,7 @@ textures/pulse/meteorite_mark
 {
   polygonOffset
   {
-    map gfx/marks/bullet_mrk.tga
+    map gfx/marks/bullet_mrk
     blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
     rgbGen exactVertex
   }

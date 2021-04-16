@@ -4,7 +4,7 @@ pulse/meteorite_inpact
   {
     particle
     {
-      shader sync gfx/sprites/spark.tga
+      shader sync gfx/sprites/spark
       radius 0 50 0
       alpha  0 1 0
       lifeTime 200
@@ -13,7 +13,7 @@ pulse/meteorite_inpact
 
     particle
     {
-      shader sync gfx/sprites/spark.tga
+      shader sync gfx/sprites/spark
       radius 0 10~10 10
       alpha  0 1 -
       lifeTime 1000
@@ -28,7 +28,7 @@ pulse/meteorite_inpact
   {
     particle
     {
-      shader sync gfx/marks/bullet_mrk.tga
+      shader sync gfx/marks/bullet_mrk
       radius 0 10 5
 //      alpha  0 1 0
       lifeTime 2000
@@ -428,7 +428,7 @@ pulse/spark1
 	{
 		particle
 		{
-	      shader sync gfx/sprites/spark.tga
+	      shader sync gfx/sprites/spark
 
 	      displacement 0 0 0 ~2.0
 
@@ -455,7 +455,7 @@ pulse/spark1
 
 		particle
 		{
-	      shader sync gfx/sprites/spark.tga
+	      shader sync gfx/sprites/spark
 
 	      displacement 0 0 0 ~2.0
 
@@ -491,7 +491,7 @@ pulse/spark2
 	{
 		particle
 		{
-	      shader sync gfx/sprites/spark.tga
+	      shader sync gfx/sprites/spark
 
 	      displacement 0 0 0 ~2.0
 
@@ -518,7 +518,7 @@ pulse/spark2
 
 		particle
 		{
-	      shader sync gfx/sprites/spark.tga
+	      shader sync gfx/sprites/spark
 
 	      displacement 0 0 0 ~2.0
 
@@ -555,7 +555,7 @@ pulse/lghtspark
   {
     particle
     {
-      shader sync gfx/sprites/spark.tga
+      shader sync gfx/sprites/spark
 
       displacement 0 0 0 ~2.0
 
@@ -582,7 +582,7 @@ pulse/lghtspark
 
     particle
     {
-      shader sync gfx/sprites/spark.tga
+      shader sync gfx/sprites/spark
 
       displacement 0 0 0 ~2.0
 
