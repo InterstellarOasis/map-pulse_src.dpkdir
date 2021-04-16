@@ -1260,10 +1260,13 @@ textures/pulse/e6v_light_s_7500
 	}
 }
 
-textures/pulse/spark_01_s
+textures/pulse/spark_01
 {
+	qer_editorImage textures/pulse/spark_01
+
 	entityMergable
 	cull none
+
 	{
 		map textures/pulse/spark_01
 		blendFunc add
@@ -1272,10 +1275,13 @@ textures/pulse/spark_01_s
 	}
 }
 
-textures/pulse/spark_02_s
+textures/pulse/spark_02
 {
+	qer_editorImage textures/pulse/spark_02
+
 //	entityMergable
 	cull none
+
 	{
 		map textures/pulse/spark_02
 		blendFunc add
