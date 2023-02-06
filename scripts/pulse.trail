@@ -2,12 +2,11 @@ pulse/meteorite_trail
 {
 	beam {
 		shader textures/pulse/meteorite_trail
-//    		textureType   stretch 0.0 1.0
+//		textureType stretch 0.0 1.0
 		segments 1
-    		segmentTime 1000
+		segmentTime 1000
 		alpha 1 0
 		width 1 1
 		color { 1 0.8 0 } { 1 0 0 }
 	}
-} 
-    
+}

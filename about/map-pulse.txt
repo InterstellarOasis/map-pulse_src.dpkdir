@@ -1,7 +1,6 @@
 Pulse 1.3 by BillyRazOr (modified by rendered few hours)
 soubok is the original Pulse mapper, so I'll continue to develop as work based on build 102.
 
-
 ====DESCRIPTIONS=====
 1.3 build 200:
 - Reverted from merged floor to individual floor
@@ -59,7 +58,6 @@ Revision 1:
 - Gravity value is 690, from default as 800
 - Other some minority features were fixed
 
-
 =====LICENSES=====
 
 This map and all medias this map use are under creative commons license Attribution-ShareAlike 2.5 ( http://creativecommons.org/licenses/by-sa/2.5/ )
@@ -73,7 +71,6 @@ This map and all medias this map use are under creative commons license Attribut
       - Share Alike: If you alter, transform, or build upon this work, you may distribute the resulting work only under a license identical to this one.
 
 Licenses details can be found in respective licenses.txt file.
-
 
 My E-mail: billyRazOr2011@gmail.com
 Grangerhub forum: http://forum.grangerhub.com/index.php

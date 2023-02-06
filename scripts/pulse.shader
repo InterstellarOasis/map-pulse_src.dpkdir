@@ -4,40 +4,22 @@
 // style 4: wave square 0 1 0 3
 
 textures/pulse/glass_trans
-
 {
 	qer_editorimage textures/pulse/KOsAD_Window
-
 	qer_trans 0.6
-
-
-
 	surfaceparm nomarks
-
 	surfaceparm trans
-
-
-
 	{
-
 		map textures/pulse/KOsAD_Window
-
 		blendfunc filter
-
 	}
 
 	//{
-
 	//	map textures/pulse/glass03
-
 	//	blendfunc filter
-
 	//	tcmod scale 4 4
-
 	//	tcgen environment
-
 	//}
-
 }
 
 textures/pulse/base_section_clip
@@ -45,14 +27,14 @@ textures/pulse/base_section_clip
 	qer_editorimage textures/common_src/black_d
 	qer_trans 0.40
 
-	surfaceparm nolightmap			
+	surfaceparm nolightmap
 	surfaceparm trans
 //	surfaceparm nomarks
 //	surfaceparm noimpact
 //	surfaceparm playerclip
 	surfaceparm metalsteps
 	surfaceparm nodraw
-	
+
 //	{
 //		map textures/common_src/black_d
 //		blendFunc add
@@ -81,10 +63,10 @@ textures/pulse/sky
 
 	// q3map_sunExt red green blue intensity degrees elevation deviance samples
 	q3map_sunExt 0.56 0.18 0.1 200 85 15 45 8
-	
+
 	//self other
 	q3map_lightmapFilterRadius 0 4
-	
+
 	//q3map_skylight q3map_skylight amount iterations
 	q3map_skylight 200 3
 
@@ -94,9 +76,9 @@ textures/pulse/sky
 	surfaceparm nodlight
 	nopicmip
 	nomipmaps
-	
+
 	q3map_globaltexture
-	
+
 	//q3map_lightsubdivide 256 //replaced by q3map_skylight
 	//q3map_surfacelight 75 //replaced by q3map_skylight
 }
@@ -110,7 +92,7 @@ textures/pulse/light_base_common
 	{
 		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/pulse/cubelight_32_white
@@ -133,7 +115,7 @@ textures/pulse/light_base_common_low
 	{
 		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/pulse/cubelight_32_white
@@ -154,7 +136,7 @@ textures/pulse/light_base_common_off
 	{
 		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/pulse/cubelight_32_white
@@ -170,11 +152,11 @@ textures/pulse/light_base_common_style2
 	q3map_lightRGB 0.5 0.75 1
 	q3map_surfacelight 32500
 	q3map_lightStyle 2
-	
+
 	{
 		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	q3map_styleMarker
 	{
@@ -200,7 +182,7 @@ textures/pulse/light_base_common_style3
 	{
 		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	q3map_styleMarker
 	{
@@ -226,7 +208,7 @@ textures/pulse/light_base_red
 	{
 		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/pulse/cubelight_32_white
@@ -249,7 +231,7 @@ textures/pulse/light_base_green
 	{
 		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/pulse/cubelight_32_white
@@ -272,7 +254,7 @@ textures/pulse/light_base_yellow
 	{
 		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/pulse/cubelight_32_white
@@ -337,7 +319,7 @@ textures/pulse/red_signal
 	{
 		map textures/pulse/red16x16
 		blendfunc gl_src_alpha gl_src_alpha
-		rgbGen wave inversesawtooth 0 1 0 0.5 
+		rgbGen wave inversesawtooth 0 1 0 0.5
 	}
 }
 
@@ -440,14 +422,14 @@ textures/pulse/plexiglass
 {
 	qer_editorimage textures/pulse/plexiglass
 	qer_trans .5
-	
+
 	surfaceparm trans
 //	surfaceparm lightfilter
 	cull none
 
 	{
 		map $lightmap
-		tcGen lightmap 
+		tcGen lightmap
 		blendFunc add
 		rgbGen const ( 0.1 0.1 0.1 )
 	}
@@ -464,7 +446,7 @@ textures/pulse/glass
 {
 	qer_editorimage textures/pulse/plexiglass
 	qer_trans .5
-	
+
 	surfaceparm trans
 //	surfaceparm lightfilter
 	cull none
@@ -481,7 +463,7 @@ textures/pulse/mirror_classic
 
 	noPicMip
 	noMipMaps
-	
+
 	surfaceparm nolightmap
 	surfaceparm playerclip
 	portal
@@ -502,24 +484,24 @@ textures/pulse/floor1
 //	q3map_tcGen ivector ( 256 0 0 ) ( 0 256 0 )
 	q3map_alphaMod dotproduct2 ( 0.0 0.0 0.75 )
 
-   {
-      map textures/pulse/gravel
-      rgbGen identity
-   }
+	{
+		map textures/pulse/gravel
+		rgbGen identity
+	}
 
-   {
-      map textures/common_src/black_d   // Secondary
-      blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-      alphaFunc GE128
-      rgbGen identity
-      alphaGen vertex
-   }
+	{
+		map textures/common_src/black_d // Secondary
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		alphaFunc GE128
+		rgbGen identity
+		alphaGen vertex
+	}
 
-   {
-      map $lightmap
-      blendFunc GL_DST_COLOR GL_ZERO
-      rgbGen identity
-   } 
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
 }
 
 textures/pulse/floor2
@@ -531,51 +513,50 @@ textures/pulse/floor2
 //	q3map_tcGen ivector ( 256 0 0 ) ( 0 256 0 )
 	q3map_alphaMod dotproduct2 ( 0.0 0.0 0.75 )
 
-   {
-      map textures/pulse/rock
-      rgbGen identity
-   }
+	{
+		map textures/pulse/rock
+		rgbGen identity
+	}
 
-   {
-      map textures/common_src/black_d   // Secondary
-      blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-      alphaFunc GE128
-      rgbGen identity
-      alphaGen vertex
-   }
+	{
+		map textures/common_src/black_d	// Secondary
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		alphaFunc GE128
+		rgbGen identity
+		alphaGen vertex
+	}
 
-   {
-      map $lightmap
-      blendFunc GL_DST_COLOR GL_ZERO
-      rgbGen identity
-   } 
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
 }
 
 textures/pulse/rock_floor
 {
 	qer_editorimage textures/pulse/rock
-	
+
 	q3map_nonplanar
-   	q3map_shadeangle 120
+	q3map_shadeangle 120
 //	q3map_lightmapaxis z
 	q3map_lightmapMergable
 	q3map_lightmapSampleSize 32
 
-//	q3map_surfaceModel modelpath density odds minscale maxscale minangle maxangle oriented
+// q3map_surfaceModel modelpath density odds minscale maxscale minangle maxangle oriented
 // In order to lightmap an MD3 model, it must have a few things in the shader:
-//   http://www.quake3world.com/ubb/Archives/Archive-000004/HTML/20021124-6-022898-8.html
-// q3map_surfaceModel models/mapobjects/pulse/palm.md3 64 0.01 0.1 0.5 0 360 1
+// http://www.quake3world.com/ubb/Archives/Archive-000004/HTML/20021124-6-022898-8.html
 
-q3map_surfaceModel models/mapobjects/kt_mushroom/mushroom.md3 128 0.01 0.05 0.1 0 360 1
+//	q3map_surfaceModel models/mapobjects/pulse/palm.md3 64 0.01 0.1 0.5 0 360 1
 
-
+	q3map_surfaceModel models/mapobjects/kt_mushroom/mushroom.md3 128 0.01 0.05 0.1 0 360 1
 
 	surfaceparm dust
 
 	{
 		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/pulse/rock
@@ -588,7 +569,7 @@ textures/pulse/rock_steep
 	qer_editorimage textures/pulse/rock_dark
 
 	q3map_nonplanar
-   	q3map_shadeangle 120	
+	q3map_shadeangle 120
 	q3map_lightmapaxis z
 	q3map_lightmapMergable
 	q3map_lightmapSampleSize 64
@@ -596,7 +577,7 @@ textures/pulse/rock_steep
 	{
 		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/pulse/rock_dark
@@ -607,11 +588,11 @@ textures/pulse/rock_steep
 textures/pulse/rock_pit
 {
 	qer_editorimage textures/common_src/black_d
-	
+
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	surfaceparm nodlight
-	
+
 	{
 		map textures/common_src/black_d
 	}
@@ -624,7 +605,7 @@ textures/pulse/blue_thing
 	surfaceparm nolightmap
 	q3map_lightRGB 0.1 0.1 1
 	q3map_surfacelight 15000
-	
+
 	{
 		map textures/pulse/white16x16
 		rgbGen const ( 0.25 0.75 1 )
@@ -642,7 +623,7 @@ textures/pulse/pit_fog {
 	surfaceparm nodlight
 
 	surfaceparm fog
-	fogparms ( 0.1 0.05 0.02 ) 5000	
+	fogparms ( 0.1 0.05 0.02 ) 5000
 }
 
 textures/pulse/door_metal
@@ -651,7 +632,7 @@ textures/pulse/door_metal
 
 	{
 		map textures/pulse/001metal
-	        rgbGen identity
+		rgbGen identity
 		tcGen environment
 		tcmod scale .25 .25
 	}
@@ -688,14 +669,14 @@ textures/pulse/moon
 	{
 		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/pulse/venus_clouds
 		blendFunc filter
 		tcMod scroll 0.1 0
 		tcmod scale 1 1
-		
+
 	}
 }
 
@@ -703,9 +684,9 @@ textures/pulse/water
 {
 	qer_editorimage textures/pulse/water
 	qer_trans .5
-	
+
 	entityMergable
-	
+
 	q3map_globaltexture
 
 	surfaceparm nobuild
@@ -736,7 +717,7 @@ textures/pulse/water
 	{
 		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -745,9 +726,9 @@ textures/pulse/water2
 {
 	qer_editorimage textures/pulse/water
 	qer_trans .5
-	
+
 	entityMergable
-	
+
 	q3map_globaltexture
 
 	surfaceparm trans
@@ -777,7 +758,7 @@ textures/pulse/water2
 	{
 		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -789,9 +770,9 @@ textures/pulse/water_radioactive
 
 	q3map_lightRGB 0.25 0.25 0.1
 	q3map_surfacelight 100
-	
+
 	entityMergable
-	
+
 	q3map_globaltexture
 
 //	surfaceparm slime
@@ -826,7 +807,7 @@ textures/pulse/water_radioactive
 	{
 		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -845,7 +826,7 @@ textures/pulse/e6simpwallsupp_pow
 	{
 		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 //	q3map_styleMarker
 	{
@@ -855,7 +836,7 @@ textures/pulse/e6simpwallsupp_pow
 	{
 		map textures/pulse/e6simpwallsupp_tech
 		blendfunc gl_src_alpha gl_one
-		rgbGen wave sin 0.25 0.25 0 0.5 
+		rgbGen wave sin 0.25 0.25 0 0.5
 	}
 	{
 		map textures/pulse/e6simpwallsupp_inside
@@ -878,7 +859,7 @@ textures/pulse/e6simpwallsupp_full_pow
 	{
 		map textures/pulse/e6simpwallsupp_tech_full
 		blendfunc gl_src_alpha gl_one
-		rgbGen wave sin 0.25 0.25 0 0.5 
+		rgbGen wave sin 0.25 0.25 0 0.5
 	}
 	{
 		map textures/pulse/white16x16
@@ -932,11 +913,11 @@ textures/pulse/slime_stain
 		q3map_surfacelight 200
 		{
 			map textures/pulse/slime7c
-			rgbGen const ( 0.5 0.5 0.5 )			
+			rgbGen const ( 0.5 0.5 0.5 )
 		}
 		{
 			map textures/pulse/slime7
-			rgbGen const ( 0.2 0.2 0.2 )			
+			rgbGen const ( 0.2 0.2 0.2 )
 			blendfunc add
 			tcGen environment
 		}
@@ -952,7 +933,7 @@ textures/pulse/pipe_slime_s
 //		surfaceparm noimpact
 		surfaceparm slime
 		surfaceparm nolightmap
-		surfaceparm trans		
+		surfaceparm trans
 
 		q3map_surfacelight 1500
 		tessSize 16
@@ -960,14 +941,14 @@ textures/pulse/pipe_slime_s
 
 		{
 			map textures/pulse/slime7c
-			rgbGen const ( 0.5 0.5 0.5 )			
+			rgbGen const ( 0.5 0.5 0.5 )
 			tcMod turb .3 .2 1 .05
 			tcMod scroll .2 .02
 		}
-	
+
 		{
 			map textures/pulse/slime7
-			rgbGen const ( 0.75 0.75 0.75 )			
+			rgbGen const ( 0.75 0.75 0.75 )
 			blendfunc add
 			tcMod turb .2 .1 1 .05
 			tcMod scale .5 .5
@@ -977,7 +958,7 @@ textures/pulse/pipe_slime_s
 
 textures/pulse/electro_blind
 {
-	qer_editorimage textures/pulse/white16x16 
+	qer_editorimage textures/pulse/white16x16
 	qer_trans .25
 
 	surfaceparm trans
@@ -985,14 +966,14 @@ textures/pulse/electro_blind
 	surfaceparm nolightmap
 	cull none
 	{
-		map textures/pulse/white16x16 
+		map textures/pulse/white16x16
 		rgbGen const ( 0.5 0.25 0 )
 		blendfunc gl_dst_color gl_one
 	}
 	{
-		map textures/pulse/white16x16 
+		map textures/pulse/white16x16
 		rgbGen identity
-		rgbGen wave noise 0.5 0.5 0 2 
+		rgbGen wave noise 0.5 0.5 0 2
 		blendfunc filter
 	}
 }
@@ -1004,7 +985,7 @@ textures/pulse/rmetal2b_pow
 	{
 		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/pulse/rmetal2b
@@ -1013,7 +994,7 @@ textures/pulse/rmetal2b_pow
 	{
 		map textures/pulse/rmetal2b_tech
 		blendfunc gl_src_alpha gl_one
-		rgbGen wave noise 0.5 0.5 0 10 
+		rgbGen wave noise 0.5 0.5 0 10
 	}
 	{
 		map textures/pulse/rmetal2b_inside
@@ -1148,7 +1129,7 @@ textures/pulse/lcd_display
 	{
 		map textures/pulse/maze
 		rgbGen const ( 0.2 0.7 0.8 )
-		tcMod scroll -0.5 0 
+		tcMod scroll -0.5 0
 	}
 }
 
@@ -1159,7 +1140,7 @@ textures/pulse/controlpanel2
 	{
 		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/pulse/controlpanel2
@@ -1180,7 +1161,7 @@ textures/pulse/title
 
 	surfaceparm noimpact
 	surfaceparm nolightmap
-   	surfaceparm trans
+	surfaceparm trans
 	surfaceparm nomarks
 	{
 		map textures/pulse/title
@@ -1208,7 +1189,7 @@ textures/pulse/e3grate_transt2
 	{
 		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 
 		blendfunc filter
 		depthFunc equal
@@ -1232,7 +1213,7 @@ textures/pulse/e8bgrate01_s
 	{
 		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 
 		blendfunc filter
 		depthFunc equal
@@ -1250,7 +1231,7 @@ textures/pulse/e6v_light_s_7500
 	{
 		map $lightmap
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 
 		blendfunc filter
 	}
