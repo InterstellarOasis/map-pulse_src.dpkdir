@@ -1,5 +1,7 @@
 {
-  map       "pulse"
-  longname  "Pulse"
-  type      "tremulous"
+	map "pulse"
+	longname "Pulse"
+	author "Soubok"
+	author "BillyRazor"
+	type "tremulous"
 }
