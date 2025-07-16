@@ -29,12 +29,12 @@ Credits
 
 Unvanquished port:
 
-* Thomas “illwieckz” Debesse (http://gg.illwieckz.net) <hidden mail="dev ad illwieckz.net"/>
+* Thomas “illwieckz” Debesse (http://gg.illwieckz.net) <hidden mail="dev [ad] illwieckz.net"/>
 
 Mapping:
 
-* Soubok <hidden mail="soubok+github@gmail.com"/>
-* BillyRaz0r <hidden mail="billyRazOr2011@gmail.com"/>
+* Soubok <hidden mail="soubok+github [ad] gmail.com"/>
+* BillyRaz0r <hidden mail="billyRazOr2011 [ad] gmail.com"/>
 * Thomas “illwieckz” Debesse
 
 Legal
