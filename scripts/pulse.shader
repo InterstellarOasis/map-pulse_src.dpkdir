@@ -69,6 +69,7 @@ textures/pulse/sky
 
 	//q3map_skylight q3map_skylight amount iterations
 	q3map_skylight 200 3
+	q3map_lightRGB 0.56 0.18 0.1
 
 	surfaceparm sky
 	surfaceparm noimpact
